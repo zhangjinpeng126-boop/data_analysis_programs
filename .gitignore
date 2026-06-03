@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# --- kaoyan-analysis: 学习笔记和草稿 ---
+kaoyan-analysis/0 draft.ipynb
+kaoyan-analysis/0 draft_registration.png
+kaoyan-analysis/0A NumPy*.ipynb
+kaoyan-analysis/0B Pandas*.ipynb
+kaoyan-analysis/0C Matplotlib*.ipynb
+kaoyan-analysis/0D Seaborn*.ipynb
+
+# --- llm-prompt-eval: 生成文件（运行即产生） ---
+llm-prompt-eval/outputs/
+llm-prompt-eval/data/evaluation_results/evaluation_results.json

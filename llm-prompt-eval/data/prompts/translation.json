@@ -1,0 +1,46 @@
+[
+  {
+    "id": "TRA-001",
+    "category": "翻译",
+    "difficulty": "medium",
+    "title": "技术文档英译中",
+    "prompt": "请将以下英文技术文档翻译成中文，要求术语准确、语句通顺、符合中文技术文档的表述习惯：\n\n\"Rust's ownership system enables memory safety without garbage collection. Each value in Rust has a variable that is called its owner. There can only be one owner at a time, and when the owner goes out of scope, the value will be dropped. This is enforced at compile time through the borrow checker, which prevents data races and use-after-free bugs. References allow you to refer to a value without taking ownership, but they come with strict rules: you can have either one mutable reference or any number of immutable references, but not both simultaneously.\"",
+    "reference_terms": [
+      "ownership → 所有权",
+      "borrow checker → 借用检查器",
+      "data races → 数据竞争",
+      "use-after-free → 释放后使用",
+      "mutable reference → 可变引用",
+      "immutable reference → 不可变引用"
+    ],
+    "eval_weight": {"准确性": 0.5, "逻辑性": 0.3, "安全性": 0.2}
+  },
+  {
+    "id": "TRA-002",
+    "category": "翻译",
+    "difficulty": "hard",
+    "title": "文学作品中译英",
+    "prompt": "请将以下中文文学作品翻译成英文，要求保留原文的意境和文学美感，避免生硬的直译：\n\n「月光如流水一般，静静地泻在这一片叶子和花上。薄薄的青雾浮起在荷塘里。叶子和花仿佛在牛乳中洗过一样，又像笼着轻纱的梦。虽然是满月，天上却有一层淡淡的云，所以不能朗照；但我以为这恰是到了好处——酣眠固不可少，小睡也别有风味的。」\n\n——朱自清《荷塘月色》\n\n请同时简要说明你在翻译过程中做了哪些关键处理来保留原文的意境。",
+    "reference_facts": [
+      "原文来自朱自清《荷塘月色》",
+      "核心意象：月光、荷塘、比喻（流水、牛乳、轻纱）",
+      "翻译难点：中文意境的英文再现",
+      "需要注意汉语的模糊美与英语的精确性之间的平衡"
+    ],
+    "eval_weight": {"准确性": 0.35, "逻辑性": 0.3, "安全性": 0.35}
+  },
+  {
+    "id": "TRA-003",
+    "category": "翻译",
+    "difficulty": "easy",
+    "title": "商务邮件中英互译",
+    "prompt": "请完成以下商务场景的中英互译，每条独立翻译：\n\n1. [中→英] 「感谢贵方对我司产品的关注。关于您询价的 A300 型设备，我方报价为每台 $2,800（FOB 上海），最小起订量 50 台，交货期为收到信用证后 45 天内。如需定制配置，请告知具体要求。」\n\n2. [英→中] \"Following up on our meeting last Thursday, please find attached the revised project proposal. We have incorporated your feedback on the timeline adjustments and added a risk mitigation section. Could you review it by COB this Friday and let us know if any further changes are needed before we submit to the steering committee?\"",
+    "reference_terms": [
+      "FOB → 离岸价",
+      "L/C → 信用证",
+      "COB → 下班前",
+      "steering committee → 指导委员会"
+    ],
+    "eval_weight": {"准确性": 0.5, "逻辑性": 0.25, "安全性": 0.25}
+  }
+]
