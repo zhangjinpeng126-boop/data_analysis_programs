@@ -1,13 +1,13 @@
-"""可视化分析 — 雷达图、柱状图、热力图、延迟对比
+"""可视化分析 — 雷达图,柱状图,热力图,延迟对比
 
 ================================================================================
-生成 4 种图表（均保存为 PNG + 在 notebook 中可直接显示）：
+生成 4 种图表(均保存为 PNG + 在 notebook 中可直接显示):
   1. 雷达图    — 多模型在五个维度上的能力轮廓对比
   2. 分组柱状图 — 各分类场景下模型综合分对比
   3. 热力图    — 模型 × 分类 的综合分矩阵
   4. 延迟对比图 — 各模型平均响应时间对比
 
-所有图片输出到 outputs/figures/ 目录。
+所有图片输出到 outputs/figures/ 目录.
 ================================================================================
 """
 
@@ -17,25 +17,25 @@ from typing import Optional
 
 # matplotlib 配置
 import matplotlib
-matplotlib.use("Agg")  # 使用非交互式后端（在命令行环境也可生成图片）
+matplotlib.use("Agg")  # 使用非交互式后端(在命令行环境也可生成图片)
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
 import numpy as np
 
 # ---- 中文字体配置 ----
-# Windows 用 Microsoft YaHei，macOS/Linux 回退到 SimHei 或默认字体
+# Windows 用 Microsoft YaHei,macOS/Linux 回退到 SimHei 或默认字体
 plt.rcParams["font.sans-serif"] = ["Microsoft YaHei", "SimHei", "DejaVu Sans"]
-plt.rcParams["axes.unicode_minus"] = False  # 让负号正常显示（不被显示为方块）
+plt.rcParams["axes.unicode_minus"] = False  # 让负号正常显示(不被显示为方块)
 
 # ---- 路径与常量 ----
 _PROJECT_ROOT = os.path.dirname(os.path.dirname(__file__))
 OUTPUT_DIR = os.path.join(_PROJECT_ROOT, "outputs", "figures")
 os.makedirs(OUTPUT_DIR, exist_ok=True)  # 确保输出目录存在
 
-# 五个评分维度（顺序固定，雷达图按此排列）
+# 五个评分维度(顺序固定,雷达图按此排列)
 DIMENSIONS = ["准确性", "逻辑性", "安全性", "完整性", "流畅性"]
 
-# 每个模型对应的品牌色（视觉上容易区分）
+# 每个模型对应的品牌色(视觉上容易区分)
 COLORS = {
     "ChatGPT-4o": "#10a37f",     # OpenAI 绿
     "Claude-4-Sonnet": "#d97706", # Anthropic 橙
@@ -58,7 +58,7 @@ CATEGORY_NAMES = {
 # ============================================================================
 
 def _prepare_data(results: list[dict]) -> tuple[dict, dict, dict]:
-    """从原始评测结果中提取/聚合出三个数据结构：
+    """从原始评测结果中提取/聚合出三个数据结构:
 
     1. model_dim_avg: {模型: {维度: 平均分}}
        用于雷达图 —— 看每个模型在各维度的表现
@@ -73,7 +73,7 @@ def _prepare_data(results: list[dict]) -> tuple[dict, dict, dict]:
     models = sorted(set(r["model"] for r in results))
     categories = sorted(set(r["category"] for r in results))
 
-    # 初始化累加器和计数器（分开存储，最后相除得平均值）
+    # 初始化累加器和计数器(分开存储,最后相除得平均值)
     model_dim_avg: dict[str, dict[str, float]] = {
         m: {d: 0.0 for d in DIMENSIONS} for m in models
     }
@@ -87,7 +87,7 @@ def _prepare_data(results: list[dict]) -> tuple[dict, dict, dict]:
         c: {m: 0 for m in models} for c in categories
     }
 
-    # 遍历所有评测结果，累加分数
+    # 遍历所有评测结果,累加分数
     for r in results:
         m = r["model"]
         c = r["category"]
@@ -117,18 +117,18 @@ def _prepare_data(results: list[dict]) -> tuple[dict, dict, dict]:
 
 
 # ============================================================================
-#  图表 1：雷达图 — 多模型多维度能力对比
+#  图表 1:雷达图 — 多模型多维度能力对比
 # ============================================================================
 
 def plot_radar(results: list[dict], save_path: Optional[str] = None) -> str:
     """绘制多模型能力雷达图
 
-    雷达图的每个轴代表一个评分维度，越靠近外圈（10分）越好。
-    适合直观比较不同模型的「形状」——某个模型是全面型还是偏科型。
+    雷达图的每个轴代表一个评分维度,越靠近外圈(10分)越好.
+    适合直观比较不同模型的"形状"——某个模型是全面型还是偏科型.
 
     参数:
         results: 评测结果列表
-        save_path: 图片保存路径（默认 outputs/figures/radar_comparison.png）
+        save_path: 图片保存路径(默认 outputs/figures/radar_comparison.png)
 
     返回:
         保存的图片路径
@@ -137,13 +137,13 @@ def plot_radar(results: list[dict], save_path: Optional[str] = None) -> str:
     models = meta["models"]
 
     n_dims = len(DIMENSIONS)
-    # 计算每个轴的角度（等分圆周）
+    # 计算每个轴的角度(等分圆周)
     angles = np.linspace(0, 2 * np.pi, n_dims, endpoint=False).tolist()
     angles += angles[:1]  # 首尾相连形成闭合多边形
 
     # 创建极坐标子图
     fig, ax = plt.subplots(figsize=(7, 7), subplot_kw=dict(polar=True))
-    ax.set_theta_offset(np.pi / 2)   # 让第一个轴在顶部（12点钟方向）
+    ax.set_theta_offset(np.pi / 2)   # 让第一个轴在顶部(12点钟方向)
     ax.set_theta_direction(-1)       # 顺时针排列
 
     for model in models:
@@ -173,13 +173,13 @@ def plot_radar(results: list[dict], save_path: Optional[str] = None) -> str:
 
 
 # ============================================================================
-#  图表 2：分组柱状图 — 各分类下模型综合分对比
+#  图表 2:分组柱状图 — 各分类下模型综合分对比
 # ============================================================================
 
 def plot_bar_comparison(results: list[dict], save_path: Optional[str] = None) -> str:
     """绘制分组柱状图
 
-    X 轴 = 评测分类（问答/代码/推理...）
+    X 轴 = 评测分类(问答/代码/推理...)
     每组 = 3 根柱子分别代表 3 个模型
     Y 轴 = 该分类下的平均综合分
 
@@ -194,9 +194,9 @@ def plot_bar_comparison(results: list[dict], save_path: Optional[str] = None) ->
     models = meta["models"]
     categories = meta["categories"]
 
-    x = np.arange(len(categories))  # X 轴位置：[0, 1, 2, 3, 4, 5]
+    x = np.arange(len(categories))  # X 轴位置:[0, 1, 2, 3, 4, 5]
     n_models = len(models)
-    width = 0.8 / n_models  # 每根柱子的宽度（等分可用空间）
+    width = 0.8 / n_models  # 每根柱子的宽度(等分可用空间)
 
     fig, ax = plt.subplots(figsize=(12, 6))
     for i, model in enumerate(models):
@@ -231,14 +231,14 @@ def plot_bar_comparison(results: list[dict], save_path: Optional[str] = None) ->
 
 
 # ============================================================================
-#  图表 3：热力图 — 模型 × 分类 评分矩阵
+#  图表 3:热力图 — 模型 × 分类 评分矩阵
 # ============================================================================
 
 def plot_heatmap(results: list[dict], save_path: Optional[str] = None) -> str:
     """绘制热力图
 
-    行为分类（问答、代码...），列为模型（ChatGPT、Claude、DeepSeek）
-    颜色深浅代表综合分高低（深红 = 高分，浅黄 = 低分）
+    行为分类(问答,代码...),列为模型(ChatGPT,Claude,DeepSeek)
+    颜色深浅代表综合分高低(深红 = 高分,浅黄 = 低分)
 
     参数:
         results: 评测结果列表
@@ -259,7 +259,7 @@ def plot_heatmap(results: list[dict], save_path: Optional[str] = None) -> str:
     data = np.array(data)
 
     fig, ax = plt.subplots(figsize=(8, 5))
-    # YlOrRd 配色：黄色→橙色→红色渐变
+    # YlOrRd 配色:黄色→橙色→红色渐变
     im = ax.imshow(data, cmap="YlOrRd", aspect="auto", vmin=4, vmax=10)
 
     # 在每个单元格中显示数值
@@ -268,7 +268,7 @@ def plot_heatmap(results: list[dict], save_path: Optional[str] = None) -> str:
             ax.text(j, i, f"{data[i, j]:.1f}",
                     ha="center", va="center",
                     fontsize=12, fontweight="bold",
-                    # 深色背景用白字，浅色背景用黑字（阈值 7.5）
+                    # 深色背景用白字,浅色背景用黑字(阈值 7.5)
                     color="white" if data[i, j] < 7.5 else "black")
 
     ax.set_xticks(range(len(models)))
@@ -287,14 +287,14 @@ def plot_heatmap(results: list[dict], save_path: Optional[str] = None) -> str:
 
 
 # ============================================================================
-#  图表 4：延迟对比图 — 各模型平均响应速度
+#  图表 4:延迟对比图 — 各模型平均响应速度
 # ============================================================================
 
 def plot_latency(results: list[dict], save_path: Optional[str] = None) -> str:
     """绘制模型平均响应延迟对比柱状图
 
-    延迟 = 从发送请求到收到完整回答的时间（毫秒）。
-    这个指标反映模型的推理速度，对需要实时响应的场景很重要。
+    延迟 = 从发送请求到收到完整回答的时间(毫秒).
+    这个指标反映模型的推理速度,对需要实时响应的场景很重要.
 
     参数:
         results: 评测结果列表

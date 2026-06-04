@@ -20,6 +20,6 @@ kaoyan-analysis/0B Pandas*.ipynb
 kaoyan-analysis/0C Matplotlib*.ipynb
 kaoyan-analysis/0D Seaborn*.ipynb
 
-# --- llm-prompt-eval: 生成文件（运行即产生） ---
-llm-prompt-eval/outputs/
-llm-prompt-eval/data/evaluation_results/evaluation_results.json
+# --- llm-prompt-eval: 本地忽略项 ---
+# outputs/ 中的图表被 README 引用，需要追踪
+# evaluation_results.json 被 notebook 依赖，需要追踪
