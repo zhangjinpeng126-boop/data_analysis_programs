@@ -1,4 +1,4 @@
-"""评测引擎 — 批量评测调度与结果管理
+"""评测引擎  -  批量评测调度与结果管理
 
 ================================================================================
 这是评测流程的"调度中心",负责:
@@ -114,7 +114,7 @@ def run_batch_evaluation(clients: list[BaseClient] | None = None,
                          prompts: list[dict] | None = None,
                          max_workers: int = 3,
                          verbose: bool = True) -> list[dict]:
-    """批量评测主流程 — 并发执行所有 Prompt × Model 组合
+    """批量评测主流程  -  并发执行所有 Prompt × Model 组合
 
     执行逻辑:
       1. 生成所有 (模型, Prompt) 的笛卡尔积

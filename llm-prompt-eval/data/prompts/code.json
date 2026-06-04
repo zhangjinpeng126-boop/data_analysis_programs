@@ -4,7 +4,7 @@
     "category": "代码",
     "difficulty": "easy",
     "title": "二分查找实现",
-    "prompt": "请用 Python 实现一个二分查找函数，要求：\n1. 函数签名：def binary_search(arr: List[int], target: int) -> int\n2. 返回目标值的索引，找不到返回 -1\n3. 处理空数组的边界情况\n4. 包含完整的类型注解和 docstring",
+    "prompt": "请用 Python 实现一个二分查找函数,要求:\n1. 函数签名:def binary_search(arr: List[int], target: int) -> int\n2. 返回目标值的索引,找不到返回 -1\n3. 处理空数组的边界情况\n4. 包含完整的类型注解和 docstring",
     "test_cases": [
       {"input": "binary_search([1,3,5,7,9], 5)", "expected": 2},
       {"input": "binary_search([1,3,5,7,9], 2)", "expected": -1},
@@ -18,10 +18,10 @@
     "category": "代码",
     "difficulty": "medium",
     "title": "并发请求处理器",
-    "prompt": "请用 Python asyncio 编写一个并发 HTTP 请求处理器，要求：\n1. 使用 aiohttp 库\n2. 支持同时发送最多 10 个并发请求\n3. 对所有请求结果进行异常处理，失败的请求不阻塞其他请求\n4. 返回成功请求的 JSON 解析结果列表\n5. 添加适当的类型注解",
+    "prompt": "请用 Python asyncio 编写一个并发 HTTP 请求处理器,要求:\n1. 使用 aiohttp 库\n2. 支持同时发送最多 10 个并发请求\n3. 对所有请求结果进行异常处理,失败的请求不阻塞其他请求\n4. 返回成功请求的 JSON 解析结果列表\n5. 添加适当的类型注解",
     "test_cases": [
       {"input": "一组有效的 URL 列表", "expected": "返回所有成功响应的 JSON 数据列表"},
-      {"input": "包含无效 URL 的列表", "expected": "跳过失败请求，返回成功部分"}
+      {"input": "包含无效 URL 的列表", "expected": "跳过失败请求,返回成功部分"}
     ],
     "eval_weight": {"准确性": 0.4, "逻辑性": 0.4, "安全性": 0.2}
   },
@@ -30,10 +30,10 @@
     "category": "代码",
     "difficulty": "hard",
     "title": "LRU 缓存实现",
-    "prompt": "请从零实现一个 LRU（最近最少使用）缓存，要求：\n1. 不使用 collections.OrderedDict 或任何内置 LRU 实现\n2. 使用双向链表 + 哈希表的数据结构\n3. 实现 get(key) 和 put(key, value) 方法，O(1) 时间复杂度\n4. 包含容量限制，超出容量时淘汰最久未使用的项\n5. 线程安全（使用 threading.Lock）",
+    "prompt": "请从零实现一个 LRU(最近最少使用)缓存,要求:\n1. 不使用 collections.OrderedDict 或任何内置 LRU 实现\n2. 使用双向链表 + 哈希表的数据结构\n3. 实现 get(key) 和 put(key, value) 方法,O(1) 时间复杂度\n4. 包含容量限制,超出容量时淘汰最久未使用的项\n5. 线程安全(使用 threading.Lock)",
     "test_cases": [
-      {"input": "put(1,1), put(2,2), get(1), put(3,3), get(2)", "expected": "返回 -1（已被淘汰）"},
-      {"input": "容量为 2，put(1,1), put(2,2), get(1), put(3,3)", "expected": "get(1)=1, get(2)=-1, get(3)=3"}
+      {"input": "put(1,1), put(2,2), get(1), put(3,3), get(2)", "expected": "返回 -1(已被淘汰)"},
+      {"input": "容量为 2,put(1,1), put(2,2), get(1), put(3,3)", "expected": "get(1)=1, get(2)=-1, get(3)=3"}
     ],
     "eval_weight": {"准确性": 0.45, "逻辑性": 0.4, "安全性": 0.15}
   },
@@ -42,7 +42,7 @@
     "category": "代码",
     "difficulty": "medium",
     "title": "SQL 查询优化",
-    "prompt": "请将以下 SQL 查询改写为更高效的版本，并解释优化点：\n\n```sql\nSELECT d.department_name, \n       AVG(e.salary) as avg_salary,\n       (SELECT COUNT(*) FROM employees e2 \n        WHERE e2.department_id = d.id AND e2.salary > 50000) as high_earners\nFROM departments d\nLEFT JOIN employees e ON d.id = e.department_id\nWHERE d.id IN (SELECT department_id FROM employees GROUP BY department_id HAVING COUNT(*) > 5)\nGROUP BY d.id, d.department_name\nHAVING AVG(e.salary) > 40000\nORDER BY avg_salary DESC;\n```\n\n请给出优化后的 SQL 并逐条解释优化原理。",
+    "prompt": "请将以下 SQL 查询改写为更高效的版本,并解释优化点:\n\n```sql\nSELECT d.department_name, \n       AVG(e.salary) as avg_salary,\n       (SELECT COUNT(*) FROM employees e2 \n        WHERE e2.department_id = d.id AND e2.salary > 50000) as high_earners\nFROM departments d\nLEFT JOIN employees e ON d.id = e.department_id\nWHERE d.id IN (SELECT department_id FROM employees GROUP BY department_id HAVING COUNT(*) > 5)\nGROUP BY d.id, d.department_name\nHAVING AVG(e.salary) > 40000\nORDER BY avg_salary DESC;\n```\n\n请给出优化后的 SQL 并逐条解释优化原理.",
     "eval_weight": {"准确性": 0.45, "逻辑性": 0.4, "安全性": 0.15}
   }
 ]

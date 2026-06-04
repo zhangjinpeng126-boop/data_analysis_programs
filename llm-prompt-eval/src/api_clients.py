@@ -1,4 +1,4 @@
-"""API 客户端封装 — 统一的模型调用接口
+"""API 客户端封装  -  统一的模型调用接口
 
 ================================================================================
 设计模式:策略模式 (Strategy Pattern)
@@ -37,7 +37,7 @@ class ModelResponse:
 
 
 # ============================================================================
-#  抽象基类 — 定义所有客户端的统一接口
+#  抽象基类  -  定义所有客户端的统一接口
 # ============================================================================
 
 class BaseClient(ABC):
@@ -64,10 +64,10 @@ class BaseClient(ABC):
 
 
 # ============================================================================
-#  Mock 客户端 — 用于离线测试,无需 API Key
+#  Mock 客户端  -  用于离线测试,无需 API Key
 # ============================================================================
-# 模拟数据从 data/evaluation_results/mock_responses.json 加载
-# 该文件包含了预先写好的"模拟回答",这样就可在没有网络/API Key 的情况下
+# 测试数据从 data/evaluation_results/test_fixtures.json 加载
+# 该文件包含了预先写好的"测试回答",这样可在没有网络/API Key 的情况下
 # 完整跑通评测流程,验证代码逻辑
 
 _MOCK_RESPONSES: dict[str, dict[str, str]] = {}
@@ -79,7 +79,7 @@ def _load_mock_responses():
     # 从 src/api_clients.py 向上一级到项目根目录,再进入 data/evaluation_results/
     mock_path = os.path.join(
         os.path.dirname(os.path.dirname(__file__)),
-        "data", "evaluation_results", "mock_responses.json"
+        "data", "evaluation_results", "test_fixtures.json"
     )
     if os.path.exists(mock_path):
         with open(mock_path, "r", encoding="utf-8") as f:
@@ -89,7 +89,7 @@ def _load_mock_responses():
 
 
 class MockClient(BaseClient):
-    """模拟客户端 — 从预置 JSON 加载回答,用于离线流程测试
+    """模拟客户端  -  从预置 JSON 加载回答,用于离线流程测试
 
     与真实客户端的区别:
       - 不会发送网络请求
@@ -322,7 +322,7 @@ class ClaudeClient(BaseClient):
 
 
 # ============================================================================
-#  工厂函数 — 根据运行模式创建对应的客户端列表
+#  工厂函数  -  根据运行模式创建对应的客户端列表
 # ============================================================================
 
 def create_clients(mode: str = "mock",
