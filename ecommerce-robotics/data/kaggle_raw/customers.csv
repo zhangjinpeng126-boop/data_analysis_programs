@@ -1,0 +1,3001 @@
+customer_id,customer_name,segment,city,state,region
+CU-100000,John Lopez,Corporate,Houston,TX,West
+CU-100001,David Lopez,Consumer,San Diego,CA,East
+CU-100002,Sarah Smith,Consumer,Columbus,OH,West
+CU-100003,John Rodriguez,Consumer,San Diego,CA,South
+CU-100004,Joseph Martinez,Corporate,San Diego,CA,East
+CU-100005,Linda Garcia,Corporate,Philadelphia,PA,West
+CU-100006,James Johnson,Consumer,San Antonio,TX,South
+CU-100007,Patricia Wilson,Corporate,Houston,TX,Central
+CU-100008,Joseph Rodriguez,Consumer,Los Angeles,CA,South
+CU-100009,Mary Wilson,Home Office,Chicago,IL,Central
+CU-100010,Michael Smith,Home Office,San Antonio,TX,West
+CU-100011,Michael Wilson,Consumer,San Jose,CA,East
+CU-100012,William Davis,Home Office,Fort Worth,TX,Central
+CU-100013,Patricia Garcia,Consumer,Philadelphia,PA,Central
+CU-100014,Lisa Rodriguez,Home Office,Chicago,IL,West
+CU-100015,Joseph Miller,Corporate,Philadelphia,PA,West
+CU-100016,Sarah Brown,Consumer,Austin,TX,Central
+CU-100017,William Johnson,Consumer,Fort Worth,TX,Central
+CU-100018,Elizabeth Miller,Home Office,San Antonio,TX,South
+CU-100019,William Williams,Consumer,Phoenix,AZ,Central
+CU-100020,Richard Garcia,Consumer,Columbus,OH,West
+CU-100021,Elizabeth Johnson,Consumer,Indianapolis,IN,East
+CU-100022,Lisa Gonzalez,Home Office,Phoenix,AZ,South
+CU-100023,Richard Miller,Home Office,Chicago,IL,South
+CU-100024,William Rodriguez,Consumer,Indianapolis,IN,East
+CU-100025,William Gonzalez,Home Office,Seattle,WA,Central
+CU-100026,Mary Miller,Consumer,Houston,TX,South
+CU-100027,William Rodriguez,Consumer,New York,NY,East
+CU-100028,Robert Williams,Corporate,San Jose,CA,West
+CU-100029,John Martinez,Corporate,Seattle,WA,South
+CU-100030,Emma Anderson,Corporate,New York,NY,Central
+CU-100031,Sarah Brown,Home Office,San Diego,CA,East
+CU-100032,Elizabeth Wilson,Consumer,Chicago,IL,West
+CU-100033,Elizabeth Rodriguez,Consumer,Phoenix,AZ,Central
+CU-100034,Linda Brown,Home Office,Indianapolis,IN,West
+CU-100035,Richard Hernandez,Home Office,San Jose,CA,Central
+CU-100036,Joseph Johnson,Consumer,Charlotte,NC,West
+CU-100037,James Smith,Home Office,Chicago,IL,West
+CU-100038,John Johnson,Home Office,San Diego,CA,East
+CU-100039,Michael Anderson,Consumer,San Diego,CA,Central
+CU-100040,Jennifer Jones,Home Office,Chicago,IL,South
+CU-100041,David Lopez,Home Office,San Antonio,TX,South
+CU-100042,Elizabeth Gonzalez,Corporate,San Diego,CA,West
+CU-100043,Emma Hernandez,Corporate,Houston,TX,Central
+CU-100044,Linda Davis,Home Office,Columbus,OH,East
+CU-100045,Sarah Miller,Home Office,Houston,TX,Central
+CU-100046,Jennifer Brown,Consumer,Houston,TX,South
+CU-100047,Linda Williams,Corporate,Phoenix,AZ,South
+CU-100048,Michael Davis,Home Office,San Diego,CA,East
+CU-100049,John Johnson,Consumer,Los Angeles,CA,West
+CU-100050,Elizabeth Davis,Consumer,Columbus,OH,South
+CU-100051,Lisa Miller,Consumer,Los Angeles,CA,South
+CU-100052,Joseph Jones,Corporate,Dallas,TX,South
+CU-100053,Robert Jones,Consumer,Phoenix,AZ,East
+CU-100054,Sarah Lopez,Corporate,Seattle,WA,East
+CU-100055,Elizabeth Rodriguez,Home Office,Los Angeles,CA,West
+CU-100056,Michael Wilson,Consumer,Los Angeles,CA,East
+CU-100057,Jennifer Miller,Consumer,Chicago,IL,West
+CU-100058,Michael Miller,Home Office,Los Angeles,CA,Central
+CU-100059,Robert Hernandez,Home Office,Dallas,TX,Central
+CU-100060,William Miller,Consumer,San Diego,CA,Central
+CU-100061,James Anderson,Consumer,Charlotte,NC,East
+CU-100062,Emma Johnson,Home Office,Charlotte,NC,West
+CU-100063,William Williams,Corporate,Indianapolis,IN,East
+CU-100064,Patricia Jones,Consumer,San Diego,CA,South
+CU-100065,Mary Martinez,Home Office,Seattle,WA,East
+CU-100066,Mary Anderson,Home Office,Seattle,WA,East
+CU-100067,William Johnson,Consumer,Phoenix,AZ,West
+CU-100068,Mary Martinez,Consumer,Dallas,TX,Central
+CU-100069,William Rodriguez,Corporate,San Antonio,TX,Central
+CU-100070,Michael Hernandez,Corporate,Los Angeles,CA,Central
+CU-100071,John Garcia,Consumer,Los Angeles,CA,Central
+CU-100072,Joseph Rodriguez,Home Office,Philadelphia,PA,South
+CU-100073,John Johnson,Consumer,Seattle,WA,West
+CU-100074,Sarah Wilson,Corporate,Seattle,WA,West
+CU-100075,David Smith,Corporate,Columbus,OH,Central
+CU-100076,Patricia Brown,Home Office,Los Angeles,CA,West
+CU-100077,Patricia Gonzalez,Home Office,Houston,TX,South
+CU-100078,Jennifer Wilson,Consumer,Phoenix,AZ,West
+CU-100079,John Williams,Home Office,Columbus,OH,Central
+CU-100080,Jennifer Jones,Consumer,Columbus,OH,East
+CU-100081,Sarah Wilson,Corporate,Fort Worth,TX,West
+CU-100082,Joseph Garcia,Corporate,San Antonio,TX,West
+CU-100083,John Hernandez,Consumer,San Diego,CA,South
+CU-100084,William Wilson,Consumer,Austin,TX,Central
+CU-100085,Richard Hernandez,Home Office,Jacksonville,FL,Central
+CU-100086,Emma Anderson,Corporate,New York,NY,West
+CU-100087,Sarah Johnson,Home Office,Dallas,TX,South
+CU-100088,James Miller,Home Office,Jacksonville,FL,East
+CU-100089,Robert Jones,Consumer,Fort Worth,TX,South
+CU-100090,Robert Garcia,Corporate,New York,NY,East
+CU-100091,James Hernandez,Consumer,Austin,TX,Central
+CU-100092,Mary Hernandez,Corporate,Indianapolis,IN,Central
+CU-100093,Mary Rodriguez,Consumer,Fort Worth,TX,West
+CU-100094,Richard Hernandez,Home Office,Columbus,OH,West
+CU-100095,Richard Rodriguez,Consumer,San Jose,CA,Central
+CU-100096,Robert Miller,Home Office,San Jose,CA,Central
+CU-100097,Joseph Davis,Home Office,Charlotte,NC,West
+CU-100098,Elizabeth Gonzalez,Home Office,Indianapolis,IN,West
+CU-100099,Mary Rodriguez,Home Office,Chicago,IL,Central
+CU-100100,Jennifer Hernandez,Corporate,Chicago,IL,West
+CU-100101,David Smith,Consumer,San Antonio,TX,West
+CU-100102,Michael Davis,Corporate,San Francisco,CA,West
+CU-100103,Elizabeth Miller,Consumer,Fort Worth,TX,West
+CU-100104,Emma Gonzalez,Corporate,New York,NY,West
+CU-100105,Joseph Smith,Home Office,Philadelphia,PA,West
+CU-100106,Joseph Williams,Corporate,Houston,TX,Central
+CU-100107,Linda Wilson,Home Office,Charlotte,NC,South
+CU-100108,Elizabeth Davis,Corporate,Philadelphia,PA,West
+CU-100109,Elizabeth Hernandez,Consumer,Dallas,TX,Central
+CU-100110,Michael Lopez,Corporate,Charlotte,NC,West
+CU-100111,James Garcia,Home Office,Dallas,TX,East
+CU-100112,David Brown,Corporate,Phoenix,AZ,West
+CU-100113,Michael Miller,Corporate,San Antonio,TX,Central
+CU-100114,Joseph Miller,Consumer,Seattle,WA,West
+CU-100115,Richard Anderson,Home Office,Columbus,OH,East
+CU-100116,Elizabeth Smith,Corporate,Fort Worth,TX,Central
+CU-100117,Linda Rodriguez,Home Office,Fort Worth,TX,West
+CU-100118,Jennifer Jones,Corporate,San Francisco,CA,South
+CU-100119,Richard Garcia,Home Office,New York,NY,South
+CU-100120,Joseph Anderson,Consumer,Philadelphia,PA,East
+CU-100121,John Johnson,Home Office,Fort Worth,TX,South
+CU-100122,Joseph Williams,Consumer,Phoenix,AZ,Central
+CU-100123,James Brown,Corporate,Fort Worth,TX,Central
+CU-100124,Richard Jones,Corporate,Austin,TX,Central
+CU-100125,Elizabeth Smith,Home Office,Chicago,IL,East
+CU-100126,Jennifer Hernandez,Consumer,Jacksonville,FL,East
+CU-100127,Jennifer Brown,Consumer,New York,NY,West
+CU-100128,David Davis,Home Office,San Diego,CA,East
+CU-100129,Joseph Lopez,Corporate,San Antonio,TX,Central
+CU-100130,Emma Gonzalez,Consumer,Philadelphia,PA,Central
+CU-100131,John Anderson,Corporate,Houston,TX,South
+CU-100132,Robert Johnson,Home Office,Fort Worth,TX,West
+CU-100133,Mary Wilson,Home Office,Houston,TX,East
+CU-100134,Patricia Rodriguez,Corporate,Los Angeles,CA,Central
+CU-100135,James Smith,Corporate,Chicago,IL,South
+CU-100136,Linda Garcia,Home Office,Houston,TX,South
+CU-100137,Linda Williams,Home Office,Phoenix,AZ,Central
+CU-100138,Elizabeth Davis,Corporate,Seattle,WA,Central
+CU-100139,Jennifer Wilson,Consumer,Austin,TX,Central
+CU-100140,Jennifer Gonzalez,Corporate,Charlotte,NC,South
+CU-100141,John Davis,Corporate,Austin,TX,West
+CU-100142,Robert Garcia,Corporate,San Francisco,CA,Central
+CU-100143,William Rodriguez,Consumer,Dallas,TX,West
+CU-100144,Jennifer Lopez,Corporate,Chicago,IL,South
+CU-100145,Jennifer Lopez,Corporate,Seattle,WA,South
+CU-100146,John Johnson,Corporate,Charlotte,NC,West
+CU-100147,Jennifer Jones,Home Office,Fort Worth,TX,Central
+CU-100148,Patricia Miller,Home Office,San Francisco,CA,Central
+CU-100149,Joseph Jones,Corporate,Jacksonville,FL,Central
+CU-100150,Emma Lopez,Consumer,San Diego,CA,Central
+CU-100151,Lisa Brown,Consumer,Houston,TX,South
+CU-100152,Mary Johnson,Consumer,Dallas,TX,Central
+CU-100153,Patricia Williams,Corporate,San Diego,CA,East
+CU-100154,David Jones,Consumer,Seattle,WA,East
+CU-100155,Mary Lopez,Consumer,Seattle,WA,South
+CU-100156,John Martinez,Corporate,Houston,TX,South
+CU-100157,Joseph Garcia,Consumer,San Francisco,CA,East
+CU-100158,Elizabeth Johnson,Consumer,Dallas,TX,South
+CU-100159,Michael Martinez,Home Office,San Francisco,CA,East
+CU-100160,David Gonzalez,Home Office,Phoenix,AZ,Central
+CU-100161,Jennifer Johnson,Home Office,Chicago,IL,South
+CU-100162,Richard Davis,Corporate,San Diego,CA,Central
+CU-100163,Mary Martinez,Home Office,Columbus,OH,East
+CU-100164,Robert Hernandez,Consumer,Houston,TX,Central
+CU-100165,Lisa Brown,Consumer,Chicago,IL,East
+CU-100166,John Miller,Corporate,Philadelphia,PA,South
+CU-100167,Sarah Brown,Corporate,San Jose,CA,Central
+CU-100168,Michael Hernandez,Consumer,Charlotte,NC,Central
+CU-100169,Linda Johnson,Home Office,San Antonio,TX,West
+CU-100170,William Wilson,Consumer,Phoenix,AZ,East
+CU-100171,Lisa Gonzalez,Corporate,Los Angeles,CA,Central
+CU-100172,Emma Davis,Home Office,Charlotte,NC,Central
+CU-100173,William Rodriguez,Home Office,Fort Worth,TX,South
+CU-100174,Michael Martinez,Consumer,Charlotte,NC,South
+CU-100175,William Smith,Consumer,Austin,TX,West
+CU-100176,William Martinez,Consumer,New York,NY,West
+CU-100177,Joseph Anderson,Corporate,San Francisco,CA,West
+CU-100178,Elizabeth Johnson,Corporate,Columbus,OH,Central
+CU-100179,James Garcia,Home Office,Columbus,OH,East
+CU-100180,James Miller,Home Office,Philadelphia,PA,South
+CU-100181,Richard Wilson,Home Office,San Jose,CA,East
+CU-100182,Michael Garcia,Corporate,Charlotte,NC,Central
+CU-100183,Richard Wilson,Home Office,Houston,TX,East
+CU-100184,Joseph Miller,Consumer,Seattle,WA,West
+CU-100185,Patricia Martinez,Corporate,Indianapolis,IN,South
+CU-100186,Robert Jones,Home Office,Los Angeles,CA,West
+CU-100187,Joseph Anderson,Home Office,San Jose,CA,South
+CU-100188,John Hernandez,Home Office,Houston,TX,West
+CU-100189,Mary Rodriguez,Consumer,Philadelphia,PA,South
+CU-100190,Jennifer Wilson,Consumer,Chicago,IL,South
+CU-100191,David Davis,Home Office,Houston,TX,Central
+CU-100192,William Miller,Corporate,Indianapolis,IN,South
+CU-100193,Joseph Rodriguez,Consumer,San Diego,CA,South
+CU-100194,David Wilson,Consumer,San Antonio,TX,Central
+CU-100195,James Anderson,Home Office,Columbus,OH,Central
+CU-100196,Mary Lopez,Corporate,New York,NY,South
+CU-100197,Joseph Rodriguez,Corporate,Phoenix,AZ,Central
+CU-100198,Richard Davis,Corporate,Austin,TX,West
+CU-100199,Richard Brown,Corporate,San Diego,CA,East
+CU-100200,Elizabeth Lopez,Corporate,Austin,TX,South
+CU-100201,Elizabeth Smith,Consumer,Phoenix,AZ,Central
+CU-100202,Joseph Johnson,Home Office,Houston,TX,South
+CU-100203,David Miller,Home Office,New York,NY,West
+CU-100204,Elizabeth Gonzalez,Corporate,Chicago,IL,Central
+CU-100205,Michael Wilson,Corporate,Fort Worth,TX,South
+CU-100206,Elizabeth Wilson,Home Office,Austin,TX,East
+CU-100207,Jennifer Hernandez,Home Office,Chicago,IL,Central
+CU-100208,Michael Miller,Consumer,San Diego,CA,East
+CU-100209,Lisa Lopez,Corporate,Charlotte,NC,East
+CU-100210,James Gonzalez,Consumer,Los Angeles,CA,Central
+CU-100211,Patricia Miller,Consumer,Jacksonville,FL,West
+CU-100212,Linda Martinez,Home Office,Indianapolis,IN,West
+CU-100213,Lisa Johnson,Home Office,Philadelphia,PA,South
+CU-100214,Elizabeth Anderson,Home Office,San Diego,CA,West
+CU-100215,Joseph Hernandez,Corporate,San Diego,CA,South
+CU-100216,John Anderson,Corporate,Dallas,TX,Central
+CU-100217,Lisa Johnson,Corporate,Seattle,WA,Central
+CU-100218,Linda Lopez,Corporate,San Jose,CA,South
+CU-100219,Robert Miller,Corporate,San Jose,CA,East
+CU-100220,Richard Martinez,Corporate,San Diego,CA,Central
+CU-100221,John Wilson,Home Office,San Jose,CA,South
+CU-100222,John Martinez,Home Office,Dallas,TX,East
+CU-100223,Mary Gonzalez,Consumer,San Francisco,CA,Central
+CU-100224,Robert Martinez,Corporate,San Diego,CA,West
+CU-100225,Sarah Jones,Corporate,Houston,TX,East
+CU-100226,David Johnson,Corporate,Jacksonville,FL,Central
+CU-100227,Lisa Brown,Consumer,Columbus,OH,Central
+CU-100228,William Wilson,Consumer,Indianapolis,IN,Central
+CU-100229,Mary Lopez,Corporate,San Francisco,CA,East
+CU-100230,Michael Williams,Consumer,Charlotte,NC,South
+CU-100231,Patricia Johnson,Corporate,Seattle,WA,East
+CU-100232,Emma Davis,Corporate,Dallas,TX,Central
+CU-100233,Patricia Johnson,Home Office,Fort Worth,TX,West
+CU-100234,John Martinez,Home Office,San Francisco,CA,Central
+CU-100235,Michael Hernandez,Corporate,San Diego,CA,Central
+CU-100236,Emma Williams,Consumer,Columbus,OH,East
+CU-100237,Elizabeth Johnson,Consumer,San Jose,CA,West
+CU-100238,David Miller,Corporate,Seattle,WA,Central
+CU-100239,Linda Martinez,Home Office,Seattle,WA,West
+CU-100240,Emma Wilson,Corporate,Columbus,OH,South
+CU-100241,Sarah Lopez,Corporate,Dallas,TX,West
+CU-100242,Joseph Brown,Corporate,Charlotte,NC,East
+CU-100243,Patricia Smith,Corporate,Jacksonville,FL,Central
+CU-100244,Emma Wilson,Corporate,San Antonio,TX,East
+CU-100245,John Smith,Corporate,San Antonio,TX,West
+CU-100246,Robert Johnson,Home Office,Phoenix,AZ,West
+CU-100247,Jennifer Garcia,Consumer,San Antonio,TX,East
+CU-100248,David Williams,Home Office,Dallas,TX,Central
+CU-100249,Emma Hernandez,Consumer,Philadelphia,PA,West
+CU-100250,Patricia Gonzalez,Consumer,New York,NY,Central
+CU-100251,Lisa Jones,Consumer,New York,NY,West
+CU-100252,Emma Lopez,Consumer,Columbus,OH,South
+CU-100253,Patricia Rodriguez,Home Office,Charlotte,NC,East
+CU-100254,Jennifer Martinez,Consumer,Charlotte,NC,Central
+CU-100255,John Smith,Corporate,Charlotte,NC,South
+CU-100256,Emma Davis,Home Office,Columbus,OH,South
+CU-100257,Michael Garcia,Home Office,Chicago,IL,West
+CU-100258,David Jones,Home Office,Chicago,IL,Central
+CU-100259,Mary Davis,Home Office,Fort Worth,TX,South
+CU-100260,Emma Wilson,Home Office,Houston,TX,West
+CU-100261,Joseph Anderson,Consumer,Columbus,OH,South
+CU-100262,Joseph Miller,Corporate,Austin,TX,East
+CU-100263,Linda Garcia,Home Office,Austin,TX,Central
+CU-100264,David Hernandez,Corporate,Jacksonville,FL,East
+CU-100265,Michael Johnson,Corporate,Chicago,IL,East
+CU-100266,David Rodriguez,Consumer,Jacksonville,FL,Central
+CU-100267,Linda Garcia,Home Office,Houston,TX,South
+CU-100268,Mary Martinez,Corporate,Los Angeles,CA,Central
+CU-100269,Robert Williams,Home Office,Houston,TX,South
+CU-100270,Emma Garcia,Home Office,San Diego,CA,Central
+CU-100271,William Martinez,Consumer,Houston,TX,South
+CU-100272,John Martinez,Home Office,Seattle,WA,Central
+CU-100273,Lisa Jones,Home Office,New York,NY,Central
+CU-100274,Patricia Smith,Consumer,Austin,TX,West
+CU-100275,Michael Williams,Home Office,Fort Worth,TX,East
+CU-100276,Robert Miller,Corporate,Chicago,IL,South
+CU-100277,Lisa Garcia,Corporate,Austin,TX,Central
+CU-100278,Sarah Williams,Consumer,Chicago,IL,East
+CU-100279,William Davis,Home Office,Chicago,IL,South
+CU-100280,Joseph Miller,Corporate,San Francisco,CA,West
+CU-100281,Emma Garcia,Corporate,Indianapolis,IN,East
+CU-100282,Elizabeth Rodriguez,Home Office,San Jose,CA,Central
+CU-100283,Jennifer Miller,Home Office,Los Angeles,CA,East
+CU-100284,Robert Jones,Consumer,New York,NY,West
+CU-100285,Mary Garcia,Consumer,Dallas,TX,East
+CU-100286,Linda Williams,Consumer,San Francisco,CA,South
+CU-100287,Jennifer Rodriguez,Home Office,Seattle,WA,Central
+CU-100288,Richard Wilson,Home Office,Chicago,IL,East
+CU-100289,John Davis,Consumer,Columbus,OH,Central
+CU-100290,Richard Lopez,Home Office,Columbus,OH,South
+CU-100291,Emma Miller,Consumer,San Jose,CA,Central
+CU-100292,Joseph Wilson,Home Office,Philadelphia,PA,Central
+CU-100293,Linda Wilson,Consumer,Chicago,IL,West
+CU-100294,Richard Rodriguez,Consumer,Columbus,OH,South
+CU-100295,James Brown,Corporate,San Jose,CA,West
+CU-100296,Emma Rodriguez,Home Office,Chicago,IL,West
+CU-100297,Patricia Lopez,Home Office,Jacksonville,FL,West
+CU-100298,Emma Williams,Corporate,San Diego,CA,West
+CU-100299,David Gonzalez,Home Office,Philadelphia,PA,East
+CU-100300,Elizabeth Davis,Home Office,Philadelphia,PA,South
+CU-100301,James Williams,Corporate,Austin,TX,East
+CU-100302,Joseph Hernandez,Corporate,San Francisco,CA,Central
+CU-100303,Patricia Rodriguez,Consumer,Los Angeles,CA,Central
+CU-100304,Joseph Smith,Consumer,Charlotte,NC,Central
+CU-100305,Michael Hernandez,Consumer,San Jose,CA,South
+CU-100306,Sarah Davis,Home Office,Charlotte,NC,West
+CU-100307,Elizabeth Rodriguez,Consumer,Austin,TX,East
+CU-100308,Emma Gonzalez,Corporate,Charlotte,NC,East
+CU-100309,Lisa Smith,Consumer,Indianapolis,IN,South
+CU-100310,Lisa Garcia,Corporate,Charlotte,NC,Central
+CU-100311,Linda Gonzalez,Corporate,Fort Worth,TX,East
+CU-100312,Michael Garcia,Consumer,Austin,TX,South
+CU-100313,William Lopez,Home Office,San Jose,CA,West
+CU-100314,Michael Martinez,Home Office,Austin,TX,West
+CU-100315,Mary Hernandez,Home Office,Jacksonville,FL,South
+CU-100316,Michael Jones,Home Office,Phoenix,AZ,South
+CU-100317,David Hernandez,Home Office,Austin,TX,East
+CU-100318,Patricia Smith,Corporate,Columbus,OH,Central
+CU-100319,Robert Garcia,Corporate,Philadelphia,PA,West
+CU-100320,David Williams,Consumer,San Diego,CA,Central
+CU-100321,Sarah Hernandez,Corporate,Houston,TX,West
+CU-100322,David Williams,Consumer,Fort Worth,TX,West
+CU-100323,Sarah Miller,Corporate,Charlotte,NC,West
+CU-100324,Mary Gonzalez,Home Office,Charlotte,NC,South
+CU-100325,Jennifer Jones,Corporate,San Diego,CA,West
+CU-100326,Joseph Davis,Corporate,Jacksonville,FL,South
+CU-100327,Linda Williams,Consumer,Indianapolis,IN,West
+CU-100328,Sarah Hernandez,Corporate,Dallas,TX,Central
+CU-100329,Emma Lopez,Home Office,Seattle,WA,East
+CU-100330,Michael Gonzalez,Consumer,San Jose,CA,Central
+CU-100331,David Wilson,Corporate,Charlotte,NC,East
+CU-100332,Joseph Anderson,Corporate,San Diego,CA,East
+CU-100333,Sarah Miller,Home Office,Columbus,OH,Central
+CU-100334,Richard Johnson,Corporate,San Diego,CA,West
+CU-100335,James Anderson,Consumer,New York,NY,Central
+CU-100336,David Smith,Corporate,Phoenix,AZ,South
+CU-100337,Elizabeth Davis,Home Office,Phoenix,AZ,East
+CU-100338,John Jones,Consumer,Chicago,IL,West
+CU-100339,Linda Johnson,Corporate,Seattle,WA,West
+CU-100340,Emma Smith,Consumer,San Jose,CA,South
+CU-100341,Michael Johnson,Corporate,Charlotte,NC,East
+CU-100342,Jennifer Lopez,Consumer,Indianapolis,IN,Central
+CU-100343,John Martinez,Corporate,Columbus,OH,West
+CU-100344,Lisa Hernandez,Home Office,Columbus,OH,East
+CU-100345,Patricia Johnson,Home Office,Indianapolis,IN,East
+CU-100346,Elizabeth Smith,Home Office,Fort Worth,TX,South
+CU-100347,William Lopez,Consumer,Jacksonville,FL,Central
+CU-100348,Patricia Brown,Home Office,Chicago,IL,East
+CU-100349,David Smith,Corporate,Austin,TX,Central
+CU-100350,Joseph Lopez,Corporate,Philadelphia,PA,West
+CU-100351,Michael Lopez,Corporate,Phoenix,AZ,East
+CU-100352,Robert Smith,Consumer,San Jose,CA,East
+CU-100353,Mary Rodriguez,Corporate,Austin,TX,South
+CU-100354,Sarah Gonzalez,Home Office,Dallas,TX,West
+CU-100355,Patricia Wilson,Consumer,San Jose,CA,Central
+CU-100356,Emma Gonzalez,Corporate,Dallas,TX,South
+CU-100357,Joseph Anderson,Corporate,Fort Worth,TX,Central
+CU-100358,Elizabeth Lopez,Corporate,Philadelphia,PA,Central
+CU-100359,William Gonzalez,Consumer,Indianapolis,IN,South
+CU-100360,Linda Martinez,Consumer,Chicago,IL,Central
+CU-100361,Emma Johnson,Corporate,Austin,TX,Central
+CU-100362,Joseph Martinez,Home Office,San Jose,CA,South
+CU-100363,Joseph Garcia,Corporate,Philadelphia,PA,East
+CU-100364,Linda Jones,Home Office,Jacksonville,FL,East
+CU-100365,Richard Garcia,Home Office,Chicago,IL,West
+CU-100366,David Wilson,Home Office,New York,NY,South
+CU-100367,David Johnson,Consumer,Los Angeles,CA,Central
+CU-100368,Richard Martinez,Consumer,Jacksonville,FL,West
+CU-100369,Patricia Garcia,Corporate,Charlotte,NC,East
+CU-100370,Patricia Miller,Corporate,Phoenix,AZ,Central
+CU-100371,Emma Smith,Home Office,San Diego,CA,West
+CU-100372,Richard Anderson,Home Office,San Francisco,CA,East
+CU-100373,William Lopez,Corporate,Dallas,TX,West
+CU-100374,Elizabeth Brown,Consumer,San Jose,CA,West
+CU-100375,Joseph Williams,Home Office,Chicago,IL,South
+CU-100376,James Hernandez,Corporate,Chicago,IL,East
+CU-100377,Mary Anderson,Corporate,Seattle,WA,West
+CU-100378,Patricia Rodriguez,Consumer,Philadelphia,PA,East
+CU-100379,David Brown,Corporate,San Antonio,TX,East
+CU-100380,Patricia Davis,Home Office,Jacksonville,FL,West
+CU-100381,Michael Jones,Corporate,Chicago,IL,South
+CU-100382,Linda Gonzalez,Corporate,Indianapolis,IN,East
+CU-100383,James Hernandez,Consumer,Phoenix,AZ,South
+CU-100384,Patricia Williams,Home Office,Charlotte,NC,West
+CU-100385,Linda Rodriguez,Consumer,Phoenix,AZ,East
+CU-100386,David Jones,Consumer,Indianapolis,IN,West
+CU-100387,Jennifer Garcia,Home Office,Austin,TX,Central
+CU-100388,William Brown,Home Office,Chicago,IL,Central
+CU-100389,Mary Martinez,Home Office,Phoenix,AZ,East
+CU-100390,Lisa Martinez,Home Office,Indianapolis,IN,West
+CU-100391,James Wilson,Home Office,Philadelphia,PA,East
+CU-100392,Michael Smith,Home Office,New York,NY,Central
+CU-100393,Linda Martinez,Home Office,San Antonio,TX,East
+CU-100394,Mary Hernandez,Corporate,San Francisco,CA,South
+CU-100395,Richard Jones,Corporate,San Diego,CA,East
+CU-100396,Lisa Davis,Corporate,Los Angeles,CA,South
+CU-100397,Robert Garcia,Home Office,Charlotte,NC,West
+CU-100398,James Lopez,Corporate,Austin,TX,South
+CU-100399,Patricia Rodriguez,Home Office,Phoenix,AZ,East
+CU-100400,Jennifer Davis,Consumer,Austin,TX,Central
+CU-100401,Jennifer Williams,Consumer,Charlotte,NC,East
+CU-100402,Richard Wilson,Home Office,San Jose,CA,South
+CU-100403,Lisa Wilson,Corporate,San Diego,CA,Central
+CU-100404,Lisa Davis,Home Office,San Antonio,TX,South
+CU-100405,Mary Davis,Consumer,San Francisco,CA,East
+CU-100406,Joseph Brown,Consumer,Fort Worth,TX,Central
+CU-100407,Sarah Jones,Corporate,Los Angeles,CA,South
+CU-100408,John Wilson,Consumer,San Jose,CA,South
+CU-100409,William Lopez,Corporate,Phoenix,AZ,South
+CU-100410,Sarah Miller,Consumer,Jacksonville,FL,West
+CU-100411,Mary Johnson,Corporate,Jacksonville,FL,South
+CU-100412,William Wilson,Home Office,Seattle,WA,East
+CU-100413,Emma Miller,Corporate,Phoenix,AZ,Central
+CU-100414,Patricia Gonzalez,Consumer,Seattle,WA,West
+CU-100415,Richard Rodriguez,Consumer,Indianapolis,IN,East
+CU-100416,David Lopez,Corporate,Los Angeles,CA,South
+CU-100417,Joseph Williams,Home Office,Indianapolis,IN,West
+CU-100418,James Williams,Corporate,Austin,TX,Central
+CU-100419,Elizabeth Lopez,Home Office,Austin,TX,Central
+CU-100420,John Garcia,Corporate,San Francisco,CA,East
+CU-100421,Mary Gonzalez,Home Office,Columbus,OH,East
+CU-100422,William Hernandez,Home Office,San Francisco,CA,West
+CU-100423,Elizabeth Williams,Home Office,Los Angeles,CA,South
+CU-100424,Jennifer Smith,Home Office,Phoenix,AZ,East
+CU-100425,John Davis,Corporate,San Antonio,TX,South
+CU-100426,Linda Lopez,Consumer,Phoenix,AZ,South
+CU-100427,Elizabeth Wilson,Home Office,Indianapolis,IN,East
+CU-100428,Robert Rodriguez,Corporate,Phoenix,AZ,South
+CU-100429,Richard Garcia,Consumer,Indianapolis,IN,South
+CU-100430,James Rodriguez,Corporate,Seattle,WA,Central
+CU-100431,Robert Brown,Corporate,San Francisco,CA,Central
+CU-100432,Mary Gonzalez,Corporate,San Diego,CA,West
+CU-100433,James Davis,Corporate,San Francisco,CA,Central
+CU-100434,Emma Martinez,Home Office,San Jose,CA,South
+CU-100435,Patricia Gonzalez,Consumer,Fort Worth,TX,Central
+CU-100436,Mary Lopez,Consumer,Los Angeles,CA,Central
+CU-100437,William Lopez,Corporate,Charlotte,NC,West
+CU-100438,William Anderson,Home Office,San Antonio,TX,Central
+CU-100439,Emma Martinez,Home Office,Phoenix,AZ,West
+CU-100440,Sarah Hernandez,Home Office,San Diego,CA,West
+CU-100441,Sarah Johnson,Corporate,San Diego,CA,Central
+CU-100442,Emma Hernandez,Consumer,San Francisco,CA,East
+CU-100443,Lisa Miller,Home Office,Seattle,WA,South
+CU-100444,Robert Gonzalez,Corporate,San Francisco,CA,Central
+CU-100445,Sarah Anderson,Consumer,San Jose,CA,West
+CU-100446,Sarah Anderson,Consumer,Seattle,WA,South
+CU-100447,Sarah Wilson,Corporate,Philadelphia,PA,South
+CU-100448,Mary Anderson,Consumer,Philadelphia,PA,East
+CU-100449,Emma Anderson,Corporate,San Jose,CA,Central
+CU-100450,Elizabeth Anderson,Consumer,Charlotte,NC,South
+CU-100451,Robert Gonzalez,Consumer,Dallas,TX,Central
+CU-100452,Joseph Hernandez,Corporate,Philadelphia,PA,West
+CU-100453,James Gonzalez,Corporate,New York,NY,West
+CU-100454,Richard Wilson,Corporate,Philadelphia,PA,Central
+CU-100455,Richard Hernandez,Consumer,Chicago,IL,West
+CU-100456,Elizabeth Garcia,Consumer,Phoenix,AZ,East
+CU-100457,Richard Brown,Corporate,Dallas,TX,Central
+CU-100458,Mary Martinez,Home Office,Austin,TX,East
+CU-100459,Patricia Lopez,Consumer,Dallas,TX,East
+CU-100460,Joseph Jones,Consumer,Houston,TX,South
+CU-100461,Mary Lopez,Consumer,Indianapolis,IN,Central
+CU-100462,Jennifer Brown,Consumer,Jacksonville,FL,South
+CU-100463,Joseph Lopez,Home Office,Phoenix,AZ,Central
+CU-100464,Elizabeth Gonzalez,Home Office,Columbus,OH,West
+CU-100465,Michael Rodriguez,Corporate,San Diego,CA,Central
+CU-100466,Emma Smith,Home Office,Chicago,IL,West
+CU-100467,David Williams,Corporate,Seattle,WA,South
+CU-100468,Robert Lopez,Home Office,Houston,TX,South
+CU-100469,Joseph Gonzalez,Consumer,Chicago,IL,South
+CU-100470,Linda Davis,Home Office,Phoenix,AZ,East
+CU-100471,Joseph Hernandez,Corporate,Seattle,WA,East
+CU-100472,William Wilson,Consumer,Fort Worth,TX,West
+CU-100473,Sarah Miller,Corporate,Chicago,IL,East
+CU-100474,Sarah Anderson,Consumer,Seattle,WA,South
+CU-100475,Mary Miller,Consumer,Los Angeles,CA,West
+CU-100476,Patricia Anderson,Corporate,Columbus,OH,South
+CU-100477,Richard Johnson,Home Office,Fort Worth,TX,West
+CU-100478,Emma Williams,Home Office,Jacksonville,FL,South
+CU-100479,David Lopez,Consumer,Indianapolis,IN,East
+CU-100480,Mary Davis,Home Office,New York,NY,South
+CU-100481,Richard Wilson,Consumer,Seattle,WA,West
+CU-100482,Patricia Williams,Corporate,Charlotte,NC,West
+CU-100483,Sarah Gonzalez,Home Office,Houston,TX,South
+CU-100484,Jennifer Brown,Consumer,New York,NY,East
+CU-100485,Joseph Martinez,Home Office,Los Angeles,CA,East
+CU-100486,Sarah Miller,Corporate,San Diego,CA,West
+CU-100487,Robert Gonzalez,Consumer,Seattle,WA,West
+CU-100488,Mary Brown,Home Office,Indianapolis,IN,Central
+CU-100489,Jennifer Jones,Consumer,Austin,TX,West
+CU-100490,Mary Jones,Consumer,Columbus,OH,West
+CU-100491,Elizabeth Smith,Corporate,Columbus,OH,South
+CU-100492,James Lopez,Corporate,Indianapolis,IN,South
+CU-100493,Mary Miller,Consumer,Phoenix,AZ,South
+CU-100494,Jennifer Jones,Home Office,San Diego,CA,West
+CU-100495,Sarah Rodriguez,Corporate,Charlotte,NC,South
+CU-100496,David Miller,Consumer,Seattle,WA,Central
+CU-100497,James Hernandez,Consumer,San Antonio,TX,South
+CU-100498,Michael Rodriguez,Home Office,Jacksonville,FL,West
+CU-100499,William Miller,Home Office,Los Angeles,CA,East
+CU-100500,Robert Gonzalez,Home Office,Chicago,IL,West
+CU-100501,Robert Wilson,Corporate,San Francisco,CA,Central
+CU-100502,Robert Anderson,Consumer,New York,NY,East
+CU-100503,Jennifer Lopez,Home Office,San Francisco,CA,West
+CU-100504,Jennifer Rodriguez,Corporate,Fort Worth,TX,Central
+CU-100505,Joseph Rodriguez,Home Office,Fort Worth,TX,Central
+CU-100506,William Garcia,Home Office,San Jose,CA,South
+CU-100507,Emma Gonzalez,Home Office,Charlotte,NC,South
+CU-100508,Robert Garcia,Corporate,Austin,TX,South
+CU-100509,Jennifer Lopez,Consumer,Los Angeles,CA,East
+CU-100510,Linda Jones,Consumer,Dallas,TX,West
+CU-100511,Jennifer Miller,Home Office,Austin,TX,West
+CU-100512,James Jones,Corporate,San Francisco,CA,South
+CU-100513,Lisa Lopez,Corporate,Charlotte,NC,West
+CU-100514,Elizabeth Williams,Home Office,Phoenix,AZ,East
+CU-100515,Sarah Wilson,Consumer,Indianapolis,IN,East
+CU-100516,Linda Williams,Home Office,New York,NY,West
+CU-100517,David Smith,Consumer,Chicago,IL,South
+CU-100518,Sarah Martinez,Home Office,Jacksonville,FL,South
+CU-100519,John Smith,Home Office,San Francisco,CA,South
+CU-100520,John Rodriguez,Home Office,New York,NY,Central
+CU-100521,Mary Smith,Home Office,Seattle,WA,South
+CU-100522,Emma Anderson,Consumer,Philadelphia,PA,West
+CU-100523,Robert Martinez,Home Office,San Diego,CA,Central
+CU-100524,William Gonzalez,Corporate,Jacksonville,FL,East
+CU-100525,Richard Davis,Home Office,Jacksonville,FL,West
+CU-100526,Mary Hernandez,Consumer,San Diego,CA,East
+CU-100527,Richard Miller,Corporate,Chicago,IL,South
+CU-100528,John Lopez,Consumer,Los Angeles,CA,East
+CU-100529,Linda Hernandez,Corporate,San Francisco,CA,East
+CU-100530,Sarah Brown,Consumer,Indianapolis,IN,South
+CU-100531,Sarah Anderson,Consumer,Dallas,TX,Central
+CU-100532,Sarah Williams,Corporate,Seattle,WA,East
+CU-100533,David Gonzalez,Home Office,San Antonio,TX,South
+CU-100534,Mary Williams,Home Office,Chicago,IL,West
+CU-100535,James Miller,Home Office,Fort Worth,TX,West
+CU-100536,Patricia Smith,Consumer,Chicago,IL,South
+CU-100537,Michael Garcia,Home Office,San Diego,CA,South
+CU-100538,John Hernandez,Corporate,Austin,TX,South
+CU-100539,Jennifer Garcia,Home Office,San Francisco,CA,South
+CU-100540,Lisa Hernandez,Home Office,Columbus,OH,South
+CU-100541,Mary Gonzalez,Consumer,Chicago,IL,East
+CU-100542,William Williams,Corporate,Chicago,IL,West
+CU-100543,James Garcia,Consumer,Fort Worth,TX,East
+CU-100544,Mary Davis,Corporate,New York,NY,Central
+CU-100545,David Johnson,Consumer,Houston,TX,South
+CU-100546,Linda Johnson,Consumer,Charlotte,NC,East
+CU-100547,Michael Martinez,Home Office,Jacksonville,FL,Central
+CU-100548,John Jones,Corporate,Fort Worth,TX,South
+CU-100549,Jennifer Martinez,Home Office,Chicago,IL,West
+CU-100550,Lisa Williams,Corporate,Fort Worth,TX,Central
+CU-100551,Elizabeth Williams,Consumer,Dallas,TX,West
+CU-100552,William Miller,Corporate,Columbus,OH,South
+CU-100553,Patricia Jones,Consumer,Chicago,IL,South
+CU-100554,Joseph Johnson,Consumer,San Antonio,TX,Central
+CU-100555,Richard Garcia,Home Office,New York,NY,South
+CU-100556,Joseph Garcia,Corporate,Austin,TX,West
+CU-100557,James Martinez,Home Office,San Jose,CA,West
+CU-100558,James Williams,Corporate,San Francisco,CA,Central
+CU-100559,Elizabeth Martinez,Consumer,San Jose,CA,Central
+CU-100560,William Wilson,Corporate,Fort Worth,TX,Central
+CU-100561,Robert Martinez,Home Office,Houston,TX,West
+CU-100562,John Lopez,Corporate,Seattle,WA,West
+CU-100563,Mary Wilson,Home Office,Charlotte,NC,East
+CU-100564,Elizabeth Williams,Home Office,Columbus,OH,Central
+CU-100565,William Hernandez,Consumer,San Diego,CA,South
+CU-100566,Michael Davis,Home Office,Fort Worth,TX,South
+CU-100567,Linda Rodriguez,Consumer,Fort Worth,TX,Central
+CU-100568,Michael Johnson,Consumer,Seattle,WA,Central
+CU-100569,Sarah Martinez,Home Office,Philadelphia,PA,South
+CU-100570,Linda Johnson,Consumer,Austin,TX,East
+CU-100571,Jennifer Rodriguez,Home Office,Dallas,TX,West
+CU-100572,Patricia Miller,Corporate,Charlotte,NC,West
+CU-100573,John Davis,Consumer,Jacksonville,FL,Central
+CU-100574,Michael Johnson,Home Office,Columbus,OH,West
+CU-100575,Mary Garcia,Corporate,Jacksonville,FL,West
+CU-100576,Elizabeth Garcia,Corporate,Indianapolis,IN,East
+CU-100577,Joseph Garcia,Consumer,Charlotte,NC,Central
+CU-100578,Emma Smith,Corporate,Los Angeles,CA,East
+CU-100579,Jennifer Rodriguez,Consumer,Philadelphia,PA,West
+CU-100580,Linda Davis,Consumer,Austin,TX,South
+CU-100581,Lisa Hernandez,Home Office,Philadelphia,PA,South
+CU-100582,John Lopez,Home Office,Fort Worth,TX,West
+CU-100583,Linda Miller,Consumer,Charlotte,NC,West
+CU-100584,William Gonzalez,Home Office,San Antonio,TX,East
+CU-100585,Lisa Garcia,Corporate,Houston,TX,West
+CU-100586,Emma Jones,Home Office,Charlotte,NC,South
+CU-100587,James Martinez,Corporate,Indianapolis,IN,South
+CU-100588,Patricia Garcia,Corporate,Houston,TX,West
+CU-100589,Michael Hernandez,Consumer,San Jose,CA,Central
+CU-100590,Jennifer Jones,Consumer,Houston,TX,West
+CU-100591,David Rodriguez,Corporate,Jacksonville,FL,South
+CU-100592,Richard Miller,Consumer,Phoenix,AZ,South
+CU-100593,Lisa Rodriguez,Consumer,Seattle,WA,South
+CU-100594,David Williams,Corporate,San Jose,CA,South
+CU-100595,Patricia Smith,Corporate,Los Angeles,CA,West
+CU-100596,Richard Rodriguez,Home Office,San Antonio,TX,South
+CU-100597,Elizabeth Miller,Home Office,Columbus,OH,South
+CU-100598,Lisa Johnson,Home Office,San Francisco,CA,East
+CU-100599,Mary Smith,Corporate,San Diego,CA,West
+CU-100600,Mary Williams,Corporate,Seattle,WA,South
+CU-100601,Emma Martinez,Consumer,Seattle,WA,Central
+CU-100602,Patricia Rodriguez,Consumer,Seattle,WA,South
+CU-100603,Robert Miller,Consumer,Seattle,WA,West
+CU-100604,Sarah Davis,Corporate,San Jose,CA,Central
+CU-100605,Joseph Wilson,Consumer,Chicago,IL,West
+CU-100606,Patricia Wilson,Home Office,San Antonio,TX,South
+CU-100607,David Gonzalez,Consumer,Philadelphia,PA,West
+CU-100608,Patricia Rodriguez,Corporate,Los Angeles,CA,West
+CU-100609,Mary Jones,Home Office,Austin,TX,Central
+CU-100610,Emma Williams,Corporate,Indianapolis,IN,East
+CU-100611,David Lopez,Consumer,Dallas,TX,West
+CU-100612,James Wilson,Consumer,Phoenix,AZ,South
+CU-100613,David Martinez,Home Office,San Francisco,CA,Central
+CU-100614,Richard Davis,Consumer,Columbus,OH,East
+CU-100615,William Lopez,Corporate,Fort Worth,TX,South
+CU-100616,James Martinez,Consumer,San Francisco,CA,East
+CU-100617,Patricia Wilson,Consumer,Charlotte,NC,South
+CU-100618,Linda Wilson,Consumer,San Antonio,TX,South
+CU-100619,James Wilson,Corporate,Dallas,TX,Central
+CU-100620,David Martinez,Corporate,Seattle,WA,Central
+CU-100621,Sarah Johnson,Home Office,Los Angeles,CA,South
+CU-100622,Emma Anderson,Consumer,New York,NY,South
+CU-100623,John Miller,Consumer,Charlotte,NC,West
+CU-100624,Lisa Wilson,Corporate,San Jose,CA,East
+CU-100625,William Johnson,Corporate,Jacksonville,FL,West
+CU-100626,Richard Hernandez,Corporate,Los Angeles,CA,West
+CU-100627,Michael Lopez,Consumer,Columbus,OH,East
+CU-100628,Elizabeth Johnson,Consumer,San Antonio,TX,West
+CU-100629,Joseph Smith,Consumer,Indianapolis,IN,Central
+CU-100630,Linda Lopez,Consumer,Houston,TX,South
+CU-100631,Jennifer Miller,Consumer,Chicago,IL,East
+CU-100632,James Garcia,Corporate,Houston,TX,West
+CU-100633,David Hernandez,Home Office,Fort Worth,TX,West
+CU-100634,John Martinez,Home Office,Chicago,IL,West
+CU-100635,Patricia Lopez,Consumer,Charlotte,NC,West
+CU-100636,Joseph Wilson,Consumer,Columbus,OH,East
+CU-100637,David Gonzalez,Consumer,Houston,TX,South
+CU-100638,Linda Garcia,Consumer,Jacksonville,FL,West
+CU-100639,Michael Brown,Home Office,Dallas,TX,Central
+CU-100640,Mary Brown,Home Office,New York,NY,West
+CU-100641,Mary Hernandez,Consumer,Fort Worth,TX,West
+CU-100642,Richard Johnson,Consumer,San Francisco,CA,South
+CU-100643,John Garcia,Corporate,Chicago,IL,West
+CU-100644,Linda Garcia,Home Office,Fort Worth,TX,West
+CU-100645,Michael Smith,Home Office,San Francisco,CA,East
+CU-100646,William Brown,Consumer,New York,NY,East
+CU-100647,Mary Hernandez,Home Office,Fort Worth,TX,South
+CU-100648,Richard Johnson,Home Office,Columbus,OH,West
+CU-100649,Michael Jones,Consumer,Dallas,TX,West
+CU-100650,James Miller,Home Office,Phoenix,AZ,East
+CU-100651,Linda Lopez,Consumer,San Jose,CA,East
+CU-100652,Michael Anderson,Corporate,San Diego,CA,East
+CU-100653,Sarah Jones,Home Office,Charlotte,NC,West
+CU-100654,John Lopez,Consumer,Houston,TX,East
+CU-100655,Elizabeth Garcia,Home Office,Philadelphia,PA,Central
+CU-100656,Patricia Williams,Home Office,Philadelphia,PA,Central
+CU-100657,John Garcia,Corporate,Houston,TX,Central
+CU-100658,Michael Jones,Home Office,Indianapolis,IN,East
+CU-100659,Joseph Rodriguez,Corporate,San Francisco,CA,East
+CU-100660,Lisa Garcia,Consumer,San Francisco,CA,Central
+CU-100661,Emma Brown,Home Office,Houston,TX,East
+CU-100662,John Brown,Consumer,Los Angeles,CA,South
+CU-100663,Richard Anderson,Consumer,Jacksonville,FL,West
+CU-100664,Linda Brown,Corporate,Los Angeles,CA,West
+CU-100665,James Jones,Consumer,Columbus,OH,Central
+CU-100666,Sarah Williams,Consumer,Houston,TX,East
+CU-100667,Michael Anderson,Corporate,Fort Worth,TX,Central
+CU-100668,James Johnson,Home Office,San Jose,CA,South
+CU-100669,Patricia Brown,Corporate,New York,NY,Central
+CU-100670,Joseph Garcia,Home Office,San Diego,CA,South
+CU-100671,Jennifer Williams,Consumer,San Antonio,TX,South
+CU-100672,Jennifer Rodriguez,Corporate,New York,NY,East
+CU-100673,John Gonzalez,Home Office,Austin,TX,South
+CU-100674,Emma Brown,Home Office,San Jose,CA,West
+CU-100675,Elizabeth Smith,Consumer,Columbus,OH,Central
+CU-100676,Sarah Anderson,Consumer,Chicago,IL,South
+CU-100677,Joseph Lopez,Consumer,Jacksonville,FL,East
+CU-100678,David Hernandez,Corporate,Indianapolis,IN,East
+CU-100679,Linda Hernandez,Consumer,Los Angeles,CA,West
+CU-100680,William Wilson,Corporate,San Jose,CA,South
+CU-100681,James Davis,Corporate,Austin,TX,West
+CU-100682,Robert Williams,Home Office,Chicago,IL,East
+CU-100683,Emma Williams,Corporate,Phoenix,AZ,South
+CU-100684,Linda Johnson,Home Office,Austin,TX,Central
+CU-100685,Joseph Jones,Corporate,San Antonio,TX,Central
+CU-100686,Michael Williams,Home Office,Houston,TX,Central
+CU-100687,Robert Wilson,Corporate,Los Angeles,CA,West
+CU-100688,Jennifer Garcia,Corporate,Chicago,IL,East
+CU-100689,William Wilson,Consumer,San Jose,CA,East
+CU-100690,Joseph Rodriguez,Home Office,Fort Worth,TX,West
+CU-100691,Joseph Johnson,Consumer,Houston,TX,East
+CU-100692,Sarah Wilson,Consumer,New York,NY,West
+CU-100693,Richard Garcia,Home Office,San Antonio,TX,East
+CU-100694,Michael Smith,Consumer,Dallas,TX,West
+CU-100695,David Johnson,Corporate,Charlotte,NC,East
+CU-100696,Joseph Smith,Consumer,Los Angeles,CA,South
+CU-100697,Elizabeth Smith,Corporate,Fort Worth,TX,South
+CU-100698,Patricia Brown,Consumer,Philadelphia,PA,Central
+CU-100699,Joseph Anderson,Consumer,Dallas,TX,East
+CU-100700,Mary Davis,Corporate,San Diego,CA,South
+CU-100701,Michael Jones,Corporate,Los Angeles,CA,West
+CU-100702,Robert Hernandez,Home Office,Columbus,OH,West
+CU-100703,John Miller,Home Office,Seattle,WA,Central
+CU-100704,Elizabeth Garcia,Home Office,San Francisco,CA,Central
+CU-100705,William Williams,Consumer,Fort Worth,TX,Central
+CU-100706,John Anderson,Corporate,San Diego,CA,East
+CU-100707,Patricia Gonzalez,Home Office,San Francisco,CA,West
+CU-100708,Emma Brown,Home Office,Philadelphia,PA,West
+CU-100709,Sarah Gonzalez,Consumer,Dallas,TX,South
+CU-100710,Lisa Williams,Consumer,Jacksonville,FL,Central
+CU-100711,John Lopez,Home Office,Jacksonville,FL,Central
+CU-100712,Robert Wilson,Corporate,Phoenix,AZ,Central
+CU-100713,Elizabeth Smith,Consumer,Philadelphia,PA,East
+CU-100714,Jennifer Smith,Home Office,San Diego,CA,South
+CU-100715,James Anderson,Home Office,New York,NY,West
+CU-100716,James Lopez,Consumer,Phoenix,AZ,Central
+CU-100717,John Williams,Home Office,Los Angeles,CA,West
+CU-100718,Patricia Johnson,Corporate,Houston,TX,South
+CU-100719,James Jones,Corporate,Houston,TX,West
+CU-100720,Linda Gonzalez,Home Office,Philadelphia,PA,South
+CU-100721,Lisa Lopez,Home Office,Austin,TX,Central
+CU-100722,Lisa Miller,Corporate,San Diego,CA,Central
+CU-100723,Lisa Lopez,Consumer,Phoenix,AZ,South
+CU-100724,Lisa Martinez,Corporate,Los Angeles,CA,West
+CU-100725,Elizabeth Williams,Corporate,Houston,TX,East
+CU-100726,Patricia Garcia,Consumer,San Diego,CA,East
+CU-100727,Joseph Smith,Corporate,Austin,TX,West
+CU-100728,Michael Garcia,Corporate,San Diego,CA,East
+CU-100729,Sarah Miller,Corporate,New York,NY,South
+CU-100730,Linda Davis,Corporate,Philadelphia,PA,Central
+CU-100731,Richard Johnson,Corporate,Seattle,WA,West
+CU-100732,Joseph Johnson,Consumer,Philadelphia,PA,Central
+CU-100733,James Jones,Consumer,New York,NY,East
+CU-100734,Lisa Anderson,Corporate,Austin,TX,West
+CU-100735,Michael Garcia,Home Office,Chicago,IL,South
+CU-100736,Linda Hernandez,Consumer,New York,NY,South
+CU-100737,Sarah Johnson,Corporate,Philadelphia,PA,West
+CU-100738,Linda Lopez,Home Office,San Antonio,TX,Central
+CU-100739,Mary Brown,Consumer,San Jose,CA,East
+CU-100740,Elizabeth Williams,Consumer,Fort Worth,TX,Central
+CU-100741,Linda Johnson,Corporate,New York,NY,South
+CU-100742,Emma Smith,Consumer,San Antonio,TX,West
+CU-100743,Michael Davis,Consumer,San Jose,CA,Central
+CU-100744,Elizabeth Davis,Home Office,Fort Worth,TX,Central
+CU-100745,Richard Williams,Corporate,Chicago,IL,South
+CU-100746,Lisa Davis,Consumer,Jacksonville,FL,Central
+CU-100747,Joseph Jones,Consumer,Charlotte,NC,Central
+CU-100748,David Gonzalez,Home Office,Los Angeles,CA,East
+CU-100749,Patricia Gonzalez,Home Office,Chicago,IL,South
+CU-100750,Sarah Wilson,Corporate,San Diego,CA,South
+CU-100751,Elizabeth Martinez,Consumer,Seattle,WA,South
+CU-100752,Michael Miller,Home Office,San Jose,CA,East
+CU-100753,David Johnson,Corporate,Indianapolis,IN,West
+CU-100754,Robert Gonzalez,Consumer,Philadelphia,PA,West
+CU-100755,Linda Johnson,Home Office,Los Angeles,CA,South
+CU-100756,David Wilson,Home Office,San Antonio,TX,Central
+CU-100757,Michael Johnson,Corporate,Austin,TX,South
+CU-100758,James Wilson,Corporate,Seattle,WA,South
+CU-100759,Linda Johnson,Corporate,New York,NY,West
+CU-100760,Emma Anderson,Consumer,Phoenix,AZ,East
+CU-100761,Patricia Anderson,Corporate,San Jose,CA,Central
+CU-100762,Elizabeth Martinez,Home Office,Fort Worth,TX,South
+CU-100763,Lisa Jones,Corporate,Los Angeles,CA,West
+CU-100764,Sarah Miller,Corporate,Fort Worth,TX,West
+CU-100765,Elizabeth Anderson,Corporate,Los Angeles,CA,Central
+CU-100766,James Wilson,Corporate,New York,NY,Central
+CU-100767,Elizabeth Wilson,Home Office,Dallas,TX,East
+CU-100768,David Jones,Home Office,San Diego,CA,South
+CU-100769,William Lopez,Corporate,Austin,TX,East
+CU-100770,Joseph Brown,Corporate,San Antonio,TX,South
+CU-100771,Patricia Wilson,Consumer,Indianapolis,IN,West
+CU-100772,Mary Lopez,Home Office,Chicago,IL,South
+CU-100773,John Williams,Consumer,Phoenix,AZ,West
+CU-100774,Jennifer Smith,Corporate,Los Angeles,CA,East
+CU-100775,Robert Jones,Corporate,Jacksonville,FL,South
+CU-100776,Richard Hernandez,Consumer,Indianapolis,IN,East
+CU-100777,Patricia Davis,Home Office,San Diego,CA,South
+CU-100778,Elizabeth Martinez,Home Office,Philadelphia,PA,Central
+CU-100779,Lisa Wilson,Corporate,Jacksonville,FL,East
+CU-100780,John Miller,Consumer,San Jose,CA,West
+CU-100781,Jennifer Hernandez,Consumer,San Antonio,TX,West
+CU-100782,Linda Rodriguez,Consumer,Dallas,TX,East
+CU-100783,David Hernandez,Consumer,San Francisco,CA,East
+CU-100784,William Martinez,Corporate,San Diego,CA,Central
+CU-100785,Richard Wilson,Corporate,Columbus,OH,South
+CU-100786,Robert Davis,Corporate,Dallas,TX,South
+CU-100787,John Rodriguez,Home Office,Houston,TX,Central
+CU-100788,Mary Jones,Home Office,Seattle,WA,East
+CU-100789,Michael Garcia,Corporate,San Francisco,CA,Central
+CU-100790,William Hernandez,Home Office,Dallas,TX,Central
+CU-100791,David Rodriguez,Consumer,San Antonio,TX,East
+CU-100792,James Hernandez,Consumer,Fort Worth,TX,East
+CU-100793,Mary Jones,Corporate,San Francisco,CA,South
+CU-100794,Sarah Martinez,Home Office,Fort Worth,TX,West
+CU-100795,Jennifer Hernandez,Home Office,Austin,TX,South
+CU-100796,Mary Wilson,Consumer,Jacksonville,FL,West
+CU-100797,Emma Davis,Consumer,San Jose,CA,Central
+CU-100798,Lisa Hernandez,Corporate,Seattle,WA,East
+CU-100799,Patricia Brown,Home Office,San Diego,CA,Central
+CU-100800,James Garcia,Corporate,Columbus,OH,Central
+CU-100801,Emma Davis,Consumer,Charlotte,NC,East
+CU-100802,Robert Rodriguez,Consumer,San Francisco,CA,South
+CU-100803,Mary Miller,Consumer,Indianapolis,IN,West
+CU-100804,Robert Garcia,Corporate,Phoenix,AZ,South
+CU-100805,James Wilson,Home Office,Phoenix,AZ,West
+CU-100806,Elizabeth Garcia,Home Office,Chicago,IL,West
+CU-100807,Sarah Smith,Corporate,Austin,TX,Central
+CU-100808,Lisa Martinez,Consumer,San Antonio,TX,South
+CU-100809,David Martinez,Corporate,Chicago,IL,South
+CU-100810,Linda Davis,Corporate,Fort Worth,TX,East
+CU-100811,Robert Lopez,Corporate,Los Angeles,CA,East
+CU-100812,Robert Smith,Home Office,Austin,TX,East
+CU-100813,Jennifer Lopez,Corporate,San Diego,CA,Central
+CU-100814,Emma Miller,Home Office,Phoenix,AZ,Central
+CU-100815,Michael Wilson,Consumer,Philadelphia,PA,Central
+CU-100816,Joseph Lopez,Home Office,San Jose,CA,Central
+CU-100817,David Garcia,Corporate,Columbus,OH,Central
+CU-100818,Lisa Anderson,Corporate,San Antonio,TX,East
+CU-100819,Jennifer Lopez,Consumer,San Diego,CA,West
+CU-100820,Lisa Johnson,Corporate,New York,NY,East
+CU-100821,William Gonzalez,Home Office,Fort Worth,TX,East
+CU-100822,Emma Hernandez,Consumer,Los Angeles,CA,East
+CU-100823,Linda Davis,Corporate,Houston,TX,East
+CU-100824,William Davis,Home Office,Seattle,WA,West
+CU-100825,John Jones,Corporate,San Antonio,TX,East
+CU-100826,William Martinez,Home Office,Indianapolis,IN,West
+CU-100827,Emma Rodriguez,Home Office,Columbus,OH,East
+CU-100828,Emma Gonzalez,Consumer,San Jose,CA,South
+CU-100829,Robert Gonzalez,Corporate,San Antonio,TX,West
+CU-100830,Linda Jones,Consumer,Jacksonville,FL,East
+CU-100831,Elizabeth Anderson,Consumer,Seattle,WA,South
+CU-100832,Jennifer Smith,Consumer,Austin,TX,East
+CU-100833,Elizabeth Williams,Consumer,Houston,TX,East
+CU-100834,William Hernandez,Consumer,Houston,TX,South
+CU-100835,William Davis,Consumer,San Jose,CA,East
+CU-100836,Sarah Wilson,Corporate,Philadelphia,PA,Central
+CU-100837,Linda Lopez,Consumer,Austin,TX,East
+CU-100838,John Wilson,Consumer,Los Angeles,CA,West
+CU-100839,Patricia Anderson,Corporate,Austin,TX,Central
+CU-100840,Patricia Wilson,Corporate,Chicago,IL,West
+CU-100841,Richard Miller,Corporate,Houston,TX,Central
+CU-100842,Elizabeth Gonzalez,Corporate,Fort Worth,TX,West
+CU-100843,David Lopez,Home Office,Houston,TX,East
+CU-100844,Emma Miller,Home Office,Philadelphia,PA,South
+CU-100845,Lisa Martinez,Corporate,Charlotte,NC,Central
+CU-100846,David Davis,Corporate,New York,NY,East
+CU-100847,Joseph Smith,Consumer,Columbus,OH,Central
+CU-100848,John Lopez,Home Office,Austin,TX,West
+CU-100849,Emma Miller,Home Office,Austin,TX,West
+CU-100850,Patricia Hernandez,Home Office,San Francisco,CA,South
+CU-100851,Sarah Smith,Home Office,Phoenix,AZ,West
+CU-100852,Elizabeth Wilson,Corporate,Indianapolis,IN,West
+CU-100853,Elizabeth Garcia,Consumer,Chicago,IL,Central
+CU-100854,Sarah Rodriguez,Consumer,Dallas,TX,South
+CU-100855,Jennifer Johnson,Corporate,Fort Worth,TX,South
+CU-100856,Michael Wilson,Corporate,Charlotte,NC,South
+CU-100857,Emma Davis,Home Office,Austin,TX,East
+CU-100858,Richard Miller,Consumer,Houston,TX,East
+CU-100859,Mary Anderson,Home Office,Chicago,IL,West
+CU-100860,James Garcia,Consumer,Charlotte,NC,West
+CU-100861,James Rodriguez,Home Office,Charlotte,NC,South
+CU-100862,Joseph Johnson,Consumer,Jacksonville,FL,West
+CU-100863,James Garcia,Home Office,New York,NY,Central
+CU-100864,Patricia Lopez,Consumer,Seattle,WA,East
+CU-100865,Elizabeth Williams,Home Office,Philadelphia,PA,South
+CU-100866,William Martinez,Consumer,Houston,TX,West
+CU-100867,Richard Brown,Corporate,Houston,TX,West
+CU-100868,Emma Gonzalez,Corporate,Austin,TX,East
+CU-100869,Joseph Davis,Home Office,Houston,TX,West
+CU-100870,John Rodriguez,Home Office,San Francisco,CA,East
+CU-100871,Linda Wilson,Home Office,Seattle,WA,South
+CU-100872,Lisa Lopez,Home Office,Indianapolis,IN,West
+CU-100873,Emma Miller,Home Office,Phoenix,AZ,Central
+CU-100874,Richard Miller,Home Office,Indianapolis,IN,West
+CU-100875,Richard Garcia,Corporate,Dallas,TX,South
+CU-100876,David Miller,Home Office,Phoenix,AZ,Central
+CU-100877,James Lopez,Home Office,Seattle,WA,West
+CU-100878,Robert Martinez,Home Office,San Antonio,TX,Central
+CU-100879,David Lopez,Home Office,Jacksonville,FL,West
+CU-100880,James Lopez,Consumer,Indianapolis,IN,Central
+CU-100881,Elizabeth Martinez,Home Office,Seattle,WA,South
+CU-100882,Mary Anderson,Corporate,Seattle,WA,East
+CU-100883,Emma Smith,Corporate,Indianapolis,IN,West
+CU-100884,Sarah Brown,Corporate,Los Angeles,CA,West
+CU-100885,William Williams,Consumer,San Jose,CA,Central
+CU-100886,Sarah Garcia,Corporate,San Antonio,TX,East
+CU-100887,Jennifer Lopez,Home Office,Seattle,WA,South
+CU-100888,Mary Lopez,Home Office,San Diego,CA,East
+CU-100889,Richard Miller,Home Office,Fort Worth,TX,Central
+CU-100890,Sarah Smith,Home Office,Seattle,WA,Central
+CU-100891,Joseph Wilson,Consumer,San Antonio,TX,Central
+CU-100892,Robert Gonzalez,Home Office,Seattle,WA,West
+CU-100893,Joseph Williams,Home Office,San Jose,CA,East
+CU-100894,Lisa Lopez,Home Office,Philadelphia,PA,East
+CU-100895,Sarah Miller,Corporate,Fort Worth,TX,Central
+CU-100896,Lisa Martinez,Corporate,Phoenix,AZ,East
+CU-100897,Joseph Lopez,Consumer,Austin,TX,East
+CU-100898,James Martinez,Consumer,Phoenix,AZ,Central
+CU-100899,Patricia Johnson,Home Office,San Francisco,CA,Central
+CU-100900,Jennifer Williams,Home Office,Indianapolis,IN,East
+CU-100901,Lisa Miller,Home Office,Indianapolis,IN,South
+CU-100902,Patricia Brown,Consumer,Chicago,IL,Central
+CU-100903,Patricia Jones,Consumer,Austin,TX,South
+CU-100904,John Johnson,Home Office,Seattle,WA,Central
+CU-100905,Jennifer Anderson,Home Office,Charlotte,NC,West
+CU-100906,James Miller,Consumer,Los Angeles,CA,South
+CU-100907,Mary Smith,Home Office,Dallas,TX,Central
+CU-100908,Joseph Davis,Consumer,Indianapolis,IN,Central
+CU-100909,James Rodriguez,Consumer,San Antonio,TX,East
+CU-100910,John Hernandez,Consumer,Philadelphia,PA,West
+CU-100911,Linda Wilson,Consumer,San Antonio,TX,West
+CU-100912,Linda Hernandez,Consumer,Seattle,WA,West
+CU-100913,Joseph Lopez,Corporate,New York,NY,East
+CU-100914,Michael Smith,Consumer,Chicago,IL,Central
+CU-100915,Michael Martinez,Consumer,Seattle,WA,Central
+CU-100916,Richard Davis,Home Office,Columbus,OH,South
+CU-100917,James Smith,Corporate,Columbus,OH,East
+CU-100918,John Hernandez,Home Office,Seattle,WA,East
+CU-100919,Michael Garcia,Home Office,Los Angeles,CA,East
+CU-100920,Mary Martinez,Consumer,San Jose,CA,Central
+CU-100921,Richard Miller,Home Office,Charlotte,NC,East
+CU-100922,Lisa Rodriguez,Consumer,San Francisco,CA,West
+CU-100923,Mary Hernandez,Consumer,Fort Worth,TX,Central
+CU-100924,John Rodriguez,Home Office,Jacksonville,FL,West
+CU-100925,Sarah Smith,Home Office,Houston,TX,South
+CU-100926,Michael Jones,Consumer,Seattle,WA,Central
+CU-100927,Linda Anderson,Home Office,San Antonio,TX,West
+CU-100928,Lisa Brown,Home Office,Philadelphia,PA,Central
+CU-100929,Emma Williams,Home Office,San Antonio,TX,East
+CU-100930,Joseph Hernandez,Home Office,Seattle,WA,East
+CU-100931,Michael Jones,Consumer,San Jose,CA,West
+CU-100932,James Garcia,Consumer,San Francisco,CA,West
+CU-100933,Mary Martinez,Consumer,Houston,TX,West
+CU-100934,Elizabeth Davis,Corporate,Austin,TX,Central
+CU-100935,Patricia Gonzalez,Corporate,Phoenix,AZ,South
+CU-100936,John Garcia,Consumer,Philadelphia,PA,West
+CU-100937,William Wilson,Corporate,Columbus,OH,West
+CU-100938,Elizabeth Davis,Corporate,Austin,TX,Central
+CU-100939,Elizabeth Rodriguez,Consumer,San Jose,CA,West
+CU-100940,William Wilson,Consumer,Chicago,IL,West
+CU-100941,Michael Lopez,Consumer,Dallas,TX,East
+CU-100942,John Wilson,Home Office,Indianapolis,IN,South
+CU-100943,Sarah Rodriguez,Corporate,San Antonio,TX,South
+CU-100944,Patricia Miller,Consumer,Phoenix,AZ,Central
+CU-100945,Joseph Rodriguez,Home Office,Phoenix,AZ,East
+CU-100946,Patricia Rodriguez,Consumer,Fort Worth,TX,West
+CU-100947,David Davis,Consumer,Philadelphia,PA,West
+CU-100948,Elizabeth Garcia,Consumer,Phoenix,AZ,West
+CU-100949,Jennifer Johnson,Corporate,San Francisco,CA,Central
+CU-100950,Sarah Hernandez,Consumer,San Diego,CA,Central
+CU-100951,Elizabeth Anderson,Corporate,Fort Worth,TX,East
+CU-100952,James Johnson,Home Office,Los Angeles,CA,Central
+CU-100953,Lisa Miller,Home Office,Dallas,TX,South
+CU-100954,Michael Rodriguez,Corporate,Jacksonville,FL,South
+CU-100955,Richard Garcia,Corporate,San Diego,CA,South
+CU-100956,John Rodriguez,Consumer,San Francisco,CA,South
+CU-100957,Jennifer Johnson,Home Office,Philadelphia,PA,Central
+CU-100958,David Williams,Consumer,San Antonio,TX,Central
+CU-100959,Jennifer Miller,Corporate,Houston,TX,East
+CU-100960,Elizabeth Davis,Consumer,San Francisco,CA,West
+CU-100961,John Brown,Consumer,Columbus,OH,West
+CU-100962,David Hernandez,Home Office,Philadelphia,PA,East
+CU-100963,Sarah Williams,Corporate,Phoenix,AZ,West
+CU-100964,Richard Martinez,Home Office,Indianapolis,IN,East
+CU-100965,Michael Brown,Corporate,San Jose,CA,South
+CU-100966,Lisa Brown,Corporate,San Francisco,CA,West
+CU-100967,William Williams,Home Office,Philadelphia,PA,Central
+CU-100968,Michael Brown,Corporate,Charlotte,NC,South
+CU-100969,Emma Smith,Consumer,Phoenix,AZ,South
+CU-100970,Emma Williams,Corporate,Phoenix,AZ,East
+CU-100971,Emma Johnson,Corporate,Seattle,WA,West
+CU-100972,John Anderson,Home Office,Seattle,WA,South
+CU-100973,Linda Garcia,Consumer,Indianapolis,IN,South
+CU-100974,Elizabeth Gonzalez,Corporate,San Diego,CA,Central
+CU-100975,Linda Williams,Corporate,Houston,TX,South
+CU-100976,Michael Jones,Home Office,San Diego,CA,South
+CU-100977,Robert Smith,Home Office,Dallas,TX,East
+CU-100978,Emma Rodriguez,Consumer,Indianapolis,IN,South
+CU-100979,James Miller,Corporate,San Antonio,TX,East
+CU-100980,Linda Hernandez,Home Office,Phoenix,AZ,Central
+CU-100981,Linda Martinez,Corporate,Dallas,TX,Central
+CU-100982,Robert Miller,Home Office,Fort Worth,TX,South
+CU-100983,Patricia Rodriguez,Home Office,Philadelphia,PA,South
+CU-100984,Mary Martinez,Corporate,Dallas,TX,South
+CU-100985,Emma Lopez,Consumer,Phoenix,AZ,South
+CU-100986,Emma Brown,Home Office,Philadelphia,PA,South
+CU-100987,Sarah Williams,Corporate,Austin,TX,East
+CU-100988,David Davis,Home Office,Chicago,IL,South
+CU-100989,Michael Jones,Consumer,Chicago,IL,Central
+CU-100990,Sarah Lopez,Corporate,Chicago,IL,South
+CU-100991,Mary Lopez,Home Office,Indianapolis,IN,East
+CU-100992,Elizabeth Davis,Consumer,Philadelphia,PA,West
+CU-100993,Mary Brown,Consumer,Indianapolis,IN,West
+CU-100994,Sarah Garcia,Consumer,Philadelphia,PA,East
+CU-100995,Michael Jones,Corporate,Philadelphia,PA,Central
+CU-100996,Richard Martinez,Consumer,Fort Worth,TX,East
+CU-100997,Michael Rodriguez,Corporate,Chicago,IL,Central
+CU-100998,William Brown,Home Office,Jacksonville,FL,West
+CU-100999,Richard Martinez,Consumer,Charlotte,NC,Central
+CU-101000,Linda Rodriguez,Consumer,Philadelphia,PA,East
+CU-101001,Mary Garcia,Consumer,Indianapolis,IN,Central
+CU-101002,William Lopez,Corporate,Seattle,WA,South
+CU-101003,Jennifer Gonzalez,Corporate,San Francisco,CA,South
+CU-101004,John Davis,Consumer,Charlotte,NC,Central
+CU-101005,Richard Hernandez,Consumer,Chicago,IL,West
+CU-101006,Linda Garcia,Home Office,Austin,TX,East
+CU-101007,Jennifer Jones,Consumer,Dallas,TX,South
+CU-101008,Michael Rodriguez,Consumer,Austin,TX,South
+CU-101009,Patricia Brown,Home Office,Austin,TX,Central
+CU-101010,Robert Davis,Home Office,Philadelphia,PA,West
+CU-101011,Jennifer Wilson,Corporate,San Diego,CA,West
+CU-101012,Robert Wilson,Consumer,San Diego,CA,Central
+CU-101013,Emma Johnson,Consumer,Phoenix,AZ,South
+CU-101014,Sarah Wilson,Corporate,New York,NY,Central
+CU-101015,Elizabeth Anderson,Home Office,Austin,TX,Central
+CU-101016,Lisa Gonzalez,Home Office,San Francisco,CA,Central
+CU-101017,Jennifer Gonzalez,Home Office,Fort Worth,TX,West
+CU-101018,Linda Davis,Home Office,Los Angeles,CA,East
+CU-101019,Patricia Miller,Home Office,Indianapolis,IN,West
+CU-101020,Emma Lopez,Home Office,Charlotte,NC,South
+CU-101021,John Smith,Home Office,Austin,TX,West
+CU-101022,Emma Garcia,Corporate,Fort Worth,TX,Central
+CU-101023,William Brown,Corporate,Philadelphia,PA,South
+CU-101024,Patricia Williams,Corporate,Austin,TX,South
+CU-101025,Linda Lopez,Corporate,San Antonio,TX,Central
+CU-101026,William Davis,Consumer,Fort Worth,TX,West
+CU-101027,Emma Lopez,Corporate,San Diego,CA,West
+CU-101028,Linda Wilson,Corporate,Seattle,WA,West
+CU-101029,David Davis,Consumer,Phoenix,AZ,West
+CU-101030,Elizabeth Williams,Home Office,Columbus,OH,Central
+CU-101031,Mary Jones,Home Office,San Francisco,CA,East
+CU-101032,Emma Lopez,Consumer,Fort Worth,TX,East
+CU-101033,William Davis,Home Office,San Antonio,TX,East
+CU-101034,James Jones,Corporate,Charlotte,NC,Central
+CU-101035,William Garcia,Consumer,Seattle,WA,South
+CU-101036,Patricia Wilson,Home Office,Houston,TX,West
+CU-101037,Lisa Gonzalez,Corporate,Seattle,WA,Central
+CU-101038,Elizabeth Gonzalez,Home Office,Austin,TX,South
+CU-101039,Richard Martinez,Corporate,Chicago,IL,South
+CU-101040,Lisa Hernandez,Corporate,Phoenix,AZ,South
+CU-101041,Michael Johnson,Consumer,Fort Worth,TX,Central
+CU-101042,James Garcia,Home Office,San Diego,CA,Central
+CU-101043,Richard Jones,Corporate,Dallas,TX,Central
+CU-101044,Joseph Miller,Consumer,Indianapolis,IN,West
+CU-101045,David Lopez,Consumer,New York,NY,Central
+CU-101046,Robert Williams,Corporate,Chicago,IL,East
+CU-101047,Michael Anderson,Corporate,Houston,TX,East
+CU-101048,Richard Rodriguez,Consumer,New York,NY,East
+CU-101049,David Johnson,Home Office,Dallas,TX,South
+CU-101050,Jennifer Brown,Home Office,San Jose,CA,Central
+CU-101051,David Williams,Home Office,Charlotte,NC,West
+CU-101052,Sarah Hernandez,Corporate,New York,NY,Central
+CU-101053,Joseph Wilson,Home Office,San Francisco,CA,Central
+CU-101054,Joseph Williams,Home Office,Seattle,WA,West
+CU-101055,Linda Rodriguez,Home Office,Charlotte,NC,Central
+CU-101056,Elizabeth Rodriguez,Consumer,Jacksonville,FL,East
+CU-101057,Mary Garcia,Corporate,Charlotte,NC,Central
+CU-101058,Mary Smith,Consumer,Phoenix,AZ,West
+CU-101059,Mary Davis,Home Office,Jacksonville,FL,East
+CU-101060,Elizabeth Jones,Consumer,San Francisco,CA,South
+CU-101061,Jennifer Gonzalez,Consumer,San Jose,CA,Central
+CU-101062,Linda Anderson,Home Office,San Antonio,TX,South
+CU-101063,Jennifer Williams,Home Office,Fort Worth,TX,South
+CU-101064,Jennifer Jones,Consumer,Fort Worth,TX,South
+CU-101065,William Jones,Home Office,San Diego,CA,Central
+CU-101066,Robert Wilson,Consumer,Columbus,OH,West
+CU-101067,Mary Johnson,Home Office,Phoenix,AZ,South
+CU-101068,William Lopez,Home Office,Charlotte,NC,South
+CU-101069,James Smith,Consumer,San Antonio,TX,East
+CU-101070,John Williams,Consumer,Seattle,WA,Central
+CU-101071,David Lopez,Corporate,Dallas,TX,East
+CU-101072,Michael Williams,Consumer,San Diego,CA,South
+CU-101073,James Miller,Corporate,San Antonio,TX,South
+CU-101074,Joseph Lopez,Consumer,Jacksonville,FL,Central
+CU-101075,David Smith,Corporate,Chicago,IL,South
+CU-101076,Elizabeth Williams,Consumer,Chicago,IL,Central
+CU-101077,John Johnson,Home Office,Fort Worth,TX,West
+CU-101078,Joseph Brown,Home Office,Fort Worth,TX,East
+CU-101079,Joseph Lopez,Consumer,San Antonio,TX,West
+CU-101080,Richard Hernandez,Corporate,San Francisco,CA,Central
+CU-101081,Sarah Lopez,Home Office,Philadelphia,PA,East
+CU-101082,Elizabeth Hernandez,Corporate,Dallas,TX,West
+CU-101083,Sarah Wilson,Home Office,Jacksonville,FL,West
+CU-101084,Jennifer Hernandez,Corporate,Houston,TX,Central
+CU-101085,Lisa Gonzalez,Corporate,New York,NY,East
+CU-101086,Jennifer Smith,Consumer,Fort Worth,TX,South
+CU-101087,Patricia Gonzalez,Consumer,Phoenix,AZ,West
+CU-101088,Elizabeth Johnson,Home Office,Philadelphia,PA,Central
+CU-101089,Sarah Garcia,Home Office,Los Angeles,CA,West
+CU-101090,Emma Williams,Corporate,Seattle,WA,West
+CU-101091,Patricia Gonzalez,Corporate,Austin,TX,West
+CU-101092,Richard Garcia,Home Office,New York,NY,West
+CU-101093,Sarah Davis,Home Office,Dallas,TX,South
+CU-101094,Mary Rodriguez,Home Office,Seattle,WA,South
+CU-101095,Lisa Rodriguez,Corporate,San Antonio,TX,Central
+CU-101096,William Wilson,Home Office,Charlotte,NC,West
+CU-101097,David Davis,Corporate,Chicago,IL,Central
+CU-101098,Patricia Davis,Consumer,Seattle,WA,South
+CU-101099,John Martinez,Corporate,Philadelphia,PA,West
+CU-101100,Michael Hernandez,Home Office,Austin,TX,South
+CU-101101,Elizabeth Gonzalez,Home Office,San Antonio,TX,West
+CU-101102,James Miller,Home Office,San Jose,CA,Central
+CU-101103,Emma Rodriguez,Home Office,Houston,TX,East
+CU-101104,David Williams,Consumer,Los Angeles,CA,West
+CU-101105,Elizabeth Brown,Consumer,Houston,TX,East
+CU-101106,Elizabeth Rodriguez,Home Office,Fort Worth,TX,Central
+CU-101107,Patricia Brown,Home Office,Los Angeles,CA,East
+CU-101108,Robert Hernandez,Corporate,New York,NY,East
+CU-101109,Sarah Garcia,Home Office,Charlotte,NC,South
+CU-101110,Sarah Wilson,Home Office,Jacksonville,FL,Central
+CU-101111,Sarah Lopez,Consumer,Indianapolis,IN,Central
+CU-101112,Robert Rodriguez,Consumer,Chicago,IL,East
+CU-101113,Richard Brown,Consumer,San Diego,CA,West
+CU-101114,Linda Lopez,Consumer,Philadelphia,PA,Central
+CU-101115,Linda Anderson,Consumer,Charlotte,NC,West
+CU-101116,Richard Rodriguez,Corporate,Philadelphia,PA,West
+CU-101117,Joseph Anderson,Corporate,Seattle,WA,Central
+CU-101118,James Wilson,Corporate,Seattle,WA,South
+CU-101119,James Martinez,Consumer,Columbus,OH,West
+CU-101120,William Garcia,Corporate,Fort Worth,TX,South
+CU-101121,John Lopez,Consumer,Fort Worth,TX,Central
+CU-101122,David Anderson,Corporate,New York,NY,East
+CU-101123,Jennifer Brown,Corporate,San Jose,CA,East
+CU-101124,David Johnson,Consumer,Dallas,TX,South
+CU-101125,David Williams,Corporate,Jacksonville,FL,Central
+CU-101126,Jennifer Jones,Corporate,San Diego,CA,East
+CU-101127,Robert Lopez,Consumer,Fort Worth,TX,Central
+CU-101128,Lisa Davis,Home Office,San Francisco,CA,East
+CU-101129,Sarah Lopez,Home Office,San Jose,CA,South
+CU-101130,Sarah Anderson,Corporate,Chicago,IL,Central
+CU-101131,Linda Anderson,Consumer,Columbus,OH,West
+CU-101132,Richard Smith,Corporate,New York,NY,East
+CU-101133,David Garcia,Home Office,Austin,TX,West
+CU-101134,Sarah Hernandez,Home Office,Phoenix,AZ,South
+CU-101135,Michael Brown,Corporate,Charlotte,NC,Central
+CU-101136,David Williams,Corporate,Fort Worth,TX,East
+CU-101137,Sarah Rodriguez,Corporate,San Francisco,CA,Central
+CU-101138,Richard Rodriguez,Corporate,Chicago,IL,West
+CU-101139,Elizabeth Rodriguez,Consumer,Phoenix,AZ,South
+CU-101140,Robert Rodriguez,Home Office,Fort Worth,TX,West
+CU-101141,Michael Jones,Corporate,San Diego,CA,Central
+CU-101142,Emma Hernandez,Corporate,Chicago,IL,South
+CU-101143,Patricia Brown,Corporate,Jacksonville,FL,Central
+CU-101144,Mary Williams,Corporate,New York,NY,South
+CU-101145,Joseph Smith,Consumer,Phoenix,AZ,West
+CU-101146,David Gonzalez,Home Office,Jacksonville,FL,East
+CU-101147,Sarah Brown,Home Office,Houston,TX,West
+CU-101148,John Garcia,Home Office,San Jose,CA,East
+CU-101149,Joseph Davis,Consumer,San Jose,CA,Central
+CU-101150,Robert Brown,Home Office,San Antonio,TX,Central
+CU-101151,Elizabeth Martinez,Home Office,Seattle,WA,West
+CU-101152,Richard Martinez,Home Office,New York,NY,East
+CU-101153,Lisa Smith,Corporate,Dallas,TX,West
+CU-101154,Sarah Davis,Home Office,Dallas,TX,East
+CU-101155,Richard Hernandez,Corporate,Chicago,IL,Central
+CU-101156,John Jones,Home Office,Houston,TX,South
+CU-101157,Richard Rodriguez,Home Office,San Diego,CA,East
+CU-101158,Elizabeth Wilson,Home Office,Austin,TX,East
+CU-101159,Robert Rodriguez,Corporate,Philadelphia,PA,East
+CU-101160,Jennifer Anderson,Home Office,Los Angeles,CA,Central
+CU-101161,Elizabeth Miller,Home Office,Austin,TX,West
+CU-101162,Patricia Hernandez,Corporate,New York,NY,Central
+CU-101163,Jennifer Rodriguez,Corporate,San Jose,CA,East
+CU-101164,Richard Anderson,Consumer,Dallas,TX,Central
+CU-101165,David Garcia,Corporate,San Diego,CA,West
+CU-101166,Richard Rodriguez,Home Office,Chicago,IL,West
+CU-101167,Jennifer Martinez,Consumer,Columbus,OH,South
+CU-101168,James Davis,Home Office,San Jose,CA,West
+CU-101169,David Martinez,Home Office,San Antonio,TX,West
+CU-101170,Mary Lopez,Home Office,Phoenix,AZ,West
+CU-101171,David Hernandez,Home Office,Columbus,OH,West
+CU-101172,Michael Rodriguez,Home Office,Austin,TX,East
+CU-101173,James Wilson,Consumer,Philadelphia,PA,East
+CU-101174,Linda Miller,Corporate,Austin,TX,South
+CU-101175,David Gonzalez,Consumer,Dallas,TX,East
+CU-101176,Lisa Smith,Home Office,Phoenix,AZ,Central
+CU-101177,Jennifer Brown,Home Office,San Diego,CA,East
+CU-101178,Michael Lopez,Corporate,Jacksonville,FL,West
+CU-101179,Elizabeth Lopez,Home Office,Indianapolis,IN,Central
+CU-101180,Richard Davis,Corporate,Philadelphia,PA,West
+CU-101181,Robert Brown,Consumer,Philadelphia,PA,South
+CU-101182,William Miller,Consumer,New York,NY,West
+CU-101183,Michael Williams,Corporate,San Antonio,TX,South
+CU-101184,Joseph Anderson,Consumer,Austin,TX,South
+CU-101185,Sarah Martinez,Home Office,Fort Worth,TX,South
+CU-101186,Richard Martinez,Home Office,Austin,TX,East
+CU-101187,Emma Davis,Corporate,Indianapolis,IN,East
+CU-101188,Richard Lopez,Consumer,San Diego,CA,South
+CU-101189,Sarah Brown,Corporate,Indianapolis,IN,South
+CU-101190,Mary Gonzalez,Corporate,Fort Worth,TX,South
+CU-101191,Linda Jones,Home Office,Philadelphia,PA,East
+CU-101192,David Davis,Home Office,Indianapolis,IN,South
+CU-101193,Emma Williams,Home Office,Chicago,IL,West
+CU-101194,Linda Garcia,Corporate,Fort Worth,TX,East
+CU-101195,Joseph Martinez,Home Office,Philadelphia,PA,West
+CU-101196,Michael Jones,Corporate,Charlotte,NC,West
+CU-101197,Michael Johnson,Home Office,Houston,TX,South
+CU-101198,Michael Rodriguez,Home Office,Jacksonville,FL,South
+CU-101199,Lisa Miller,Home Office,Indianapolis,IN,South
+CU-101200,Lisa Anderson,Corporate,Los Angeles,CA,West
+CU-101201,David Williams,Home Office,Philadelphia,PA,East
+CU-101202,Mary Jones,Home Office,Columbus,OH,South
+CU-101203,Lisa Johnson,Consumer,San Jose,CA,West
+CU-101204,William Smith,Corporate,New York,NY,South
+CU-101205,John Martinez,Corporate,San Francisco,CA,West
+CU-101206,Elizabeth Davis,Corporate,San Antonio,TX,South
+CU-101207,John Brown,Home Office,Chicago,IL,Central
+CU-101208,Robert Smith,Consumer,Seattle,WA,West
+CU-101209,Patricia Smith,Consumer,Los Angeles,CA,East
+CU-101210,James Anderson,Consumer,San Jose,CA,East
+CU-101211,Linda Williams,Consumer,Houston,TX,Central
+CU-101212,Lisa Davis,Home Office,Seattle,WA,Central
+CU-101213,Michael Gonzalez,Corporate,Los Angeles,CA,Central
+CU-101214,Richard Wilson,Consumer,Jacksonville,FL,South
+CU-101215,Michael Jones,Corporate,Seattle,WA,West
+CU-101216,William Garcia,Home Office,Houston,TX,South
+CU-101217,Robert Lopez,Consumer,Indianapolis,IN,East
+CU-101218,Michael Davis,Home Office,Houston,TX,Central
+CU-101219,James Jones,Home Office,Columbus,OH,Central
+CU-101220,Elizabeth Rodriguez,Home Office,Phoenix,AZ,South
+CU-101221,Lisa Anderson,Home Office,San Francisco,CA,West
+CU-101222,Robert Smith,Consumer,San Jose,CA,East
+CU-101223,Emma Lopez,Consumer,Charlotte,NC,South
+CU-101224,Sarah Garcia,Corporate,Columbus,OH,West
+CU-101225,Robert Lopez,Corporate,New York,NY,Central
+CU-101226,Mary Jones,Home Office,Chicago,IL,Central
+CU-101227,Emma Hernandez,Corporate,New York,NY,Central
+CU-101228,John Wilson,Consumer,Fort Worth,TX,West
+CU-101229,James Anderson,Home Office,Austin,TX,South
+CU-101230,Sarah Hernandez,Consumer,San Francisco,CA,South
+CU-101231,Joseph Anderson,Home Office,Phoenix,AZ,Central
+CU-101232,Linda Anderson,Home Office,Charlotte,NC,East
+CU-101233,Mary Martinez,Home Office,Indianapolis,IN,Central
+CU-101234,John Brown,Home Office,Seattle,WA,Central
+CU-101235,Michael Williams,Corporate,Jacksonville,FL,East
+CU-101236,Richard Hernandez,Home Office,Austin,TX,West
+CU-101237,Lisa Martinez,Consumer,Fort Worth,TX,Central
+CU-101238,Sarah Jones,Corporate,Austin,TX,East
+CU-101239,Jennifer Garcia,Corporate,San Francisco,CA,Central
+CU-101240,Mary Williams,Consumer,San Antonio,TX,Central
+CU-101241,Robert Anderson,Consumer,Los Angeles,CA,South
+CU-101242,John Gonzalez,Corporate,Indianapolis,IN,West
+CU-101243,James Anderson,Corporate,San Antonio,TX,Central
+CU-101244,David Gonzalez,Consumer,Austin,TX,West
+CU-101245,Sarah Davis,Corporate,San Antonio,TX,East
+CU-101246,Mary Anderson,Consumer,New York,NY,East
+CU-101247,Joseph Anderson,Consumer,Austin,TX,East
+CU-101248,Mary Smith,Home Office,Indianapolis,IN,Central
+CU-101249,James Brown,Consumer,San Antonio,TX,Central
+CU-101250,James Gonzalez,Corporate,Dallas,TX,East
+CU-101251,David Williams,Corporate,Dallas,TX,East
+CU-101252,Emma Brown,Home Office,New York,NY,Central
+CU-101253,James Jones,Consumer,Seattle,WA,Central
+CU-101254,Lisa Johnson,Corporate,San Diego,CA,Central
+CU-101255,Joseph Smith,Consumer,Seattle,WA,East
+CU-101256,Sarah Johnson,Corporate,San Francisco,CA,East
+CU-101257,Linda Miller,Consumer,Chicago,IL,South
+CU-101258,Mary Garcia,Consumer,Jacksonville,FL,East
+CU-101259,David Johnson,Home Office,Charlotte,NC,South
+CU-101260,Joseph Jones,Home Office,Houston,TX,South
+CU-101261,Jennifer Brown,Consumer,San Francisco,CA,Central
+CU-101262,Richard Williams,Home Office,Jacksonville,FL,Central
+CU-101263,Joseph Davis,Consumer,Austin,TX,East
+CU-101264,Emma Garcia,Corporate,San Francisco,CA,South
+CU-101265,Mary Gonzalez,Corporate,Philadelphia,PA,West
+CU-101266,Emma Miller,Home Office,Indianapolis,IN,East
+CU-101267,Michael Gonzalez,Corporate,Austin,TX,South
+CU-101268,Linda Brown,Home Office,Fort Worth,TX,West
+CU-101269,Lisa Davis,Corporate,Seattle,WA,East
+CU-101270,Robert Wilson,Home Office,Austin,TX,South
+CU-101271,James Rodriguez,Home Office,Columbus,OH,West
+CU-101272,Michael Lopez,Home Office,Philadelphia,PA,South
+CU-101273,Joseph Garcia,Home Office,Houston,TX,East
+CU-101274,Lisa Jones,Corporate,Charlotte,NC,East
+CU-101275,Richard Garcia,Corporate,Houston,TX,East
+CU-101276,Robert Wilson,Consumer,Chicago,IL,East
+CU-101277,David Davis,Home Office,Phoenix,AZ,Central
+CU-101278,Joseph Brown,Consumer,Fort Worth,TX,Central
+CU-101279,Mary Anderson,Corporate,San Jose,CA,Central
+CU-101280,John Martinez,Home Office,Chicago,IL,South
+CU-101281,Mary Smith,Corporate,Phoenix,AZ,East
+CU-101282,Patricia Johnson,Corporate,New York,NY,East
+CU-101283,Linda Lopez,Home Office,San Diego,CA,South
+CU-101284,Richard Miller,Corporate,Austin,TX,South
+CU-101285,Robert Hernandez,Consumer,Seattle,WA,South
+CU-101286,Robert Rodriguez,Corporate,Phoenix,AZ,Central
+CU-101287,David Jones,Home Office,Columbus,OH,West
+CU-101288,John Johnson,Home Office,Phoenix,AZ,East
+CU-101289,Elizabeth Hernandez,Corporate,Phoenix,AZ,West
+CU-101290,David Hernandez,Corporate,Chicago,IL,South
+CU-101291,Lisa Davis,Home Office,Columbus,OH,South
+CU-101292,Joseph Miller,Corporate,Seattle,WA,West
+CU-101293,Linda Martinez,Consumer,Philadelphia,PA,South
+CU-101294,William Miller,Home Office,San Diego,CA,Central
+CU-101295,Sarah Martinez,Corporate,Los Angeles,CA,Central
+CU-101296,Elizabeth Lopez,Consumer,Houston,TX,West
+CU-101297,William Davis,Home Office,Indianapolis,IN,East
+CU-101298,Michael Brown,Corporate,Indianapolis,IN,East
+CU-101299,Mary Martinez,Consumer,Seattle,WA,Central
+CU-101300,John Davis,Corporate,Seattle,WA,South
+CU-101301,Linda Garcia,Corporate,Austin,TX,Central
+CU-101302,Sarah Lopez,Home Office,Philadelphia,PA,Central
+CU-101303,Sarah Hernandez,Corporate,Dallas,TX,West
+CU-101304,Mary Gonzalez,Home Office,Los Angeles,CA,East
+CU-101305,Elizabeth Johnson,Consumer,San Jose,CA,East
+CU-101306,William Williams,Home Office,Dallas,TX,Central
+CU-101307,William Smith,Home Office,Dallas,TX,East
+CU-101308,David Hernandez,Corporate,Philadelphia,PA,Central
+CU-101309,William Gonzalez,Home Office,Philadelphia,PA,West
+CU-101310,Lisa Gonzalez,Home Office,San Francisco,CA,East
+CU-101311,Michael Williams,Home Office,Austin,TX,West
+CU-101312,Linda Gonzalez,Corporate,San Francisco,CA,West
+CU-101313,Lisa Brown,Home Office,Charlotte,NC,Central
+CU-101314,William Gonzalez,Consumer,Los Angeles,CA,East
+CU-101315,Joseph Miller,Corporate,Philadelphia,PA,Central
+CU-101316,Jennifer Miller,Home Office,San Francisco,CA,South
+CU-101317,William Williams,Home Office,San Francisco,CA,South
+CU-101318,Mary Anderson,Corporate,New York,NY,South
+CU-101319,Sarah Johnson,Home Office,Austin,TX,Central
+CU-101320,William Garcia,Corporate,Columbus,OH,Central
+CU-101321,William Hernandez,Home Office,Houston,TX,South
+CU-101322,Jennifer Lopez,Home Office,Charlotte,NC,West
+CU-101323,James Hernandez,Home Office,Indianapolis,IN,West
+CU-101324,John Hernandez,Consumer,Austin,TX,East
+CU-101325,Linda Johnson,Home Office,New York,NY,East
+CU-101326,Patricia Brown,Home Office,Charlotte,NC,Central
+CU-101327,Robert Smith,Consumer,Dallas,TX,East
+CU-101328,Robert Martinez,Home Office,Los Angeles,CA,East
+CU-101329,Michael Wilson,Home Office,Houston,TX,West
+CU-101330,Lisa Anderson,Consumer,Fort Worth,TX,West
+CU-101331,Mary Davis,Home Office,Dallas,TX,East
+CU-101332,William Gonzalez,Corporate,Charlotte,NC,Central
+CU-101333,Lisa Gonzalez,Consumer,Dallas,TX,Central
+CU-101334,Richard Miller,Corporate,Los Angeles,CA,East
+CU-101335,William Williams,Corporate,Dallas,TX,East
+CU-101336,Robert Martinez,Corporate,San Francisco,CA,West
+CU-101337,Emma Williams,Home Office,San Francisco,CA,South
+CU-101338,Emma Anderson,Corporate,San Antonio,TX,Central
+CU-101339,Sarah Johnson,Consumer,Houston,TX,Central
+CU-101340,John Anderson,Corporate,Charlotte,NC,West
+CU-101341,Sarah Hernandez,Corporate,New York,NY,Central
+CU-101342,James Anderson,Corporate,Phoenix,AZ,East
+CU-101343,Elizabeth Davis,Corporate,Indianapolis,IN,South
+CU-101344,Jennifer Smith,Corporate,Chicago,IL,South
+CU-101345,Patricia Garcia,Home Office,Houston,TX,Central
+CU-101346,Sarah Hernandez,Home Office,Fort Worth,TX,East
+CU-101347,James Johnson,Corporate,Jacksonville,FL,Central
+CU-101348,Lisa Rodriguez,Consumer,San Antonio,TX,South
+CU-101349,Mary Lopez,Corporate,San Antonio,TX,East
+CU-101350,Elizabeth Johnson,Home Office,Jacksonville,FL,South
+CU-101351,David Smith,Consumer,San Antonio,TX,East
+CU-101352,Elizabeth Miller,Consumer,San Diego,CA,Central
+CU-101353,Joseph Smith,Consumer,San Francisco,CA,Central
+CU-101354,James Gonzalez,Home Office,Los Angeles,CA,East
+CU-101355,Emma Brown,Home Office,Fort Worth,TX,South
+CU-101356,David Lopez,Home Office,Seattle,WA,West
+CU-101357,Sarah Lopez,Consumer,Chicago,IL,South
+CU-101358,Elizabeth Anderson,Home Office,New York,NY,East
+CU-101359,David Smith,Consumer,San Diego,CA,East
+CU-101360,Emma Davis,Home Office,San Jose,CA,West
+CU-101361,Emma Johnson,Corporate,Chicago,IL,West
+CU-101362,Robert Miller,Corporate,Chicago,IL,South
+CU-101363,Emma Hernandez,Home Office,Austin,TX,West
+CU-101364,Robert Gonzalez,Consumer,Austin,TX,West
+CU-101365,Michael Johnson,Corporate,Austin,TX,West
+CU-101366,Lisa Lopez,Corporate,Columbus,OH,West
+CU-101367,Jennifer Anderson,Home Office,Charlotte,NC,East
+CU-101368,Emma Gonzalez,Home Office,Phoenix,AZ,South
+CU-101369,John Anderson,Corporate,Philadelphia,PA,East
+CU-101370,John Williams,Consumer,New York,NY,Central
+CU-101371,Elizabeth Lopez,Consumer,Columbus,OH,West
+CU-101372,William Rodriguez,Corporate,Phoenix,AZ,South
+CU-101373,Lisa Martinez,Home Office,San Diego,CA,East
+CU-101374,Elizabeth Martinez,Consumer,Philadelphia,PA,Central
+CU-101375,Linda Smith,Home Office,Jacksonville,FL,West
+CU-101376,Emma Rodriguez,Consumer,San Antonio,TX,Central
+CU-101377,Jennifer Davis,Home Office,Seattle,WA,West
+CU-101378,Sarah Brown,Consumer,Dallas,TX,West
+CU-101379,Elizabeth Williams,Consumer,San Francisco,CA,East
+CU-101380,Patricia Jones,Consumer,Los Angeles,CA,South
+CU-101381,James Martinez,Corporate,Dallas,TX,East
+CU-101382,Sarah Anderson,Home Office,Houston,TX,West
+CU-101383,John Davis,Home Office,Philadelphia,PA,East
+CU-101384,Jennifer Lopez,Corporate,Chicago,IL,Central
+CU-101385,Robert Lopez,Home Office,Columbus,OH,Central
+CU-101386,Emma Garcia,Consumer,San Diego,CA,East
+CU-101387,Linda Wilson,Consumer,San Diego,CA,South
+CU-101388,Michael Davis,Home Office,San Diego,CA,South
+CU-101389,Linda Williams,Consumer,Los Angeles,CA,South
+CU-101390,Richard Garcia,Consumer,Philadelphia,PA,South
+CU-101391,Patricia Jones,Consumer,San Antonio,TX,Central
+CU-101392,Sarah Lopez,Home Office,Phoenix,AZ,East
+CU-101393,David Johnson,Corporate,Dallas,TX,South
+CU-101394,Lisa Gonzalez,Corporate,Columbus,OH,West
+CU-101395,Lisa Gonzalez,Home Office,San Jose,CA,West
+CU-101396,Jennifer Johnson,Corporate,Seattle,WA,South
+CU-101397,Elizabeth Wilson,Corporate,San Antonio,TX,Central
+CU-101398,Linda Lopez,Consumer,New York,NY,West
+CU-101399,Linda Martinez,Consumer,Austin,TX,West
+CU-101400,Linda Smith,Consumer,New York,NY,South
+CU-101401,Sarah Miller,Home Office,Indianapolis,IN,South
+CU-101402,Emma Davis,Corporate,San Francisco,CA,West
+CU-101403,John Lopez,Home Office,Chicago,IL,South
+CU-101404,David Garcia,Corporate,San Antonio,TX,West
+CU-101405,John Davis,Home Office,Chicago,IL,Central
+CU-101406,Joseph Wilson,Home Office,Philadelphia,PA,East
+CU-101407,Joseph Gonzalez,Consumer,Charlotte,NC,South
+CU-101408,Patricia Hernandez,Corporate,Philadelphia,PA,East
+CU-101409,Richard Anderson,Home Office,Chicago,IL,Central
+CU-101410,Sarah Jones,Corporate,Indianapolis,IN,Central
+CU-101411,Robert Gonzalez,Home Office,Seattle,WA,East
+CU-101412,Sarah Rodriguez,Home Office,Austin,TX,Central
+CU-101413,Emma Miller,Corporate,Los Angeles,CA,South
+CU-101414,Patricia Garcia,Consumer,Los Angeles,CA,East
+CU-101415,Robert Williams,Corporate,Seattle,WA,West
+CU-101416,Emma Hernandez,Corporate,Seattle,WA,West
+CU-101417,James Garcia,Corporate,San Diego,CA,South
+CU-101418,Sarah Johnson,Corporate,Dallas,TX,Central
+CU-101419,Elizabeth Rodriguez,Home Office,Charlotte,NC,East
+CU-101420,Mary Davis,Home Office,San Francisco,CA,Central
+CU-101421,Robert Anderson,Corporate,Chicago,IL,East
+CU-101422,Richard Anderson,Consumer,Chicago,IL,Central
+CU-101423,Emma Williams,Corporate,Chicago,IL,East
+CU-101424,Elizabeth Williams,Consumer,Phoenix,AZ,East
+CU-101425,Linda Hernandez,Home Office,San Jose,CA,West
+CU-101426,Patricia Miller,Corporate,San Francisco,CA,East
+CU-101427,Robert Johnson,Consumer,San Jose,CA,West
+CU-101428,James Miller,Home Office,Indianapolis,IN,Central
+CU-101429,Elizabeth Martinez,Home Office,Austin,TX,South
+CU-101430,Mary Martinez,Consumer,Charlotte,NC,Central
+CU-101431,William Brown,Corporate,Philadelphia,PA,Central
+CU-101432,Sarah Williams,Corporate,San Jose,CA,Central
+CU-101433,Lisa Martinez,Consumer,Charlotte,NC,Central
+CU-101434,Lisa Wilson,Home Office,Philadelphia,PA,West
+CU-101435,Jennifer Johnson,Consumer,Philadelphia,PA,Central
+CU-101436,Joseph Jones,Corporate,Phoenix,AZ,West
+CU-101437,Sarah Hernandez,Corporate,San Antonio,TX,Central
+CU-101438,Patricia Davis,Home Office,Phoenix,AZ,West
+CU-101439,Mary Johnson,Consumer,Seattle,WA,South
+CU-101440,David Davis,Corporate,San Francisco,CA,West
+CU-101441,James Hernandez,Home Office,New York,NY,Central
+CU-101442,Mary Gonzalez,Home Office,San Francisco,CA,West
+CU-101443,James Lopez,Consumer,Charlotte,NC,South
+CU-101444,David Hernandez,Home Office,Los Angeles,CA,East
+CU-101445,John Miller,Home Office,San Jose,CA,West
+CU-101446,Patricia Johnson,Corporate,Charlotte,NC,East
+CU-101447,Jennifer Gonzalez,Corporate,San Antonio,TX,West
+CU-101448,Michael Rodriguez,Corporate,New York,NY,East
+CU-101449,Richard Brown,Corporate,Indianapolis,IN,Central
+CU-101450,Sarah Anderson,Home Office,Indianapolis,IN,Central
+CU-101451,David Lopez,Corporate,Fort Worth,TX,Central
+CU-101452,Patricia Smith,Corporate,Fort Worth,TX,Central
+CU-101453,Mary Davis,Home Office,Jacksonville,FL,East
+CU-101454,Joseph Lopez,Corporate,San Antonio,TX,South
+CU-101455,Lisa Gonzalez,Home Office,San Jose,CA,South
+CU-101456,David Wilson,Home Office,Columbus,OH,East
+CU-101457,Robert Jones,Corporate,Phoenix,AZ,Central
+CU-101458,Richard Johnson,Consumer,Chicago,IL,South
+CU-101459,Linda Williams,Home Office,Dallas,TX,South
+CU-101460,Robert Williams,Corporate,Phoenix,AZ,Central
+CU-101461,Elizabeth Smith,Corporate,Seattle,WA,Central
+CU-101462,Joseph Brown,Consumer,San Francisco,CA,East
+CU-101463,William Jones,Home Office,Phoenix,AZ,South
+CU-101464,Mary Miller,Consumer,Houston,TX,South
+CU-101465,John Johnson,Corporate,San Diego,CA,South
+CU-101466,Patricia Martinez,Corporate,Chicago,IL,South
+CU-101467,Elizabeth Lopez,Consumer,Dallas,TX,Central
+CU-101468,John Wilson,Corporate,Indianapolis,IN,West
+CU-101469,David Garcia,Corporate,Los Angeles,CA,West
+CU-101470,Lisa Smith,Corporate,Jacksonville,FL,Central
+CU-101471,Patricia Smith,Corporate,Columbus,OH,Central
+CU-101472,Michael Rodriguez,Consumer,Indianapolis,IN,West
+CU-101473,Lisa Rodriguez,Corporate,Houston,TX,Central
+CU-101474,William Hernandez,Home Office,San Jose,CA,Central
+CU-101475,Patricia Wilson,Consumer,Houston,TX,East
+CU-101476,Mary Garcia,Corporate,Phoenix,AZ,South
+CU-101477,Lisa Johnson,Consumer,Austin,TX,West
+CU-101478,Jennifer Wilson,Consumer,Indianapolis,IN,East
+CU-101479,Joseph Anderson,Consumer,Columbus,OH,East
+CU-101480,John Davis,Corporate,Phoenix,AZ,Central
+CU-101481,David Wilson,Corporate,Jacksonville,FL,Central
+CU-101482,Mary Smith,Home Office,Philadelphia,PA,East
+CU-101483,David Wilson,Home Office,San Diego,CA,West
+CU-101484,Mary Williams,Consumer,San Diego,CA,West
+CU-101485,Linda Lopez,Consumer,Chicago,IL,East
+CU-101486,Elizabeth Gonzalez,Corporate,New York,NY,East
+CU-101487,Emma Smith,Home Office,San Antonio,TX,East
+CU-101488,Emma Anderson,Corporate,San Francisco,CA,East
+CU-101489,Mary Hernandez,Consumer,Chicago,IL,East
+CU-101490,Robert Martinez,Consumer,Houston,TX,West
+CU-101491,John Johnson,Consumer,Jacksonville,FL,Central
+CU-101492,Patricia Williams,Home Office,Jacksonville,FL,West
+CU-101493,Michael Johnson,Home Office,Indianapolis,IN,East
+CU-101494,Robert Lopez,Consumer,Indianapolis,IN,Central
+CU-101495,John Lopez,Consumer,Philadelphia,PA,West
+CU-101496,Elizabeth Garcia,Home Office,Indianapolis,IN,West
+CU-101497,Emma Williams,Corporate,Charlotte,NC,South
+CU-101498,Robert Rodriguez,Consumer,Columbus,OH,South
+CU-101499,James Johnson,Corporate,Houston,TX,East
+CU-101500,David Davis,Corporate,Indianapolis,IN,Central
+CU-101501,Sarah Johnson,Corporate,Seattle,WA,South
+CU-101502,Richard Jones,Corporate,Houston,TX,Central
+CU-101503,Jennifer Rodriguez,Corporate,Charlotte,NC,Central
+CU-101504,Robert Wilson,Consumer,Columbus,OH,South
+CU-101505,Lisa Smith,Home Office,Jacksonville,FL,South
+CU-101506,Richard Davis,Home Office,Houston,TX,East
+CU-101507,David Miller,Corporate,Houston,TX,East
+CU-101508,Michael Garcia,Consumer,Philadelphia,PA,Central
+CU-101509,Richard Johnson,Consumer,San Antonio,TX,South
+CU-101510,William Gonzalez,Home Office,San Francisco,CA,Central
+CU-101511,Patricia Davis,Home Office,Fort Worth,TX,South
+CU-101512,William Williams,Corporate,San Francisco,CA,East
+CU-101513,William Davis,Corporate,Houston,TX,West
+CU-101514,John Johnson,Home Office,Phoenix,AZ,East
+CU-101515,Elizabeth Hernandez,Consumer,Chicago,IL,West
+CU-101516,James Williams,Corporate,Fort Worth,TX,East
+CU-101517,Elizabeth Gonzalez,Corporate,Chicago,IL,West
+CU-101518,Elizabeth Davis,Home Office,San Jose,CA,Central
+CU-101519,James Gonzalez,Home Office,Seattle,WA,East
+CU-101520,Linda Anderson,Consumer,Los Angeles,CA,South
+CU-101521,James Wilson,Corporate,Charlotte,NC,South
+CU-101522,Sarah Smith,Consumer,Charlotte,NC,Central
+CU-101523,Elizabeth Miller,Consumer,Philadelphia,PA,Central
+CU-101524,Elizabeth Gonzalez,Consumer,Fort Worth,TX,South
+CU-101525,Elizabeth Davis,Home Office,Seattle,WA,West
+CU-101526,Sarah Miller,Corporate,Indianapolis,IN,South
+CU-101527,Patricia Gonzalez,Corporate,Fort Worth,TX,Central
+CU-101528,John Martinez,Consumer,Los Angeles,CA,West
+CU-101529,Patricia Gonzalez,Home Office,Jacksonville,FL,East
+CU-101530,Richard Johnson,Corporate,Austin,TX,Central
+CU-101531,Linda Garcia,Consumer,Jacksonville,FL,West
+CU-101532,Jennifer Hernandez,Corporate,San Diego,CA,East
+CU-101533,Mary Johnson,Corporate,Chicago,IL,West
+CU-101534,James Smith,Corporate,New York,NY,South
+CU-101535,Linda Jones,Consumer,Indianapolis,IN,South
+CU-101536,James Miller,Home Office,New York,NY,South
+CU-101537,Emma Gonzalez,Corporate,Austin,TX,East
+CU-101538,James Davis,Home Office,San Antonio,TX,Central
+CU-101539,Mary Garcia,Corporate,Philadelphia,PA,West
+CU-101540,Michael Wilson,Home Office,San Francisco,CA,West
+CU-101541,William Smith,Corporate,San Jose,CA,South
+CU-101542,Michael Lopez,Home Office,San Diego,CA,East
+CU-101543,William Johnson,Home Office,Austin,TX,South
+CU-101544,Robert Garcia,Consumer,Columbus,OH,Central
+CU-101545,Mary Miller,Home Office,Indianapolis,IN,Central
+CU-101546,Linda Miller,Corporate,San Antonio,TX,South
+CU-101547,Lisa Anderson,Consumer,Seattle,WA,West
+CU-101548,Robert Hernandez,Home Office,San Francisco,CA,South
+CU-101549,Linda Anderson,Home Office,Dallas,TX,East
+CU-101550,Robert Garcia,Corporate,Indianapolis,IN,West
+CU-101551,David Lopez,Home Office,San Diego,CA,Central
+CU-101552,Linda Garcia,Consumer,Columbus,OH,West
+CU-101553,William Wilson,Corporate,Columbus,OH,West
+CU-101554,Jennifer Miller,Consumer,Dallas,TX,East
+CU-101555,Robert Smith,Consumer,Phoenix,AZ,Central
+CU-101556,Elizabeth Rodriguez,Corporate,Charlotte,NC,South
+CU-101557,Robert Williams,Corporate,Los Angeles,CA,West
+CU-101558,William Gonzalez,Corporate,New York,NY,West
+CU-101559,Elizabeth Gonzalez,Consumer,Los Angeles,CA,East
+CU-101560,James Martinez,Corporate,Chicago,IL,East
+CU-101561,Patricia Hernandez,Home Office,Columbus,OH,East
+CU-101562,David Brown,Consumer,Fort Worth,TX,East
+CU-101563,William Davis,Consumer,Indianapolis,IN,West
+CU-101564,James Garcia,Home Office,Houston,TX,South
+CU-101565,Linda Brown,Consumer,San Diego,CA,East
+CU-101566,Robert Jones,Corporate,Philadelphia,PA,South
+CU-101567,Sarah Davis,Home Office,Dallas,TX,Central
+CU-101568,James Rodriguez,Corporate,Houston,TX,South
+CU-101569,William Anderson,Consumer,San Diego,CA,Central
+CU-101570,Patricia Wilson,Corporate,San Francisco,CA,East
+CU-101571,Sarah Lopez,Home Office,Los Angeles,CA,West
+CU-101572,Richard Jones,Home Office,Dallas,TX,Central
+CU-101573,Jennifer Wilson,Corporate,Houston,TX,South
+CU-101574,Richard Anderson,Corporate,New York,NY,Central
+CU-101575,Jennifer Jones,Consumer,Chicago,IL,West
+CU-101576,James Anderson,Home Office,Charlotte,NC,South
+CU-101577,William Wilson,Consumer,Los Angeles,CA,South
+CU-101578,Linda Anderson,Corporate,San Francisco,CA,South
+CU-101579,Lisa Lopez,Corporate,Houston,TX,East
+CU-101580,Linda Martinez,Home Office,Jacksonville,FL,Central
+CU-101581,John Gonzalez,Consumer,Charlotte,NC,West
+CU-101582,David Smith,Corporate,Charlotte,NC,West
+CU-101583,James Martinez,Consumer,San Jose,CA,East
+CU-101584,Jennifer Rodriguez,Home Office,Philadelphia,PA,West
+CU-101585,James Davis,Corporate,Columbus,OH,West
+CU-101586,Lisa Hernandez,Home Office,Dallas,TX,Central
+CU-101587,Robert Johnson,Corporate,San Jose,CA,Central
+CU-101588,Richard Anderson,Corporate,Philadelphia,PA,West
+CU-101589,John Anderson,Home Office,New York,NY,West
+CU-101590,Joseph Brown,Corporate,Chicago,IL,West
+CU-101591,Richard Martinez,Corporate,Los Angeles,CA,Central
+CU-101592,Michael Garcia,Consumer,Phoenix,AZ,East
+CU-101593,Linda Gonzalez,Corporate,New York,NY,South
+CU-101594,Jennifer Lopez,Consumer,Houston,TX,West
+CU-101595,Mary Lopez,Corporate,Dallas,TX,South
+CU-101596,Linda Wilson,Consumer,Phoenix,AZ,West
+CU-101597,Robert Miller,Consumer,San Jose,CA,South
+CU-101598,John Jones,Corporate,Phoenix,AZ,West
+CU-101599,Jennifer Garcia,Home Office,Charlotte,NC,South
+CU-101600,John Davis,Consumer,Chicago,IL,Central
+CU-101601,Robert Lopez,Corporate,Fort Worth,TX,South
+CU-101602,Michael Johnson,Home Office,Dallas,TX,East
+CU-101603,James Anderson,Consumer,Los Angeles,CA,South
+CU-101604,Sarah Smith,Corporate,Jacksonville,FL,South
+CU-101605,Richard Hernandez,Corporate,San Jose,CA,West
+CU-101606,Sarah Martinez,Consumer,Seattle,WA,Central
+CU-101607,Elizabeth Anderson,Corporate,Philadelphia,PA,South
+CU-101608,Michael Garcia,Home Office,Phoenix,AZ,South
+CU-101609,William Johnson,Corporate,Phoenix,AZ,East
+CU-101610,Elizabeth Wilson,Corporate,Phoenix,AZ,Central
+CU-101611,Mary Anderson,Corporate,Columbus,OH,Central
+CU-101612,James Miller,Consumer,Indianapolis,IN,Central
+CU-101613,David Rodriguez,Home Office,San Francisco,CA,South
+CU-101614,Robert Williams,Consumer,Los Angeles,CA,West
+CU-101615,Sarah Davis,Corporate,Philadelphia,PA,West
+CU-101616,Linda Johnson,Corporate,Charlotte,NC,East
+CU-101617,Patricia Lopez,Home Office,Charlotte,NC,South
+CU-101618,Elizabeth Johnson,Home Office,Charlotte,NC,West
+CU-101619,Patricia Johnson,Consumer,Houston,TX,Central
+CU-101620,Lisa Lopez,Home Office,Philadelphia,PA,Central
+CU-101621,John Rodriguez,Home Office,San Antonio,TX,West
+CU-101622,Michael Brown,Corporate,Columbus,OH,East
+CU-101623,John Jones,Home Office,Austin,TX,East
+CU-101624,Patricia Martinez,Consumer,Fort Worth,TX,Central
+CU-101625,John Johnson,Corporate,Phoenix,AZ,South
+CU-101626,William Martinez,Home Office,Charlotte,NC,East
+CU-101627,Sarah Hernandez,Home Office,Austin,TX,South
+CU-101628,David Brown,Consumer,Austin,TX,Central
+CU-101629,Sarah Lopez,Consumer,Austin,TX,South
+CU-101630,Richard Jones,Consumer,Chicago,IL,West
+CU-101631,Michael Smith,Consumer,Fort Worth,TX,West
+CU-101632,Richard Jones,Home Office,Fort Worth,TX,West
+CU-101633,Mary Davis,Corporate,Houston,TX,Central
+CU-101634,Patricia Hernandez,Consumer,Phoenix,AZ,Central
+CU-101635,Robert Davis,Corporate,Indianapolis,IN,South
+CU-101636,William Martinez,Home Office,San Francisco,CA,South
+CU-101637,Linda Gonzalez,Corporate,Chicago,IL,West
+CU-101638,Linda Johnson,Consumer,Columbus,OH,Central
+CU-101639,Jennifer Hernandez,Home Office,Charlotte,NC,West
+CU-101640,Michael Jones,Corporate,San Francisco,CA,South
+CU-101641,Elizabeth Jones,Consumer,Chicago,IL,West
+CU-101642,Jennifer Rodriguez,Corporate,San Jose,CA,Central
+CU-101643,Michael Anderson,Consumer,Los Angeles,CA,East
+CU-101644,Linda Miller,Consumer,Indianapolis,IN,South
+CU-101645,Patricia Jones,Home Office,Dallas,TX,East
+CU-101646,John Johnson,Home Office,Indianapolis,IN,South
+CU-101647,Lisa Wilson,Corporate,Philadelphia,PA,East
+CU-101648,Linda Anderson,Home Office,Chicago,IL,Central
+CU-101649,Joseph Gonzalez,Home Office,Austin,TX,South
+CU-101650,James Anderson,Consumer,Dallas,TX,West
+CU-101651,Michael Lopez,Home Office,Philadelphia,PA,Central
+CU-101652,Linda Rodriguez,Consumer,Houston,TX,East
+CU-101653,Emma Smith,Consumer,Fort Worth,TX,South
+CU-101654,Richard Wilson,Home Office,Charlotte,NC,South
+CU-101655,Patricia Lopez,Home Office,San Jose,CA,South
+CU-101656,Michael Williams,Consumer,San Jose,CA,East
+CU-101657,Emma Wilson,Consumer,San Antonio,TX,West
+CU-101658,Robert Davis,Home Office,New York,NY,West
+CU-101659,Linda Wilson,Home Office,San Diego,CA,West
+CU-101660,Mary Gonzalez,Corporate,Chicago,IL,West
+CU-101661,Linda Smith,Consumer,San Francisco,CA,West
+CU-101662,Joseph Davis,Corporate,Phoenix,AZ,East
+CU-101663,Jennifer Brown,Corporate,Charlotte,NC,South
+CU-101664,James Smith,Consumer,Los Angeles,CA,South
+CU-101665,Elizabeth Lopez,Home Office,Columbus,OH,Central
+CU-101666,Elizabeth Miller,Corporate,Los Angeles,CA,South
+CU-101667,Sarah Rodriguez,Consumer,San Diego,CA,South
+CU-101668,Michael Jones,Home Office,Austin,TX,South
+CU-101669,Emma Davis,Home Office,San Francisco,CA,Central
+CU-101670,Linda Smith,Consumer,Charlotte,NC,Central
+CU-101671,Elizabeth Garcia,Corporate,San Antonio,TX,West
+CU-101672,Jennifer Martinez,Home Office,Indianapolis,IN,Central
+CU-101673,David Anderson,Corporate,Charlotte,NC,South
+CU-101674,Patricia Gonzalez,Corporate,Columbus,OH,West
+CU-101675,Mary Lopez,Home Office,San Antonio,TX,East
+CU-101676,David Williams,Consumer,San Francisco,CA,West
+CU-101677,Emma Gonzalez,Corporate,San Francisco,CA,South
+CU-101678,Jennifer Brown,Home Office,San Jose,CA,East
+CU-101679,Patricia Anderson,Corporate,New York,NY,Central
+CU-101680,Lisa Wilson,Home Office,Philadelphia,PA,East
+CU-101681,James Miller,Consumer,Chicago,IL,West
+CU-101682,Jennifer Davis,Corporate,Houston,TX,Central
+CU-101683,Sarah Gonzalez,Home Office,Jacksonville,FL,Central
+CU-101684,Emma Lopez,Consumer,Phoenix,AZ,South
+CU-101685,Emma Johnson,Home Office,Charlotte,NC,East
+CU-101686,Sarah Rodriguez,Consumer,Seattle,WA,West
+CU-101687,Robert Anderson,Corporate,Houston,TX,West
+CU-101688,Joseph Gonzalez,Home Office,San Jose,CA,South
+CU-101689,David Hernandez,Corporate,Houston,TX,Central
+CU-101690,Emma Wilson,Consumer,Phoenix,AZ,South
+CU-101691,John Brown,Corporate,Columbus,OH,Central
+CU-101692,Lisa Johnson,Corporate,San Jose,CA,Central
+CU-101693,Patricia Hernandez,Home Office,Columbus,OH,West
+CU-101694,Linda Gonzalez,Consumer,Phoenix,AZ,West
+CU-101695,Linda Anderson,Corporate,Columbus,OH,South
+CU-101696,Patricia Smith,Corporate,Indianapolis,IN,West
+CU-101697,Michael Johnson,Corporate,New York,NY,Central
+CU-101698,Lisa Miller,Consumer,Fort Worth,TX,South
+CU-101699,David Anderson,Home Office,Los Angeles,CA,East
+CU-101700,Mary Miller,Corporate,Indianapolis,IN,Central
+CU-101701,Patricia Smith,Corporate,Austin,TX,West
+CU-101702,Joseph Hernandez,Consumer,Fort Worth,TX,South
+CU-101703,Richard Gonzalez,Consumer,Jacksonville,FL,Central
+CU-101704,Sarah Rodriguez,Corporate,Chicago,IL,South
+CU-101705,Mary Brown,Consumer,Phoenix,AZ,Central
+CU-101706,James Gonzalez,Home Office,Indianapolis,IN,West
+CU-101707,John Anderson,Home Office,New York,NY,Central
+CU-101708,Mary Lopez,Corporate,San Diego,CA,East
+CU-101709,Patricia Jones,Home Office,Los Angeles,CA,Central
+CU-101710,Sarah Gonzalez,Home Office,Houston,TX,East
+CU-101711,Mary Martinez,Home Office,Charlotte,NC,East
+CU-101712,James Brown,Home Office,Charlotte,NC,West
+CU-101713,Mary Jones,Home Office,Jacksonville,FL,West
+CU-101714,Jennifer Johnson,Corporate,Fort Worth,TX,West
+CU-101715,Joseph Johnson,Consumer,Jacksonville,FL,South
+CU-101716,Michael Johnson,Consumer,Columbus,OH,South
+CU-101717,Elizabeth Brown,Corporate,Phoenix,AZ,East
+CU-101718,Richard Martinez,Home Office,Jacksonville,FL,South
+CU-101719,Elizabeth Hernandez,Corporate,Dallas,TX,South
+CU-101720,Linda Wilson,Consumer,San Francisco,CA,West
+CU-101721,David Davis,Home Office,Indianapolis,IN,South
+CU-101722,Emma Lopez,Consumer,Phoenix,AZ,South
+CU-101723,Sarah Lopez,Consumer,San Francisco,CA,Central
+CU-101724,Linda Johnson,Consumer,Houston,TX,Central
+CU-101725,Sarah Rodriguez,Consumer,San Jose,CA,East
+CU-101726,Mary Garcia,Corporate,Jacksonville,FL,Central
+CU-101727,John Gonzalez,Consumer,San Francisco,CA,West
+CU-101728,Sarah Anderson,Corporate,Columbus,OH,Central
+CU-101729,Lisa Wilson,Home Office,San Antonio,TX,South
+CU-101730,Emma Rodriguez,Corporate,New York,NY,East
+CU-101731,Linda Davis,Home Office,Los Angeles,CA,Central
+CU-101732,James Gonzalez,Corporate,Charlotte,NC,South
+CU-101733,David Rodriguez,Home Office,Phoenix,AZ,South
+CU-101734,Joseph Williams,Home Office,Charlotte,NC,Central
+CU-101735,Linda Miller,Consumer,Chicago,IL,South
+CU-101736,Sarah Hernandez,Corporate,Austin,TX,Central
+CU-101737,Lisa Lopez,Consumer,Chicago,IL,Central
+CU-101738,Emma Hernandez,Home Office,Seattle,WA,East
+CU-101739,Sarah Martinez,Home Office,San Antonio,TX,West
+CU-101740,John Johnson,Home Office,San Francisco,CA,West
+CU-101741,William Gonzalez,Consumer,New York,NY,West
+CU-101742,Michael Gonzalez,Home Office,Charlotte,NC,Central
+CU-101743,Sarah Davis,Consumer,Fort Worth,TX,Central
+CU-101744,Lisa Miller,Consumer,Columbus,OH,Central
+CU-101745,William Johnson,Consumer,Fort Worth,TX,East
+CU-101746,Lisa Jones,Consumer,Seattle,WA,West
+CU-101747,Michael Williams,Corporate,Dallas,TX,South
+CU-101748,Sarah Martinez,Corporate,Philadelphia,PA,West
+CU-101749,Sarah Jones,Corporate,New York,NY,East
+CU-101750,David Miller,Corporate,Austin,TX,Central
+CU-101751,Emma Smith,Consumer,Fort Worth,TX,West
+CU-101752,Elizabeth Rodriguez,Home Office,San Diego,CA,South
+CU-101753,William Smith,Corporate,Houston,TX,South
+CU-101754,Linda Johnson,Corporate,Seattle,WA,East
+CU-101755,Jennifer Anderson,Consumer,Columbus,OH,Central
+CU-101756,Emma Brown,Home Office,Seattle,WA,West
+CU-101757,Linda Davis,Consumer,San Jose,CA,West
+CU-101758,Patricia Rodriguez,Consumer,Phoenix,AZ,West
+CU-101759,Linda Anderson,Home Office,Seattle,WA,South
+CU-101760,John Wilson,Corporate,Los Angeles,CA,Central
+CU-101761,John Smith,Corporate,Philadelphia,PA,Central
+CU-101762,Richard Garcia,Home Office,Dallas,TX,West
+CU-101763,Mary Smith,Consumer,Indianapolis,IN,East
+CU-101764,Michael Miller,Home Office,San Jose,CA,East
+CU-101765,William Anderson,Corporate,Phoenix,AZ,West
+CU-101766,James Anderson,Home Office,Indianapolis,IN,Central
+CU-101767,Joseph Jones,Consumer,Dallas,TX,Central
+CU-101768,Robert Davis,Home Office,Austin,TX,Central
+CU-101769,David Hernandez,Consumer,New York,NY,South
+CU-101770,John Hernandez,Consumer,New York,NY,South
+CU-101771,Elizabeth Gonzalez,Corporate,Seattle,WA,East
+CU-101772,John Anderson,Home Office,Chicago,IL,South
+CU-101773,Patricia Wilson,Corporate,Houston,TX,Central
+CU-101774,Lisa Wilson,Home Office,Fort Worth,TX,East
+CU-101775,Joseph Garcia,Consumer,Houston,TX,South
+CU-101776,Jennifer Lopez,Consumer,New York,NY,Central
+CU-101777,Robert Johnson,Home Office,Jacksonville,FL,Central
+CU-101778,Jennifer Davis,Corporate,San Diego,CA,East
+CU-101779,Elizabeth Anderson,Home Office,Dallas,TX,West
+CU-101780,Robert Wilson,Home Office,New York,NY,South
+CU-101781,William Martinez,Home Office,Houston,TX,South
+CU-101782,Robert Hernandez,Home Office,Philadelphia,PA,West
+CU-101783,David Lopez,Consumer,Chicago,IL,West
+CU-101784,Jennifer Anderson,Home Office,Dallas,TX,Central
+CU-101785,John Lopez,Home Office,San Antonio,TX,Central
+CU-101786,Joseph Smith,Corporate,Seattle,WA,East
+CU-101787,Linda Wilson,Corporate,Austin,TX,Central
+CU-101788,Joseph Davis,Corporate,Houston,TX,East
+CU-101789,Sarah Jones,Corporate,San Diego,CA,South
+CU-101790,John Miller,Consumer,Austin,TX,Central
+CU-101791,John Lopez,Consumer,Chicago,IL,South
+CU-101792,Jennifer Brown,Consumer,Chicago,IL,Central
+CU-101793,Michael Hernandez,Home Office,San Jose,CA,East
+CU-101794,Elizabeth Miller,Consumer,New York,NY,Central
+CU-101795,Jennifer Johnson,Corporate,Dallas,TX,West
+CU-101796,Sarah Wilson,Corporate,Austin,TX,West
+CU-101797,Joseph Gonzalez,Consumer,Chicago,IL,South
+CU-101798,Michael Smith,Consumer,Houston,TX,South
+CU-101799,Michael Gonzalez,Consumer,Austin,TX,East
+CU-101800,Sarah Jones,Home Office,Charlotte,NC,South
+CU-101801,Emma Hernandez,Consumer,Chicago,IL,East
+CU-101802,Richard Miller,Consumer,San Jose,CA,South
+CU-101803,John Davis,Corporate,San Diego,CA,South
+CU-101804,Emma Garcia,Home Office,Columbus,OH,East
+CU-101805,James Martinez,Consumer,Charlotte,NC,East
+CU-101806,John Martinez,Home Office,Houston,TX,East
+CU-101807,David Hernandez,Home Office,San Antonio,TX,Central
+CU-101808,Linda Davis,Home Office,Jacksonville,FL,South
+CU-101809,Jennifer Williams,Consumer,Philadelphia,PA,East
+CU-101810,Mary Martinez,Corporate,Phoenix,AZ,Central
+CU-101811,David Williams,Corporate,San Jose,CA,Central
+CU-101812,Mary Garcia,Consumer,Austin,TX,West
+CU-101813,Jennifer Rodriguez,Home Office,Los Angeles,CA,East
+CU-101814,Patricia Brown,Consumer,Columbus,OH,West
+CU-101815,James Brown,Home Office,Chicago,IL,South
+CU-101816,James Wilson,Home Office,Charlotte,NC,Central
+CU-101817,Linda Garcia,Consumer,San Jose,CA,East
+CU-101818,Sarah Davis,Consumer,Charlotte,NC,East
+CU-101819,Jennifer Davis,Home Office,San Diego,CA,West
+CU-101820,Elizabeth Lopez,Corporate,San Diego,CA,South
+CU-101821,Richard Williams,Consumer,San Antonio,TX,Central
+CU-101822,Michael Garcia,Consumer,New York,NY,East
+CU-101823,Mary Davis,Consumer,Phoenix,AZ,Central
+CU-101824,John Brown,Consumer,Los Angeles,CA,Central
+CU-101825,Jennifer Anderson,Corporate,Philadelphia,PA,West
+CU-101826,Jennifer Williams,Consumer,Austin,TX,East
+CU-101827,William Anderson,Consumer,Philadelphia,PA,East
+CU-101828,Richard Hernandez,Consumer,Phoenix,AZ,Central
+CU-101829,Mary Davis,Consumer,San Antonio,TX,Central
+CU-101830,Lisa Rodriguez,Home Office,Jacksonville,FL,South
+CU-101831,Emma Williams,Consumer,Chicago,IL,West
+CU-101832,Richard Lopez,Corporate,San Antonio,TX,Central
+CU-101833,Jennifer Anderson,Consumer,Columbus,OH,West
+CU-101834,Mary Gonzalez,Consumer,Seattle,WA,Central
+CU-101835,Sarah Hernandez,Corporate,San Diego,CA,West
+CU-101836,Elizabeth Brown,Home Office,Indianapolis,IN,East
+CU-101837,Michael Williams,Home Office,San Francisco,CA,South
+CU-101838,Patricia Davis,Home Office,Indianapolis,IN,South
+CU-101839,James Lopez,Corporate,Philadelphia,PA,South
+CU-101840,Elizabeth Jones,Home Office,San Francisco,CA,South
+CU-101841,Robert Brown,Consumer,Los Angeles,CA,South
+CU-101842,Richard Brown,Corporate,San Diego,CA,South
+CU-101843,Lisa Anderson,Corporate,Fort Worth,TX,Central
+CU-101844,Michael Williams,Consumer,Seattle,WA,Central
+CU-101845,Patricia Brown,Home Office,Charlotte,NC,East
+CU-101846,James Miller,Corporate,Charlotte,NC,South
+CU-101847,Linda Garcia,Corporate,Columbus,OH,Central
+CU-101848,Richard Smith,Consumer,Dallas,TX,South
+CU-101849,William Hernandez,Consumer,San Diego,CA,Central
+CU-101850,Mary Wilson,Home Office,Chicago,IL,East
+CU-101851,Jennifer Johnson,Consumer,Dallas,TX,East
+CU-101852,Sarah Rodriguez,Consumer,Jacksonville,FL,Central
+CU-101853,James Jones,Corporate,San Antonio,TX,Central
+CU-101854,David Wilson,Home Office,San Antonio,TX,Central
+CU-101855,Mary Jones,Corporate,New York,NY,South
+CU-101856,John Davis,Home Office,Fort Worth,TX,West
+CU-101857,Jennifer Brown,Home Office,Fort Worth,TX,West
+CU-101858,Jennifer Rodriguez,Home Office,San Francisco,CA,South
+CU-101859,James Gonzalez,Consumer,Charlotte,NC,Central
+CU-101860,Linda Gonzalez,Home Office,San Antonio,TX,South
+CU-101861,Joseph Davis,Home Office,San Antonio,TX,East
+CU-101862,David Martinez,Consumer,Jacksonville,FL,Central
+CU-101863,Elizabeth Gonzalez,Home Office,New York,NY,Central
+CU-101864,Jennifer Miller,Corporate,Austin,TX,South
+CU-101865,Mary Garcia,Home Office,Seattle,WA,East
+CU-101866,David Williams,Corporate,Los Angeles,CA,South
+CU-101867,Robert Miller,Consumer,Fort Worth,TX,South
+CU-101868,Elizabeth Johnson,Corporate,San Antonio,TX,South
+CU-101869,Michael Williams,Consumer,San Jose,CA,West
+CU-101870,Elizabeth Smith,Consumer,Los Angeles,CA,West
+CU-101871,Richard Jones,Consumer,Chicago,IL,West
+CU-101872,Michael Davis,Consumer,San Jose,CA,Central
+CU-101873,John Williams,Corporate,Indianapolis,IN,South
+CU-101874,Lisa Johnson,Consumer,Fort Worth,TX,South
+CU-101875,Michael Miller,Consumer,San Francisco,CA,West
+CU-101876,Mary Miller,Home Office,San Antonio,TX,South
+CU-101877,Mary Martinez,Consumer,Philadelphia,PA,South
+CU-101878,Robert Smith,Consumer,Dallas,TX,South
+CU-101879,Richard Martinez,Consumer,Chicago,IL,Central
+CU-101880,Joseph Davis,Home Office,San Francisco,CA,East
+CU-101881,Mary Hernandez,Corporate,Chicago,IL,Central
+CU-101882,Richard Martinez,Consumer,San Jose,CA,South
+CU-101883,Lisa Anderson,Home Office,San Diego,CA,South
+CU-101884,Richard Anderson,Home Office,Charlotte,NC,West
+CU-101885,Richard Lopez,Consumer,Houston,TX,West
+CU-101886,William Anderson,Home Office,Philadelphia,PA,Central
+CU-101887,Robert Anderson,Corporate,Chicago,IL,South
+CU-101888,Emma Garcia,Consumer,Seattle,WA,East
+CU-101889,James Miller,Corporate,Indianapolis,IN,West
+CU-101890,Robert Rodriguez,Consumer,Dallas,TX,South
+CU-101891,Michael Hernandez,Home Office,New York,NY,South
+CU-101892,James Lopez,Corporate,Fort Worth,TX,West
+CU-101893,Sarah Smith,Corporate,Fort Worth,TX,East
+CU-101894,James Hernandez,Home Office,Phoenix,AZ,South
+CU-101895,Joseph Johnson,Consumer,San Francisco,CA,West
+CU-101896,David Davis,Corporate,Charlotte,NC,West
+CU-101897,John Martinez,Consumer,Philadelphia,PA,West
+CU-101898,Emma Rodriguez,Home Office,San Jose,CA,South
+CU-101899,Michael Hernandez,Consumer,Philadelphia,PA,Central
+CU-101900,Joseph Garcia,Consumer,Phoenix,AZ,West
+CU-101901,Robert Davis,Home Office,Los Angeles,CA,East
+CU-101902,Emma Miller,Home Office,Indianapolis,IN,Central
+CU-101903,Sarah Martinez,Consumer,Charlotte,NC,East
+CU-101904,Robert Anderson,Consumer,Fort Worth,TX,Central
+CU-101905,Robert Johnson,Consumer,San Diego,CA,South
+CU-101906,John Garcia,Consumer,New York,NY,East
+CU-101907,Emma Gonzalez,Home Office,San Diego,CA,West
+CU-101908,Sarah Miller,Home Office,Philadelphia,PA,East
+CU-101909,James Rodriguez,Home Office,Austin,TX,West
+CU-101910,Richard Miller,Consumer,San Antonio,TX,West
+CU-101911,Emma Garcia,Corporate,San Antonio,TX,West
+CU-101912,Richard Hernandez,Corporate,New York,NY,East
+CU-101913,Robert Davis,Consumer,Fort Worth,TX,East
+CU-101914,Patricia Smith,Consumer,Dallas,TX,West
+CU-101915,Mary Gonzalez,Home Office,Columbus,OH,South
+CU-101916,Lisa Jones,Consumer,Houston,TX,Central
+CU-101917,David Garcia,Consumer,Fort Worth,TX,Central
+CU-101918,Michael Garcia,Consumer,San Francisco,CA,South
+CU-101919,Jennifer Rodriguez,Home Office,Fort Worth,TX,East
+CU-101920,John Martinez,Consumer,San Diego,CA,Central
+CU-101921,Linda Gonzalez,Consumer,San Diego,CA,East
+CU-101922,David Garcia,Corporate,Los Angeles,CA,Central
+CU-101923,David Miller,Consumer,San Antonio,TX,East
+CU-101924,Joseph Lopez,Corporate,San Diego,CA,West
+CU-101925,James Hernandez,Consumer,Dallas,TX,South
+CU-101926,John Brown,Home Office,San Jose,CA,Central
+CU-101927,Jennifer Brown,Home Office,Austin,TX,East
+CU-101928,Jennifer Martinez,Corporate,San Diego,CA,Central
+CU-101929,Joseph Hernandez,Consumer,Philadelphia,PA,East
+CU-101930,Michael Brown,Consumer,San Francisco,CA,West
+CU-101931,David Johnson,Consumer,San Antonio,TX,West
+CU-101932,Michael Miller,Home Office,San Diego,CA,South
+CU-101933,Lisa Lopez,Consumer,San Jose,CA,West
+CU-101934,Lisa Martinez,Consumer,Columbus,OH,Central
+CU-101935,Joseph Hernandez,Consumer,San Jose,CA,Central
+CU-101936,Michael Garcia,Corporate,San Francisco,CA,South
+CU-101937,Elizabeth Davis,Corporate,Philadelphia,PA,South
+CU-101938,Elizabeth Smith,Corporate,Phoenix,AZ,South
+CU-101939,Mary Martinez,Home Office,Chicago,IL,West
+CU-101940,Lisa Jones,Corporate,Seattle,WA,South
+CU-101941,Joseph Jones,Corporate,San Jose,CA,South
+CU-101942,James Williams,Home Office,Chicago,IL,South
+CU-101943,David Anderson,Consumer,San Antonio,TX,East
+CU-101944,Patricia Davis,Corporate,New York,NY,South
+CU-101945,Patricia Miller,Corporate,Fort Worth,TX,Central
+CU-101946,Linda Anderson,Consumer,Chicago,IL,East
+CU-101947,Lisa Brown,Corporate,Fort Worth,TX,Central
+CU-101948,Elizabeth Hernandez,Home Office,Jacksonville,FL,Central
+CU-101949,Richard Anderson,Corporate,Los Angeles,CA,West
+CU-101950,Elizabeth Smith,Corporate,San Diego,CA,East
+CU-101951,William Martinez,Corporate,Phoenix,AZ,West
+CU-101952,Jennifer Martinez,Home Office,Dallas,TX,West
+CU-101953,Emma Gonzalez,Consumer,New York,NY,South
+CU-101954,Michael Rodriguez,Consumer,Fort Worth,TX,South
+CU-101955,Linda Jones,Home Office,Philadelphia,PA,Central
+CU-101956,Richard Martinez,Corporate,Indianapolis,IN,South
+CU-101957,Emma Hernandez,Home Office,Chicago,IL,Central
+CU-101958,William Lopez,Consumer,Phoenix,AZ,South
+CU-101959,John Williams,Corporate,San Jose,CA,East
+CU-101960,Michael Gonzalez,Home Office,Houston,TX,South
+CU-101961,Linda Hernandez,Corporate,Indianapolis,IN,South
+CU-101962,Lisa Garcia,Consumer,Philadelphia,PA,West
+CU-101963,Elizabeth Williams,Home Office,San Antonio,TX,East
+CU-101964,Robert Williams,Consumer,Charlotte,NC,East
+CU-101965,Robert Jones,Corporate,Philadelphia,PA,South
+CU-101966,Lisa Johnson,Corporate,Houston,TX,East
+CU-101967,Emma Jones,Consumer,Fort Worth,TX,Central
+CU-101968,Jennifer Davis,Corporate,New York,NY,East
+CU-101969,Sarah Jones,Consumer,New York,NY,East
+CU-101970,Robert Rodriguez,Consumer,Houston,TX,South
+CU-101971,William Anderson,Corporate,Indianapolis,IN,South
+CU-101972,Linda Garcia,Corporate,Austin,TX,Central
+CU-101973,Jennifer Garcia,Home Office,Austin,TX,South
+CU-101974,Sarah Garcia,Corporate,Fort Worth,TX,East
+CU-101975,Joseph Wilson,Home Office,New York,NY,South
+CU-101976,John Martinez,Consumer,Phoenix,AZ,Central
+CU-101977,Patricia Davis,Home Office,San Diego,CA,South
+CU-101978,Linda Hernandez,Consumer,Indianapolis,IN,East
+CU-101979,John Hernandez,Corporate,Austin,TX,East
+CU-101980,Joseph Brown,Home Office,Austin,TX,South
+CU-101981,Michael Garcia,Corporate,Fort Worth,TX,South
+CU-101982,Richard Jones,Home Office,Houston,TX,West
+CU-101983,Sarah Williams,Corporate,Phoenix,AZ,East
+CU-101984,Joseph Williams,Corporate,San Jose,CA,East
+CU-101985,Jennifer Brown,Consumer,San Francisco,CA,West
+CU-101986,Emma Miller,Home Office,Chicago,IL,East
+CU-101987,James Anderson,Corporate,Philadelphia,PA,Central
+CU-101988,William Hernandez,Corporate,San Diego,CA,East
+CU-101989,Elizabeth Johnson,Home Office,Phoenix,AZ,Central
+CU-101990,Michael Hernandez,Corporate,San Diego,CA,South
+CU-101991,Linda Gonzalez,Consumer,Fort Worth,TX,West
+CU-101992,Emma Jones,Consumer,Dallas,TX,East
+CU-101993,James Lopez,Home Office,Chicago,IL,West
+CU-101994,Patricia Williams,Corporate,Houston,TX,South
+CU-101995,Mary Smith,Home Office,New York,NY,West
+CU-101996,Linda Garcia,Corporate,Fort Worth,TX,West
+CU-101997,Jennifer Johnson,Corporate,Indianapolis,IN,East
+CU-101998,Joseph Garcia,Consumer,Seattle,WA,Central
+CU-101999,Elizabeth Hernandez,Corporate,San Diego,CA,West
+CU-102000,David Lopez,Home Office,San Jose,CA,East
+CU-102001,Mary Rodriguez,Home Office,Austin,TX,East
+CU-102002,Elizabeth Hernandez,Consumer,Dallas,TX,South
+CU-102003,Richard Smith,Corporate,San Jose,CA,West
+CU-102004,Jennifer Lopez,Home Office,San Antonio,TX,East
+CU-102005,Elizabeth Lopez,Corporate,Philadelphia,PA,Central
+CU-102006,John Rodriguez,Corporate,Philadelphia,PA,Central
+CU-102007,Elizabeth Garcia,Corporate,Columbus,OH,South
+CU-102008,Mary Jones,Home Office,Chicago,IL,West
+CU-102009,Richard Johnson,Consumer,Seattle,WA,Central
+CU-102010,Mary Davis,Home Office,Los Angeles,CA,West
+CU-102011,Joseph Lopez,Corporate,Phoenix,AZ,Central
+CU-102012,Robert Brown,Home Office,Phoenix,AZ,West
+CU-102013,Patricia Lopez,Home Office,New York,NY,East
+CU-102014,Richard Miller,Home Office,Phoenix,AZ,West
+CU-102015,Emma Garcia,Corporate,Los Angeles,CA,West
+CU-102016,Emma Rodriguez,Home Office,Los Angeles,CA,Central
+CU-102017,David Hernandez,Home Office,Columbus,OH,South
+CU-102018,Sarah Johnson,Consumer,San Diego,CA,South
+CU-102019,Mary Lopez,Home Office,San Francisco,CA,West
+CU-102020,Michael Gonzalez,Corporate,Fort Worth,TX,South
+CU-102021,Joseph Garcia,Consumer,Dallas,TX,East
+CU-102022,Michael Johnson,Corporate,Houston,TX,West
+CU-102023,Elizabeth Jones,Home Office,New York,NY,East
+CU-102024,Richard Davis,Home Office,Philadelphia,PA,South
+CU-102025,David Johnson,Corporate,San Jose,CA,East
+CU-102026,Lisa Miller,Home Office,Seattle,WA,East
+CU-102027,Elizabeth Johnson,Home Office,Fort Worth,TX,East
+CU-102028,Emma Williams,Home Office,San Antonio,TX,West
+CU-102029,Joseph Gonzalez,Corporate,New York,NY,East
+CU-102030,David Martinez,Consumer,Los Angeles,CA,West
+CU-102031,William Wilson,Consumer,Chicago,IL,East
+CU-102032,Mary Garcia,Home Office,Houston,TX,West
+CU-102033,John Brown,Corporate,Columbus,OH,East
+CU-102034,Mary Hernandez,Home Office,Indianapolis,IN,South
+CU-102035,Elizabeth Lopez,Corporate,Phoenix,AZ,Central
+CU-102036,Robert Lopez,Consumer,Seattle,WA,East
+CU-102037,Sarah Brown,Consumer,San Diego,CA,Central
+CU-102038,David Martinez,Home Office,San Antonio,TX,West
+CU-102039,William Williams,Home Office,Jacksonville,FL,South
+CU-102040,William Jones,Corporate,Chicago,IL,West
+CU-102041,Joseph Johnson,Corporate,Fort Worth,TX,South
+CU-102042,Robert Johnson,Home Office,Phoenix,AZ,Central
+CU-102043,Patricia Martinez,Home Office,San Antonio,TX,West
+CU-102044,David Garcia,Corporate,Columbus,OH,South
+CU-102045,Jennifer Johnson,Corporate,New York,NY,East
+CU-102046,Emma Hernandez,Home Office,Seattle,WA,South
+CU-102047,James Hernandez,Consumer,Chicago,IL,Central
+CU-102048,William Williams,Consumer,Austin,TX,Central
+CU-102049,Emma Miller,Consumer,New York,NY,South
+CU-102050,Emma Williams,Home Office,Houston,TX,Central
+CU-102051,Emma Rodriguez,Corporate,San Francisco,CA,Central
+CU-102052,William Martinez,Consumer,Seattle,WA,East
+CU-102053,James Gonzalez,Corporate,Philadelphia,PA,West
+CU-102054,Richard Davis,Home Office,Jacksonville,FL,West
+CU-102055,John Hernandez,Home Office,Dallas,TX,West
+CU-102056,David Miller,Home Office,Phoenix,AZ,Central
+CU-102057,Patricia Lopez,Consumer,Los Angeles,CA,South
+CU-102058,Lisa Davis,Corporate,Charlotte,NC,South
+CU-102059,Mary Jones,Corporate,Indianapolis,IN,West
+CU-102060,Michael Jones,Corporate,San Jose,CA,Central
+CU-102061,Michael Johnson,Home Office,Chicago,IL,West
+CU-102062,Lisa Martinez,Consumer,Chicago,IL,East
+CU-102063,Elizabeth Gonzalez,Consumer,San Jose,CA,South
+CU-102064,David Davis,Corporate,Indianapolis,IN,East
+CU-102065,John Martinez,Consumer,Fort Worth,TX,East
+CU-102066,Patricia Brown,Home Office,Columbus,OH,East
+CU-102067,Lisa Hernandez,Home Office,Charlotte,NC,West
+CU-102068,Michael Garcia,Consumer,Philadelphia,PA,Central
+CU-102069,Linda Davis,Corporate,Los Angeles,CA,West
+CU-102070,Emma Garcia,Home Office,Jacksonville,FL,West
+CU-102071,Emma Jones,Corporate,Seattle,WA,South
+CU-102072,William Brown,Consumer,San Jose,CA,South
+CU-102073,Mary Anderson,Home Office,San Antonio,TX,East
+CU-102074,Elizabeth Smith,Corporate,Charlotte,NC,East
+CU-102075,James Jones,Corporate,Charlotte,NC,East
+CU-102076,Patricia Anderson,Home Office,New York,NY,West
+CU-102077,Patricia Smith,Consumer,Fort Worth,TX,South
+CU-102078,Robert Johnson,Home Office,San Francisco,CA,West
+CU-102079,Emma Anderson,Corporate,Columbus,OH,East
+CU-102080,William Brown,Corporate,Phoenix,AZ,South
+CU-102081,Mary Garcia,Corporate,Jacksonville,FL,West
+CU-102082,William Johnson,Corporate,Seattle,WA,South
+CU-102083,David Garcia,Home Office,Philadelphia,PA,South
+CU-102084,Patricia Anderson,Home Office,New York,NY,West
+CU-102085,Robert Jones,Consumer,Houston,TX,West
+CU-102086,Linda Lopez,Corporate,Fort Worth,TX,East
+CU-102087,Robert Davis,Home Office,Philadelphia,PA,Central
+CU-102088,Linda Davis,Home Office,Houston,TX,South
+CU-102089,James Gonzalez,Corporate,Phoenix,AZ,South
+CU-102090,Emma Johnson,Consumer,Phoenix,AZ,West
+CU-102091,Patricia Rodriguez,Consumer,Phoenix,AZ,West
+CU-102092,James Miller,Home Office,Los Angeles,CA,East
+CU-102093,Elizabeth Jones,Corporate,Columbus,OH,South
+CU-102094,Linda Brown,Home Office,Chicago,IL,West
+CU-102095,Lisa Brown,Corporate,Indianapolis,IN,East
+CU-102096,Jennifer Hernandez,Corporate,Dallas,TX,West
+CU-102097,Emma Lopez,Home Office,San Francisco,CA,West
+CU-102098,David Brown,Consumer,San Antonio,TX,West
+CU-102099,Sarah Jones,Consumer,Fort Worth,TX,West
+CU-102100,John Martinez,Consumer,Columbus,OH,East
+CU-102101,Richard Miller,Home Office,Los Angeles,CA,Central
+CU-102102,Jennifer Garcia,Corporate,San Diego,CA,South
+CU-102103,Linda Hernandez,Consumer,Los Angeles,CA,Central
+CU-102104,William Garcia,Corporate,Houston,TX,Central
+CU-102105,Jennifer Garcia,Consumer,Columbus,OH,West
+CU-102106,John Smith,Home Office,Los Angeles,CA,Central
+CU-102107,Mary Davis,Corporate,San Antonio,TX,East
+CU-102108,Lisa Jones,Corporate,Columbus,OH,Central
+CU-102109,Mary Johnson,Consumer,Austin,TX,East
+CU-102110,David Garcia,Corporate,Seattle,WA,Central
+CU-102111,Patricia Brown,Home Office,Indianapolis,IN,Central
+CU-102112,Richard Johnson,Consumer,San Antonio,TX,West
+CU-102113,Sarah Martinez,Home Office,Houston,TX,West
+CU-102114,Joseph Anderson,Consumer,San Antonio,TX,East
+CU-102115,James Jones,Home Office,Seattle,WA,South
+CU-102116,David Smith,Consumer,San Antonio,TX,West
+CU-102117,William Anderson,Home Office,Columbus,OH,Central
+CU-102118,Joseph Hernandez,Home Office,Jacksonville,FL,East
+CU-102119,Michael Davis,Corporate,Columbus,OH,East
+CU-102120,William Lopez,Consumer,Philadelphia,PA,Central
+CU-102121,Sarah Gonzalez,Home Office,Los Angeles,CA,West
+CU-102122,Elizabeth Hernandez,Home Office,Fort Worth,TX,East
+CU-102123,Joseph Gonzalez,Home Office,Philadelphia,PA,South
+CU-102124,Richard Miller,Home Office,Seattle,WA,Central
+CU-102125,Lisa Smith,Consumer,San Antonio,TX,West
+CU-102126,Joseph Rodriguez,Home Office,New York,NY,Central
+CU-102127,Jennifer Jones,Home Office,San Jose,CA,Central
+CU-102128,Emma Williams,Consumer,Seattle,WA,East
+CU-102129,Jennifer Jones,Consumer,Seattle,WA,West
+CU-102130,David Jones,Consumer,Dallas,TX,West
+CU-102131,Emma Smith,Home Office,San Antonio,TX,Central
+CU-102132,James Johnson,Home Office,Jacksonville,FL,Central
+CU-102133,Linda Anderson,Home Office,Phoenix,AZ,Central
+CU-102134,Sarah Hernandez,Consumer,Austin,TX,Central
+CU-102135,William Williams,Corporate,San Diego,CA,East
+CU-102136,Emma Lopez,Home Office,Seattle,WA,South
+CU-102137,Robert Wilson,Corporate,Dallas,TX,West
+CU-102138,William Brown,Home Office,Austin,TX,South
+CU-102139,Joseph Brown,Home Office,Phoenix,AZ,South
+CU-102140,David Anderson,Corporate,Jacksonville,FL,East
+CU-102141,Lisa Davis,Consumer,San Francisco,CA,West
+CU-102142,Elizabeth Lopez,Consumer,San Antonio,TX,Central
+CU-102143,Mary Williams,Consumer,New York,NY,South
+CU-102144,Michael Williams,Consumer,San Antonio,TX,South
+CU-102145,Joseph Anderson,Home Office,San Diego,CA,South
+CU-102146,David Lopez,Consumer,Houston,TX,East
+CU-102147,Richard Smith,Consumer,Fort Worth,TX,East
+CU-102148,David Brown,Consumer,Los Angeles,CA,Central
+CU-102149,John Gonzalez,Consumer,Phoenix,AZ,East
+CU-102150,James Wilson,Home Office,Seattle,WA,East
+CU-102151,David Davis,Home Office,San Antonio,TX,South
+CU-102152,Mary Garcia,Corporate,Philadelphia,PA,West
+CU-102153,Sarah Rodriguez,Home Office,San Diego,CA,Central
+CU-102154,Emma Smith,Consumer,Seattle,WA,East
+CU-102155,Mary Johnson,Home Office,Seattle,WA,South
+CU-102156,John Anderson,Consumer,Phoenix,AZ,East
+CU-102157,Linda Miller,Consumer,San Diego,CA,Central
+CU-102158,Jennifer Anderson,Home Office,San Jose,CA,South
+CU-102159,Elizabeth Williams,Consumer,Houston,TX,West
+CU-102160,Mary Garcia,Consumer,Houston,TX,Central
+CU-102161,Patricia Anderson,Consumer,Houston,TX,East
+CU-102162,Lisa Miller,Home Office,Phoenix,AZ,Central
+CU-102163,Linda Williams,Home Office,Philadelphia,PA,Central
+CU-102164,Patricia Anderson,Consumer,San Jose,CA,Central
+CU-102165,Patricia Anderson,Corporate,San Francisco,CA,East
+CU-102166,David Gonzalez,Home Office,New York,NY,West
+CU-102167,David Miller,Corporate,Austin,TX,South
+CU-102168,Emma Martinez,Corporate,Chicago,IL,Central
+CU-102169,Michael Garcia,Consumer,Phoenix,AZ,West
+CU-102170,Patricia Garcia,Corporate,Fort Worth,TX,South
+CU-102171,Linda Martinez,Home Office,San Francisco,CA,Central
+CU-102172,Jennifer Miller,Corporate,Phoenix,AZ,South
+CU-102173,Elizabeth Rodriguez,Home Office,Seattle,WA,West
+CU-102174,Michael Martinez,Home Office,Fort Worth,TX,South
+CU-102175,Jennifer Lopez,Consumer,Indianapolis,IN,West
+CU-102176,John Brown,Consumer,Jacksonville,FL,Central
+CU-102177,Elizabeth Williams,Consumer,Seattle,WA,East
+CU-102178,Patricia Wilson,Consumer,Jacksonville,FL,Central
+CU-102179,David Wilson,Home Office,Charlotte,NC,South
+CU-102180,Robert Wilson,Consumer,San Diego,CA,East
+CU-102181,Emma Lopez,Home Office,Phoenix,AZ,West
+CU-102182,John Lopez,Corporate,Fort Worth,TX,Central
+CU-102183,Emma Hernandez,Home Office,Los Angeles,CA,East
+CU-102184,Lisa Smith,Consumer,San Francisco,CA,Central
+CU-102185,Michael Brown,Consumer,Phoenix,AZ,East
+CU-102186,David Gonzalez,Consumer,Columbus,OH,South
+CU-102187,Mary Davis,Corporate,Phoenix,AZ,Central
+CU-102188,John Jones,Consumer,Charlotte,NC,West
+CU-102189,Sarah Martinez,Consumer,Los Angeles,CA,West
+CU-102190,Richard Wilson,Corporate,New York,NY,South
+CU-102191,William Anderson,Home Office,Seattle,WA,Central
+CU-102192,Linda Anderson,Consumer,San Diego,CA,Central
+CU-102193,Richard Williams,Home Office,Chicago,IL,West
+CU-102194,Sarah Brown,Corporate,Fort Worth,TX,West
+CU-102195,Michael Wilson,Home Office,Seattle,WA,South
+CU-102196,James Hernandez,Home Office,San Francisco,CA,South
+CU-102197,Lisa Smith,Corporate,Fort Worth,TX,South
+CU-102198,William Johnson,Consumer,San Antonio,TX,East
+CU-102199,James Smith,Consumer,Jacksonville,FL,Central
+CU-102200,Emma Johnson,Consumer,Philadelphia,PA,East
+CU-102201,Robert Rodriguez,Consumer,San Jose,CA,East
+CU-102202,William Johnson,Home Office,San Diego,CA,East
+CU-102203,Sarah Smith,Corporate,San Francisco,CA,East
+CU-102204,John Garcia,Corporate,San Jose,CA,South
+CU-102205,Robert Garcia,Corporate,Indianapolis,IN,Central
+CU-102206,Emma Garcia,Corporate,Phoenix,AZ,East
+CU-102207,David Smith,Home Office,Indianapolis,IN,South
+CU-102208,Sarah Jones,Consumer,San Francisco,CA,West
+CU-102209,Michael Anderson,Home Office,Charlotte,NC,East
+CU-102210,Robert Gonzalez,Home Office,San Diego,CA,West
+CU-102211,James Davis,Consumer,Philadelphia,PA,Central
+CU-102212,Patricia Martinez,Corporate,San Jose,CA,East
+CU-102213,Jennifer Brown,Home Office,Fort Worth,TX,East
+CU-102214,Elizabeth Johnson,Consumer,Phoenix,AZ,West
+CU-102215,Michael Davis,Consumer,San Jose,CA,South
+CU-102216,Lisa Anderson,Corporate,Austin,TX,West
+CU-102217,William Martinez,Corporate,Chicago,IL,Central
+CU-102218,Michael Williams,Home Office,Chicago,IL,South
+CU-102219,Elizabeth Jones,Corporate,Dallas,TX,West
+CU-102220,Elizabeth Smith,Corporate,Houston,TX,Central
+CU-102221,Linda Wilson,Home Office,Fort Worth,TX,West
+CU-102222,Patricia Rodriguez,Home Office,Charlotte,NC,Central
+CU-102223,Michael Hernandez,Corporate,Jacksonville,FL,South
+CU-102224,Sarah Martinez,Home Office,Dallas,TX,East
+CU-102225,John Williams,Consumer,San Diego,CA,Central
+CU-102226,Lisa Martinez,Corporate,Fort Worth,TX,East
+CU-102227,Richard Wilson,Corporate,San Diego,CA,East
+CU-102228,Joseph Davis,Home Office,Jacksonville,FL,South
+CU-102229,Michael Williams,Home Office,Houston,TX,East
+CU-102230,Linda Brown,Corporate,Fort Worth,TX,Central
+CU-102231,James Garcia,Home Office,Chicago,IL,South
+CU-102232,Elizabeth Johnson,Corporate,San Antonio,TX,South
+CU-102233,David Davis,Consumer,Los Angeles,CA,West
+CU-102234,Sarah Martinez,Corporate,Austin,TX,East
+CU-102235,Linda Davis,Consumer,Jacksonville,FL,East
+CU-102236,John Gonzalez,Home Office,San Antonio,TX,South
+CU-102237,William Hernandez,Consumer,Dallas,TX,East
+CU-102238,Michael Jones,Corporate,Phoenix,AZ,East
+CU-102239,Joseph Wilson,Corporate,San Jose,CA,West
+CU-102240,Lisa Wilson,Consumer,Dallas,TX,East
+CU-102241,James Gonzalez,Corporate,Columbus,OH,West
+CU-102242,Patricia Miller,Corporate,San Antonio,TX,South
+CU-102243,Lisa Lopez,Corporate,Seattle,WA,Central
+CU-102244,John Rodriguez,Home Office,Fort Worth,TX,West
+CU-102245,David Garcia,Home Office,Chicago,IL,Central
+CU-102246,David Anderson,Corporate,New York,NY,West
+CU-102247,James Johnson,Home Office,San Francisco,CA,South
+CU-102248,John Davis,Consumer,Dallas,TX,South
+CU-102249,Sarah Brown,Home Office,Houston,TX,West
+CU-102250,Lisa Martinez,Corporate,Columbus,OH,West
+CU-102251,Robert Brown,Home Office,Jacksonville,FL,East
+CU-102252,Patricia Smith,Corporate,Jacksonville,FL,Central
+CU-102253,Emma Lopez,Corporate,Indianapolis,IN,South
+CU-102254,Linda Garcia,Corporate,Columbus,OH,South
+CU-102255,James Johnson,Consumer,Indianapolis,IN,South
+CU-102256,Patricia Williams,Home Office,Columbus,OH,West
+CU-102257,Linda Miller,Corporate,Seattle,WA,South
+CU-102258,Emma Johnson,Consumer,San Jose,CA,East
+CU-102259,Linda Johnson,Corporate,New York,NY,East
+CU-102260,Sarah Hernandez,Corporate,Charlotte,NC,South
+CU-102261,Jennifer Gonzalez,Corporate,San Antonio,TX,South
+CU-102262,Robert Wilson,Corporate,Houston,TX,East
+CU-102263,Joseph Miller,Home Office,Jacksonville,FL,South
+CU-102264,Patricia Gonzalez,Consumer,New York,NY,Central
+CU-102265,William Jones,Corporate,Dallas,TX,West
+CU-102266,Linda Smith,Consumer,New York,NY,East
+CU-102267,Patricia Wilson,Home Office,Phoenix,AZ,Central
+CU-102268,Lisa Martinez,Corporate,Austin,TX,West
+CU-102269,Richard Brown,Home Office,Seattle,WA,South
+CU-102270,Linda Williams,Home Office,Los Angeles,CA,South
+CU-102271,Richard Anderson,Corporate,Philadelphia,PA,West
+CU-102272,Jennifer Johnson,Home Office,Columbus,OH,West
+CU-102273,Emma Hernandez,Home Office,Indianapolis,IN,South
+CU-102274,Lisa Garcia,Consumer,Dallas,TX,East
+CU-102275,John Miller,Consumer,Chicago,IL,West
+CU-102276,Michael Martinez,Corporate,New York,NY,East
+CU-102277,Joseph Hernandez,Home Office,Phoenix,AZ,Central
+CU-102278,Jennifer Hernandez,Consumer,Philadelphia,PA,Central
+CU-102279,Jennifer Lopez,Corporate,San Antonio,TX,Central
+CU-102280,William Johnson,Consumer,Los Angeles,CA,East
+CU-102281,Emma Davis,Home Office,Houston,TX,East
+CU-102282,David Jones,Corporate,Houston,TX,West
+CU-102283,Michael Davis,Corporate,Chicago,IL,West
+CU-102284,Emma Davis,Consumer,Fort Worth,TX,South
+CU-102285,Elizabeth Hernandez,Consumer,Chicago,IL,West
+CU-102286,Richard Anderson,Corporate,Columbus,OH,South
+CU-102287,Lisa Jones,Consumer,Philadelphia,PA,West
+CU-102288,Emma Garcia,Corporate,Los Angeles,CA,South
+CU-102289,John Williams,Home Office,Seattle,WA,Central
+CU-102290,Robert Martinez,Consumer,Houston,TX,East
+CU-102291,David Brown,Corporate,Indianapolis,IN,East
+CU-102292,John Garcia,Consumer,San Antonio,TX,West
+CU-102293,David Jones,Corporate,Chicago,IL,South
+CU-102294,Michael Garcia,Home Office,San Antonio,TX,Central
+CU-102295,Elizabeth Miller,Home Office,Charlotte,NC,South
+CU-102296,William Williams,Consumer,San Antonio,TX,Central
+CU-102297,Emma Martinez,Home Office,Fort Worth,TX,Central
+CU-102298,Robert Lopez,Corporate,Philadelphia,PA,South
+CU-102299,Linda Martinez,Home Office,Charlotte,NC,Central
+CU-102300,Emma Martinez,Corporate,Austin,TX,South
+CU-102301,Patricia Garcia,Home Office,San Antonio,TX,East
+CU-102302,Lisa Anderson,Consumer,Charlotte,NC,Central
+CU-102303,Mary Martinez,Home Office,Columbus,OH,Central
+CU-102304,John Johnson,Consumer,Fort Worth,TX,Central
+CU-102305,Lisa Garcia,Consumer,Columbus,OH,East
+CU-102306,Patricia Garcia,Consumer,San Antonio,TX,Central
+CU-102307,John Garcia,Home Office,Houston,TX,East
+CU-102308,Robert Davis,Home Office,Austin,TX,Central
+CU-102309,Michael Miller,Corporate,San Diego,CA,West
+CU-102310,Robert Johnson,Home Office,Indianapolis,IN,Central
+CU-102311,Linda Hernandez,Corporate,Chicago,IL,Central
+CU-102312,Robert Brown,Consumer,Austin,TX,South
+CU-102313,Sarah Jones,Corporate,San Francisco,CA,East
+CU-102314,Joseph Williams,Home Office,Houston,TX,Central
+CU-102315,Jennifer Martinez,Consumer,Fort Worth,TX,Central
+CU-102316,John Anderson,Corporate,New York,NY,Central
+CU-102317,Richard Smith,Home Office,Phoenix,AZ,East
+CU-102318,John Johnson,Corporate,Austin,TX,East
+CU-102319,Mary Jones,Corporate,Columbus,OH,Central
+CU-102320,Michael Rodriguez,Corporate,Fort Worth,TX,South
+CU-102321,Richard Jones,Home Office,Los Angeles,CA,South
+CU-102322,Emma Wilson,Corporate,San Francisco,CA,East
+CU-102323,Jennifer Smith,Consumer,New York,NY,West
+CU-102324,James Wilson,Home Office,Houston,TX,South
+CU-102325,Lisa Johnson,Consumer,San Diego,CA,Central
+CU-102326,John Anderson,Home Office,Seattle,WA,East
+CU-102327,Sarah Johnson,Consumer,Dallas,TX,Central
+CU-102328,William Garcia,Home Office,Chicago,IL,South
+CU-102329,Lisa Anderson,Consumer,Dallas,TX,South
+CU-102330,David Garcia,Consumer,Houston,TX,South
+CU-102331,Emma Rodriguez,Home Office,Charlotte,NC,West
+CU-102332,Elizabeth Jones,Corporate,San Francisco,CA,South
+CU-102333,Michael Jones,Corporate,San Diego,CA,East
+CU-102334,Jennifer Hernandez,Home Office,Jacksonville,FL,West
+CU-102335,Michael Davis,Consumer,Chicago,IL,West
+CU-102336,Robert Davis,Corporate,New York,NY,West
+CU-102337,Emma Garcia,Consumer,San Francisco,CA,Central
+CU-102338,Joseph Hernandez,Consumer,San Jose,CA,East
+CU-102339,Jennifer Anderson,Corporate,Phoenix,AZ,South
+CU-102340,Robert Gonzalez,Corporate,Charlotte,NC,West
+CU-102341,William Miller,Consumer,Chicago,IL,Central
+CU-102342,David Davis,Consumer,Houston,TX,East
+CU-102343,John Anderson,Corporate,San Diego,CA,West
+CU-102344,John Davis,Home Office,Dallas,TX,South
+CU-102345,William Johnson,Home Office,Jacksonville,FL,East
+CU-102346,Linda Brown,Consumer,Jacksonville,FL,South
+CU-102347,Linda Rodriguez,Corporate,Indianapolis,IN,East
+CU-102348,William Garcia,Consumer,Charlotte,NC,East
+CU-102349,Linda Brown,Corporate,Fort Worth,TX,West
+CU-102350,Lisa Martinez,Corporate,Fort Worth,TX,South
+CU-102351,Linda Johnson,Home Office,Indianapolis,IN,East
+CU-102352,Emma Brown,Consumer,San Diego,CA,East
+CU-102353,William Brown,Consumer,Los Angeles,CA,East
+CU-102354,Jennifer Anderson,Home Office,Dallas,TX,South
+CU-102355,Richard Johnson,Consumer,Fort Worth,TX,Central
+CU-102356,Robert Williams,Consumer,San Francisco,CA,Central
+CU-102357,Mary Lopez,Consumer,San Jose,CA,East
+CU-102358,Elizabeth Lopez,Corporate,Philadelphia,PA,West
+CU-102359,James Hernandez,Consumer,Philadelphia,PA,West
+CU-102360,James Anderson,Corporate,Philadelphia,PA,West
+CU-102361,Elizabeth Miller,Corporate,New York,NY,East
+CU-102362,William Anderson,Consumer,Philadelphia,PA,West
+CU-102363,Patricia Davis,Home Office,New York,NY,East
+CU-102364,Jennifer Davis,Consumer,San Francisco,CA,East
+CU-102365,Mary Wilson,Consumer,New York,NY,West
+CU-102366,Emma Johnson,Corporate,Phoenix,AZ,Central
+CU-102367,Elizabeth Lopez,Corporate,Charlotte,NC,Central
+CU-102368,William Garcia,Corporate,San Francisco,CA,East
+CU-102369,Mary Lopez,Corporate,Jacksonville,FL,South
+CU-102370,William Hernandez,Home Office,Houston,TX,East
+CU-102371,Linda Wilson,Consumer,Phoenix,AZ,West
+CU-102372,Elizabeth Smith,Consumer,Jacksonville,FL,South
+CU-102373,Robert Lopez,Consumer,Jacksonville,FL,West
+CU-102374,Emma Jones,Home Office,Fort Worth,TX,South
+CU-102375,Lisa Jones,Home Office,Indianapolis,IN,Central
+CU-102376,Richard Martinez,Corporate,Austin,TX,Central
+CU-102377,Robert Smith,Home Office,San Jose,CA,Central
+CU-102378,Linda Gonzalez,Corporate,Houston,TX,Central
+CU-102379,Emma Smith,Corporate,San Jose,CA,West
+CU-102380,David Rodriguez,Corporate,Charlotte,NC,West
+CU-102381,Elizabeth Jones,Consumer,San Jose,CA,Central
+CU-102382,Joseph Smith,Consumer,New York,NY,Central
+CU-102383,Sarah Davis,Corporate,Houston,TX,East
+CU-102384,Patricia Hernandez,Consumer,Columbus,OH,East
+CU-102385,David Garcia,Corporate,Dallas,TX,West
+CU-102386,William Williams,Home Office,Chicago,IL,West
+CU-102387,Michael Jones,Consumer,Columbus,OH,East
+CU-102388,Patricia Brown,Home Office,San Francisco,CA,South
+CU-102389,Richard Anderson,Consumer,Columbus,OH,Central
+CU-102390,Mary Williams,Home Office,San Jose,CA,South
+CU-102391,David Hernandez,Consumer,Austin,TX,Central
+CU-102392,Linda Rodriguez,Consumer,Phoenix,AZ,Central
+CU-102393,Michael Jones,Home Office,San Jose,CA,South
+CU-102394,Lisa Miller,Corporate,Seattle,WA,East
+CU-102395,Joseph Lopez,Corporate,Phoenix,AZ,Central
+CU-102396,Patricia Miller,Corporate,Charlotte,NC,South
+CU-102397,Joseph Smith,Home Office,Columbus,OH,East
+CU-102398,Michael Gonzalez,Consumer,Columbus,OH,Central
+CU-102399,Patricia Williams,Home Office,San Diego,CA,Central
+CU-102400,Richard Williams,Corporate,Los Angeles,CA,East
+CU-102401,Joseph Wilson,Consumer,Charlotte,NC,East
+CU-102402,William Wilson,Home Office,Los Angeles,CA,East
+CU-102403,Emma Wilson,Corporate,Austin,TX,South
+CU-102404,Sarah Johnson,Home Office,Austin,TX,East
+CU-102405,David Rodriguez,Home Office,San Antonio,TX,South
+CU-102406,Jennifer Anderson,Home Office,Phoenix,AZ,West
+CU-102407,Mary Lopez,Consumer,San Jose,CA,South
+CU-102408,Emma Johnson,Consumer,San Antonio,TX,West
+CU-102409,Emma Brown,Consumer,Houston,TX,East
+CU-102410,John Wilson,Home Office,San Francisco,CA,South
+CU-102411,Sarah Anderson,Consumer,Fort Worth,TX,Central
+CU-102412,Elizabeth Williams,Consumer,Fort Worth,TX,Central
+CU-102413,Emma Miller,Consumer,Charlotte,NC,East
+CU-102414,David Wilson,Home Office,Philadelphia,PA,West
+CU-102415,Robert Davis,Corporate,Philadelphia,PA,Central
+CU-102416,Emma Martinez,Corporate,San Jose,CA,Central
+CU-102417,Richard Miller,Home Office,Dallas,TX,East
+CU-102418,Linda Wilson,Corporate,Charlotte,NC,West
+CU-102419,Mary Davis,Consumer,New York,NY,South
+CU-102420,Mary Smith,Home Office,New York,NY,South
+CU-102421,Patricia Williams,Corporate,Los Angeles,CA,South
+CU-102422,John Williams,Corporate,Dallas,TX,West
+CU-102423,Richard Rodriguez,Consumer,Jacksonville,FL,West
+CU-102424,Patricia Hernandez,Home Office,Phoenix,AZ,Central
+CU-102425,David Jones,Home Office,Charlotte,NC,Central
+CU-102426,Michael Anderson,Home Office,Fort Worth,TX,South
+CU-102427,Elizabeth Martinez,Home Office,Fort Worth,TX,West
+CU-102428,William Williams,Home Office,Indianapolis,IN,Central
+CU-102429,Richard Johnson,Consumer,Jacksonville,FL,East
+CU-102430,Jennifer Johnson,Home Office,Philadelphia,PA,East
+CU-102431,Elizabeth Garcia,Consumer,San Francisco,CA,West
+CU-102432,Lisa Lopez,Corporate,Houston,TX,South
+CU-102433,Sarah Martinez,Corporate,Chicago,IL,East
+CU-102434,Michael Davis,Corporate,Los Angeles,CA,East
+CU-102435,James Johnson,Home Office,Philadelphia,PA,South
+CU-102436,David Hernandez,Home Office,Fort Worth,TX,West
+CU-102437,William Davis,Corporate,San Antonio,TX,Central
+CU-102438,Robert Lopez,Consumer,San Diego,CA,South
+CU-102439,Robert Johnson,Home Office,Indianapolis,IN,East
+CU-102440,Robert Smith,Consumer,Houston,TX,East
+CU-102441,Linda Martinez,Home Office,Jacksonville,FL,East
+CU-102442,Lisa Hernandez,Home Office,Austin,TX,South
+CU-102443,Robert Martinez,Corporate,San Antonio,TX,Central
+CU-102444,David Gonzalez,Consumer,Jacksonville,FL,South
+CU-102445,Richard Wilson,Consumer,Columbus,OH,East
+CU-102446,Mary Johnson,Consumer,Phoenix,AZ,South
+CU-102447,Sarah Martinez,Home Office,San Diego,CA,Central
+CU-102448,Jennifer Wilson,Corporate,New York,NY,Central
+CU-102449,Patricia Johnson,Consumer,Fort Worth,TX,Central
+CU-102450,Jennifer Wilson,Home Office,Chicago,IL,Central
+CU-102451,Sarah Rodriguez,Home Office,Fort Worth,TX,East
+CU-102452,William Hernandez,Consumer,San Francisco,CA,East
+CU-102453,Linda Jones,Consumer,Austin,TX,Central
+CU-102454,David Brown,Home Office,Los Angeles,CA,Central
+CU-102455,Jennifer Davis,Consumer,Los Angeles,CA,East
+CU-102456,Michael Miller,Home Office,Jacksonville,FL,East
+CU-102457,Elizabeth Williams,Corporate,Seattle,WA,East
+CU-102458,Sarah Davis,Home Office,Houston,TX,West
+CU-102459,Linda Davis,Corporate,Jacksonville,FL,West
+CU-102460,Sarah Smith,Consumer,New York,NY,South
+CU-102461,Elizabeth Smith,Corporate,New York,NY,South
+CU-102462,Linda Lopez,Corporate,Phoenix,AZ,West
+CU-102463,Joseph Johnson,Home Office,Houston,TX,Central
+CU-102464,Robert Garcia,Corporate,Jacksonville,FL,East
+CU-102465,Jennifer Johnson,Home Office,San Diego,CA,East
+CU-102466,Linda Lopez,Home Office,San Diego,CA,East
+CU-102467,Jennifer Wilson,Consumer,New York,NY,East
+CU-102468,David Davis,Consumer,Los Angeles,CA,Central
+CU-102469,James Garcia,Home Office,Los Angeles,CA,West
+CU-102470,David Martinez,Corporate,San Jose,CA,South
+CU-102471,Michael Johnson,Corporate,Houston,TX,West
+CU-102472,Patricia Anderson,Consumer,San Francisco,CA,South
+CU-102473,Patricia Gonzalez,Home Office,San Jose,CA,Central
+CU-102474,William Garcia,Home Office,San Diego,CA,East
+CU-102475,Patricia Anderson,Corporate,Los Angeles,CA,South
+CU-102476,Michael Brown,Consumer,Dallas,TX,West
+CU-102477,Robert Johnson,Corporate,San Jose,CA,West
+CU-102478,Jennifer Lopez,Corporate,Los Angeles,CA,South
+CU-102479,John Davis,Consumer,Houston,TX,Central
+CU-102480,Richard Jones,Consumer,Dallas,TX,East
+CU-102481,Richard Davis,Consumer,Dallas,TX,South
+CU-102482,Joseph Smith,Consumer,Fort Worth,TX,West
+CU-102483,Lisa Hernandez,Corporate,Fort Worth,TX,East
+CU-102484,Sarah Rodriguez,Corporate,San Jose,CA,East
+CU-102485,William Gonzalez,Home Office,Austin,TX,West
+CU-102486,James Lopez,Home Office,New York,NY,South
+CU-102487,Sarah Gonzalez,Consumer,Columbus,OH,South
+CU-102488,Joseph Miller,Home Office,San Jose,CA,Central
+CU-102489,Richard Davis,Home Office,Philadelphia,PA,West
+CU-102490,John Jones,Home Office,Phoenix,AZ,Central
+CU-102491,Jennifer Gonzalez,Home Office,Chicago,IL,Central
+CU-102492,Richard Smith,Home Office,Austin,TX,Central
+CU-102493,William Hernandez,Corporate,Jacksonville,FL,East
+CU-102494,Mary Martinez,Home Office,Houston,TX,Central
+CU-102495,Lisa Davis,Corporate,Dallas,TX,East
+CU-102496,John Davis,Consumer,Charlotte,NC,Central
+CU-102497,Robert Miller,Consumer,San Francisco,CA,East
+CU-102498,James Johnson,Corporate,Dallas,TX,West
+CU-102499,William Jones,Corporate,Dallas,TX,West
+CU-102500,Lisa Williams,Home Office,San Diego,CA,East
+CU-102501,Emma Hernandez,Consumer,San Diego,CA,West
+CU-102502,Joseph Martinez,Corporate,Indianapolis,IN,East
+CU-102503,Jennifer Smith,Home Office,Seattle,WA,Central
+CU-102504,John Hernandez,Corporate,Dallas,TX,East
+CU-102505,Patricia Johnson,Consumer,San Diego,CA,South
+CU-102506,Michael Brown,Consumer,Houston,TX,Central
+CU-102507,Linda Johnson,Home Office,Jacksonville,FL,South
+CU-102508,David Smith,Corporate,San Jose,CA,Central
+CU-102509,Linda Anderson,Home Office,Austin,TX,Central
+CU-102510,Mary Martinez,Consumer,San Francisco,CA,West
+CU-102511,Sarah Jones,Consumer,Jacksonville,FL,East
+CU-102512,Robert Gonzalez,Corporate,Houston,TX,Central
+CU-102513,Richard Wilson,Home Office,San Antonio,TX,East
+CU-102514,Richard Gonzalez,Home Office,Phoenix,AZ,East
+CU-102515,Jennifer Martinez,Home Office,Chicago,IL,South
+CU-102516,Emma Wilson,Home Office,Seattle,WA,East
+CU-102517,Joseph Garcia,Corporate,San Francisco,CA,West
+CU-102518,Jennifer Garcia,Consumer,San Jose,CA,Central
+CU-102519,Joseph Garcia,Home Office,San Diego,CA,East
+CU-102520,Joseph Lopez,Corporate,San Diego,CA,Central
+CU-102521,Patricia Rodriguez,Home Office,Chicago,IL,East
+CU-102522,Elizabeth Martinez,Consumer,Jacksonville,FL,South
+CU-102523,Jennifer Martinez,Consumer,Columbus,OH,West
+CU-102524,David Martinez,Corporate,Columbus,OH,Central
+CU-102525,James Johnson,Consumer,Austin,TX,South
+CU-102526,David Martinez,Corporate,Columbus,OH,West
+CU-102527,Joseph Smith,Consumer,Philadelphia,PA,East
+CU-102528,William Gonzalez,Home Office,Columbus,OH,South
+CU-102529,David Wilson,Consumer,Houston,TX,South
+CU-102530,Lisa Johnson,Consumer,New York,NY,South
+CU-102531,Patricia Williams,Corporate,Columbus,OH,West
+CU-102532,Emma Garcia,Corporate,San Jose,CA,East
+CU-102533,Michael Lopez,Corporate,Los Angeles,CA,South
+CU-102534,Joseph Lopez,Corporate,Columbus,OH,Central
+CU-102535,David Lopez,Consumer,San Francisco,CA,East
+CU-102536,John Martinez,Home Office,Phoenix,AZ,Central
+CU-102537,Richard Garcia,Corporate,Charlotte,NC,West
+CU-102538,William Gonzalez,Consumer,Indianapolis,IN,West
+CU-102539,Elizabeth Garcia,Consumer,San Jose,CA,South
+CU-102540,James Miller,Corporate,San Jose,CA,West
+CU-102541,Sarah Wilson,Home Office,Phoenix,AZ,West
+CU-102542,William Martinez,Home Office,Columbus,OH,Central
+CU-102543,Patricia Jones,Consumer,Houston,TX,East
+CU-102544,William Davis,Corporate,San Jose,CA,West
+CU-102545,Mary Anderson,Corporate,Philadelphia,PA,East
+CU-102546,William Williams,Consumer,San Diego,CA,West
+CU-102547,Lisa Smith,Home Office,Seattle,WA,East
+CU-102548,Robert Smith,Corporate,Seattle,WA,East
+CU-102549,Robert Jones,Home Office,Jacksonville,FL,South
+CU-102550,David Wilson,Corporate,Charlotte,NC,Central
+CU-102551,Emma Davis,Corporate,Houston,TX,South
+CU-102552,Michael Wilson,Consumer,Dallas,TX,Central
+CU-102553,Patricia Gonzalez,Consumer,Houston,TX,West
+CU-102554,James Williams,Home Office,Chicago,IL,Central
+CU-102555,Joseph Hernandez,Home Office,Dallas,TX,East
+CU-102556,Sarah Miller,Consumer,Austin,TX,Central
+CU-102557,Sarah Hernandez,Home Office,San Antonio,TX,East
+CU-102558,David Martinez,Corporate,San Diego,CA,West
+CU-102559,William Davis,Consumer,San Antonio,TX,South
+CU-102560,Elizabeth Jones,Consumer,Philadelphia,PA,West
+CU-102561,Robert Smith,Corporate,Chicago,IL,East
+CU-102562,Robert Lopez,Consumer,San Francisco,CA,East
+CU-102563,William Martinez,Corporate,Columbus,OH,West
+CU-102564,Elizabeth Rodriguez,Home Office,Jacksonville,FL,West
+CU-102565,Jennifer Anderson,Corporate,San Jose,CA,South
+CU-102566,Richard Martinez,Corporate,San Francisco,CA,South
+CU-102567,Emma Brown,Consumer,San Jose,CA,Central
+CU-102568,Joseph Garcia,Consumer,Columbus,OH,South
+CU-102569,Lisa Davis,Corporate,Houston,TX,East
+CU-102570,Richard Lopez,Consumer,Jacksonville,FL,South
+CU-102571,Linda Hernandez,Consumer,San Francisco,CA,East
+CU-102572,William Rodriguez,Consumer,San Jose,CA,South
+CU-102573,James Jones,Home Office,Los Angeles,CA,Central
+CU-102574,Richard Gonzalez,Corporate,Columbus,OH,South
+CU-102575,William Anderson,Consumer,Fort Worth,TX,Central
+CU-102576,Jennifer Garcia,Home Office,San Francisco,CA,East
+CU-102577,Joseph Miller,Consumer,San Jose,CA,West
+CU-102578,Robert Gonzalez,Home Office,Seattle,WA,East
+CU-102579,David Martinez,Home Office,Austin,TX,East
+CU-102580,Richard Johnson,Home Office,New York,NY,Central
+CU-102581,Michael Hernandez,Consumer,Jacksonville,FL,West
+CU-102582,Robert Williams,Home Office,Jacksonville,FL,South
+CU-102583,Mary Gonzalez,Consumer,San Diego,CA,Central
+CU-102584,Linda Brown,Home Office,Austin,TX,West
+CU-102585,Sarah Wilson,Consumer,New York,NY,East
+CU-102586,Richard Gonzalez,Corporate,Indianapolis,IN,East
+CU-102587,Mary Jones,Consumer,Philadelphia,PA,West
+CU-102588,Sarah Jones,Home Office,San Diego,CA,East
+CU-102589,Richard Williams,Home Office,Fort Worth,TX,Central
+CU-102590,Michael Johnson,Home Office,Chicago,IL,South
+CU-102591,John Lopez,Home Office,New York,NY,West
+CU-102592,Richard Brown,Home Office,Houston,TX,Central
+CU-102593,Linda Rodriguez,Home Office,Austin,TX,East
+CU-102594,William Davis,Consumer,San Jose,CA,East
+CU-102595,Elizabeth Miller,Corporate,Dallas,TX,South
+CU-102596,Jennifer Miller,Home Office,Chicago,IL,Central
+CU-102597,Mary Anderson,Home Office,San Francisco,CA,West
+CU-102598,John Davis,Home Office,Fort Worth,TX,South
+CU-102599,Emma Davis,Consumer,Jacksonville,FL,East
+CU-102600,Jennifer Davis,Corporate,Fort Worth,TX,South
+CU-102601,Mary Garcia,Consumer,Houston,TX,East
+CU-102602,Lisa Brown,Corporate,Houston,TX,West
+CU-102603,David Miller,Home Office,Chicago,IL,South
+CU-102604,Jennifer Smith,Corporate,Indianapolis,IN,Central
+CU-102605,Mary Lopez,Corporate,Columbus,OH,West
+CU-102606,James Lopez,Home Office,Los Angeles,CA,South
+CU-102607,William Lopez,Consumer,New York,NY,South
+CU-102608,Elizabeth Garcia,Home Office,Seattle,WA,West
+CU-102609,Joseph Lopez,Corporate,Austin,TX,East
+CU-102610,Linda Lopez,Consumer,Houston,TX,South
+CU-102611,John Williams,Home Office,Phoenix,AZ,East
+CU-102612,Robert Davis,Consumer,Philadelphia,PA,East
+CU-102613,Elizabeth Williams,Home Office,Columbus,OH,South
+CU-102614,Linda Miller,Consumer,Phoenix,AZ,Central
+CU-102615,Linda Jones,Home Office,Houston,TX,Central
+CU-102616,James Martinez,Corporate,Indianapolis,IN,West
+CU-102617,Mary Rodriguez,Home Office,Phoenix,AZ,West
+CU-102618,William Davis,Corporate,Jacksonville,FL,West
+CU-102619,David Williams,Home Office,Austin,TX,South
+CU-102620,James Miller,Consumer,New York,NY,West
+CU-102621,Michael Smith,Corporate,San Francisco,CA,West
+CU-102622,Emma Rodriguez,Corporate,San Antonio,TX,Central
+CU-102623,Sarah Martinez,Corporate,Houston,TX,West
+CU-102624,Patricia Hernandez,Home Office,Chicago,IL,West
+CU-102625,John Anderson,Consumer,Jacksonville,FL,Central
+CU-102626,Linda Martinez,Home Office,San Jose,CA,Central
+CU-102627,Richard Anderson,Corporate,Jacksonville,FL,West
+CU-102628,David Johnson,Home Office,Chicago,IL,West
+CU-102629,Lisa Jones,Home Office,Dallas,TX,East
+CU-102630,Richard Garcia,Home Office,Phoenix,AZ,Central
+CU-102631,Robert Williams,Consumer,San Francisco,CA,West
+CU-102632,Michael Anderson,Home Office,San Antonio,TX,West
+CU-102633,Lisa Davis,Consumer,Phoenix,AZ,Central
+CU-102634,Sarah Williams,Home Office,Chicago,IL,South
+CU-102635,Elizabeth Garcia,Corporate,Columbus,OH,East
+CU-102636,Richard Miller,Corporate,San Diego,CA,South
+CU-102637,Mary Wilson,Home Office,Jacksonville,FL,Central
+CU-102638,Michael Anderson,Home Office,Indianapolis,IN,West
+CU-102639,William Lopez,Consumer,Philadelphia,PA,South
+CU-102640,Joseph Davis,Home Office,Seattle,WA,Central
+CU-102641,Linda Hernandez,Corporate,Houston,TX,West
+CU-102642,Patricia Wilson,Corporate,New York,NY,Central
+CU-102643,Robert Martinez,Home Office,Columbus,OH,West
+CU-102644,Patricia Williams,Home Office,Fort Worth,TX,East
+CU-102645,Joseph Garcia,Home Office,San Antonio,TX,West
+CU-102646,Mary Garcia,Consumer,New York,NY,Central
+CU-102647,John Martinez,Corporate,Dallas,TX,East
+CU-102648,Elizabeth Miller,Consumer,Dallas,TX,Central
+CU-102649,Sarah Martinez,Consumer,Dallas,TX,South
+CU-102650,Elizabeth Williams,Corporate,Charlotte,NC,East
+CU-102651,Patricia Smith,Home Office,Los Angeles,CA,West
+CU-102652,David Johnson,Corporate,Philadelphia,PA,East
+CU-102653,Joseph Hernandez,Home Office,Los Angeles,CA,East
+CU-102654,Emma Wilson,Home Office,Austin,TX,Central
+CU-102655,John Garcia,Home Office,San Antonio,TX,Central
+CU-102656,Patricia Rodriguez,Consumer,Philadelphia,PA,South
+CU-102657,Sarah Johnson,Consumer,Columbus,OH,West
+CU-102658,Michael Williams,Corporate,Dallas,TX,East
+CU-102659,Robert Lopez,Home Office,Dallas,TX,South
+CU-102660,John Jones,Corporate,Philadelphia,PA,Central
+CU-102661,James Davis,Home Office,Houston,TX,East
+CU-102662,Michael Johnson,Consumer,Charlotte,NC,West
+CU-102663,Lisa Garcia,Home Office,Chicago,IL,East
+CU-102664,John Brown,Home Office,Philadelphia,PA,Central
+CU-102665,Michael Anderson,Home Office,Charlotte,NC,West
+CU-102666,Robert Lopez,Home Office,San Jose,CA,West
+CU-102667,Sarah Miller,Home Office,San Jose,CA,Central
+CU-102668,William Williams,Home Office,Philadelphia,PA,Central
+CU-102669,Jennifer Wilson,Consumer,Columbus,OH,Central
+CU-102670,Lisa Jones,Corporate,San Antonio,TX,South
+CU-102671,Michael Davis,Corporate,Dallas,TX,Central
+CU-102672,Joseph Wilson,Home Office,Jacksonville,FL,West
+CU-102673,Richard Williams,Home Office,Los Angeles,CA,West
+CU-102674,Patricia Hernandez,Home Office,Columbus,OH,Central
+CU-102675,James Lopez,Home Office,San Antonio,TX,Central
+CU-102676,Robert Jones,Consumer,Chicago,IL,South
+CU-102677,Sarah Anderson,Consumer,Dallas,TX,West
+CU-102678,David Davis,Home Office,San Francisco,CA,Central
+CU-102679,Richard Hernandez,Home Office,Jacksonville,FL,East
+CU-102680,Emma Hernandez,Corporate,Austin,TX,East
+CU-102681,Linda Davis,Corporate,Philadelphia,PA,Central
+CU-102682,Lisa Anderson,Corporate,Houston,TX,Central
+CU-102683,Joseph Rodriguez,Consumer,Philadelphia,PA,East
+CU-102684,Joseph Martinez,Home Office,Charlotte,NC,South
+CU-102685,Elizabeth Wilson,Consumer,Fort Worth,TX,Central
+CU-102686,James Davis,Home Office,Jacksonville,FL,South
+CU-102687,Sarah Anderson,Consumer,San Jose,CA,East
+CU-102688,Linda Gonzalez,Corporate,Columbus,OH,South
+CU-102689,Lisa Rodriguez,Consumer,New York,NY,Central
+CU-102690,Robert Martinez,Consumer,Indianapolis,IN,West
+CU-102691,Sarah Johnson,Corporate,Austin,TX,West
+CU-102692,Joseph Miller,Consumer,Jacksonville,FL,South
+CU-102693,David Brown,Consumer,New York,NY,Central
+CU-102694,Michael Williams,Consumer,San Jose,CA,West
+CU-102695,Michael Lopez,Consumer,Columbus,OH,West
+CU-102696,Patricia Smith,Corporate,Seattle,WA,West
+CU-102697,Emma Davis,Home Office,Jacksonville,FL,South
+CU-102698,Elizabeth Hernandez,Corporate,San Antonio,TX,South
+CU-102699,Emma Miller,Consumer,San Diego,CA,Central
+CU-102700,Richard Gonzalez,Corporate,Phoenix,AZ,Central
+CU-102701,Richard Rodriguez,Consumer,Columbus,OH,Central
+CU-102702,John Brown,Home Office,San Francisco,CA,West
+CU-102703,Patricia Garcia,Corporate,San Diego,CA,East
+CU-102704,Michael Hernandez,Consumer,Fort Worth,TX,West
+CU-102705,Robert Smith,Consumer,San Francisco,CA,Central
+CU-102706,Michael Garcia,Corporate,Columbus,OH,West
+CU-102707,David Jones,Corporate,Columbus,OH,South
+CU-102708,Sarah Jones,Corporate,San Francisco,CA,West
+CU-102709,Richard Hernandez,Home Office,Philadelphia,PA,East
+CU-102710,Michael Garcia,Home Office,Charlotte,NC,East
+CU-102711,John Williams,Corporate,Fort Worth,TX,West
+CU-102712,Richard Hernandez,Corporate,Indianapolis,IN,East
+CU-102713,Richard Miller,Consumer,San Francisco,CA,Central
+CU-102714,William Lopez,Home Office,Columbus,OH,East
+CU-102715,Patricia Gonzalez,Corporate,Charlotte,NC,Central
+CU-102716,Patricia Johnson,Consumer,Seattle,WA,South
+CU-102717,Richard Wilson,Home Office,Seattle,WA,East
+CU-102718,John Garcia,Home Office,Phoenix,AZ,Central
+CU-102719,Joseph Miller,Consumer,San Antonio,TX,South
+CU-102720,Sarah Johnson,Corporate,San Jose,CA,South
+CU-102721,Sarah Anderson,Home Office,Jacksonville,FL,Central
+CU-102722,Linda Garcia,Home Office,Dallas,TX,Central
+CU-102723,William Williams,Corporate,New York,NY,Central
+CU-102724,John Davis,Corporate,Columbus,OH,Central
+CU-102725,Emma Garcia,Home Office,Los Angeles,CA,East
+CU-102726,Richard Brown,Consumer,Seattle,WA,East
+CU-102727,Emma Williams,Home Office,Seattle,WA,West
+CU-102728,Linda Anderson,Corporate,San Francisco,CA,Central
+CU-102729,Jennifer Anderson,Home Office,Charlotte,NC,South
+CU-102730,Michael Garcia,Corporate,Los Angeles,CA,East
+CU-102731,Emma Miller,Home Office,Phoenix,AZ,East
+CU-102732,Mary Miller,Corporate,Austin,TX,East
+CU-102733,William Lopez,Home Office,Philadelphia,PA,East
+CU-102734,Emma Gonzalez,Consumer,Columbus,OH,Central
+CU-102735,Jennifer Lopez,Consumer,San Jose,CA,Central
+CU-102736,Robert Gonzalez,Corporate,San Francisco,CA,Central
+CU-102737,William Rodriguez,Home Office,Philadelphia,PA,East
+CU-102738,Lisa Hernandez,Corporate,Fort Worth,TX,Central
+CU-102739,Linda Brown,Consumer,New York,NY,South
+CU-102740,William Jones,Corporate,Phoenix,AZ,Central
+CU-102741,Jennifer Brown,Consumer,Houston,TX,Central
+CU-102742,Michael Martinez,Corporate,San Diego,CA,South
+CU-102743,James Rodriguez,Corporate,Columbus,OH,South
+CU-102744,John Garcia,Corporate,Seattle,WA,Central
+CU-102745,Joseph Williams,Corporate,Jacksonville,FL,South
+CU-102746,Lisa Hernandez,Corporate,San Antonio,TX,Central
+CU-102747,Sarah Hernandez,Home Office,Fort Worth,TX,East
+CU-102748,Patricia Johnson,Consumer,San Francisco,CA,Central
+CU-102749,Mary Gonzalez,Corporate,San Jose,CA,South
+CU-102750,John Williams,Home Office,Charlotte,NC,West
+CU-102751,Linda Miller,Consumer,Jacksonville,FL,Central
+CU-102752,Elizabeth Brown,Corporate,Seattle,WA,West
+CU-102753,Emma Johnson,Corporate,Fort Worth,TX,West
+CU-102754,Emma Martinez,Corporate,San Antonio,TX,West
+CU-102755,Richard Rodriguez,Corporate,Philadelphia,PA,Central
+CU-102756,Linda Anderson,Home Office,San Antonio,TX,Central
+CU-102757,Patricia Hernandez,Consumer,Austin,TX,Central
+CU-102758,Richard Brown,Corporate,Indianapolis,IN,South
+CU-102759,Mary Wilson,Corporate,Charlotte,NC,West
+CU-102760,Richard Jones,Consumer,Philadelphia,PA,Central
+CU-102761,Lisa Hernandez,Consumer,Charlotte,NC,South
+CU-102762,Linda Miller,Consumer,Columbus,OH,East
+CU-102763,David Martinez,Home Office,San Diego,CA,East
+CU-102764,John Garcia,Home Office,Columbus,OH,West
+CU-102765,Elizabeth Hernandez,Consumer,Philadelphia,PA,Central
+CU-102766,Richard Rodriguez,Home Office,New York,NY,West
+CU-102767,Joseph Garcia,Home Office,Philadelphia,PA,West
+CU-102768,Elizabeth Anderson,Home Office,Philadelphia,PA,West
+CU-102769,David Jones,Consumer,Austin,TX,East
+CU-102770,Joseph Davis,Consumer,San Antonio,TX,South
+CU-102771,Lisa Davis,Home Office,San Diego,CA,East
+CU-102772,Lisa Brown,Corporate,Austin,TX,East
+CU-102773,Sarah Hernandez,Home Office,New York,NY,South
+CU-102774,Elizabeth Wilson,Corporate,Indianapolis,IN,East
+CU-102775,William Anderson,Home Office,Columbus,OH,East
+CU-102776,John Davis,Corporate,Seattle,WA,East
+CU-102777,Richard Wilson,Home Office,San Jose,CA,East
+CU-102778,Richard Lopez,Home Office,Jacksonville,FL,South
+CU-102779,Emma Johnson,Consumer,Columbus,OH,Central
+CU-102780,Lisa Garcia,Corporate,Houston,TX,Central
+CU-102781,Jennifer Gonzalez,Corporate,Phoenix,AZ,West
+CU-102782,Emma Garcia,Home Office,Dallas,TX,East
+CU-102783,Elizabeth Gonzalez,Consumer,Charlotte,NC,Central
+CU-102784,Mary Lopez,Corporate,Austin,TX,Central
+CU-102785,William Martinez,Corporate,Charlotte,NC,East
+CU-102786,David Rodriguez,Corporate,Phoenix,AZ,East
+CU-102787,Patricia Martinez,Corporate,San Diego,CA,Central
+CU-102788,Lisa Martinez,Home Office,San Jose,CA,Central
+CU-102789,Joseph Hernandez,Corporate,San Francisco,CA,West
+CU-102790,David Martinez,Corporate,Phoenix,AZ,South
+CU-102791,Jennifer Smith,Consumer,Dallas,TX,Central
+CU-102792,John Jones,Corporate,Phoenix,AZ,South
+CU-102793,Lisa Garcia,Home Office,San Francisco,CA,West
+CU-102794,James Rodriguez,Corporate,Indianapolis,IN,South
+CU-102795,Lisa Wilson,Home Office,San Francisco,CA,South
+CU-102796,Elizabeth Anderson,Corporate,Philadelphia,PA,East
+CU-102797,James Brown,Corporate,Chicago,IL,West
+CU-102798,David Jones,Home Office,San Diego,CA,East
+CU-102799,Patricia Davis,Corporate,San Antonio,TX,East
+CU-102800,Jennifer Lopez,Consumer,Indianapolis,IN,Central
+CU-102801,Richard Hernandez,Consumer,Los Angeles,CA,Central
+CU-102802,Michael Jones,Home Office,Indianapolis,IN,East
+CU-102803,Joseph Martinez,Home Office,Los Angeles,CA,West
+CU-102804,William Gonzalez,Home Office,San Diego,CA,West
+CU-102805,Jennifer Lopez,Home Office,San Diego,CA,South
+CU-102806,Sarah Martinez,Corporate,Philadelphia,PA,Central
+CU-102807,Robert Lopez,Consumer,Chicago,IL,West
+CU-102808,Mary Smith,Consumer,Indianapolis,IN,West
+CU-102809,Elizabeth Davis,Consumer,San Diego,CA,East
+CU-102810,Michael Brown,Corporate,Austin,TX,East
+CU-102811,Michael Davis,Consumer,Charlotte,NC,East
+CU-102812,Robert Martinez,Corporate,Seattle,WA,Central
+CU-102813,Linda Wilson,Consumer,New York,NY,South
+CU-102814,Joseph Smith,Corporate,San Antonio,TX,South
+CU-102815,Elizabeth Hernandez,Consumer,Dallas,TX,Central
+CU-102816,Elizabeth Rodriguez,Corporate,Indianapolis,IN,Central
+CU-102817,Jennifer Garcia,Corporate,Dallas,TX,Central
+CU-102818,Emma Gonzalez,Consumer,Charlotte,NC,South
+CU-102819,James Anderson,Home Office,New York,NY,South
+CU-102820,Lisa Williams,Consumer,San Francisco,CA,South
+CU-102821,Emma Anderson,Corporate,San Jose,CA,Central
+CU-102822,Lisa Brown,Consumer,Seattle,WA,West
+CU-102823,Mary Rodriguez,Corporate,San Antonio,TX,Central
+CU-102824,Elizabeth Johnson,Home Office,Indianapolis,IN,Central
+CU-102825,David Garcia,Consumer,San Antonio,TX,West
+CU-102826,Lisa Wilson,Consumer,Fort Worth,TX,West
+CU-102827,Elizabeth Hernandez,Home Office,Austin,TX,South
+CU-102828,Jennifer Anderson,Corporate,Dallas,TX,South
+CU-102829,Patricia Williams,Corporate,San Jose,CA,Central
+CU-102830,James Davis,Corporate,Jacksonville,FL,South
+CU-102831,Linda Smith,Corporate,Fort Worth,TX,East
+CU-102832,Patricia Hernandez,Consumer,Columbus,OH,South
+CU-102833,John Wilson,Home Office,Dallas,TX,West
+CU-102834,William Jones,Corporate,San Antonio,TX,East
+CU-102835,Linda Gonzalez,Corporate,Austin,TX,Central
+CU-102836,Robert Gonzalez,Consumer,Seattle,WA,South
+CU-102837,Emma Johnson,Consumer,Dallas,TX,West
+CU-102838,Elizabeth Lopez,Home Office,Austin,TX,South
+CU-102839,Richard Lopez,Home Office,Los Angeles,CA,South
+CU-102840,William Martinez,Home Office,San Diego,CA,South
+CU-102841,Emma Smith,Home Office,Los Angeles,CA,Central
+CU-102842,Patricia Davis,Corporate,Dallas,TX,East
+CU-102843,David Anderson,Home Office,San Francisco,CA,East
+CU-102844,Linda Wilson,Consumer,Austin,TX,West
+CU-102845,Robert Rodriguez,Consumer,San Jose,CA,South
+CU-102846,James Martinez,Home Office,San Diego,CA,Central
+CU-102847,Mary Lopez,Consumer,Seattle,WA,West
+CU-102848,James Wilson,Corporate,Chicago,IL,South
+CU-102849,Lisa Garcia,Corporate,San Antonio,TX,West
+CU-102850,Patricia Garcia,Consumer,Charlotte,NC,Central
+CU-102851,John Williams,Consumer,Dallas,TX,South
+CU-102852,Richard Gonzalez,Corporate,Columbus,OH,East
+CU-102853,Sarah Anderson,Home Office,Indianapolis,IN,Central
+CU-102854,Linda Smith,Home Office,New York,NY,Central
+CU-102855,Elizabeth Jones,Home Office,Seattle,WA,Central
+CU-102856,Michael Martinez,Consumer,Chicago,IL,East
+CU-102857,Lisa Gonzalez,Home Office,Seattle,WA,East
+CU-102858,Robert Gonzalez,Consumer,Charlotte,NC,South
+CU-102859,Joseph Davis,Home Office,Dallas,TX,West
+CU-102860,Michael Williams,Home Office,Austin,TX,Central
+CU-102861,Linda Anderson,Consumer,Charlotte,NC,South
+CU-102862,John Martinez,Corporate,San Jose,CA,East
+CU-102863,Jennifer Garcia,Corporate,New York,NY,West
+CU-102864,Jennifer Martinez,Home Office,Dallas,TX,Central
+CU-102865,Joseph Hernandez,Home Office,Seattle,WA,West
+CU-102866,David Brown,Consumer,Jacksonville,FL,West
+CU-102867,Lisa Johnson,Consumer,San Jose,CA,East
+CU-102868,Patricia Johnson,Corporate,Phoenix,AZ,Central
+CU-102869,Robert Brown,Corporate,San Diego,CA,West
+CU-102870,William Brown,Consumer,Columbus,OH,Central
+CU-102871,David Anderson,Corporate,New York,NY,East
+CU-102872,John Davis,Home Office,Fort Worth,TX,West
+CU-102873,Sarah Davis,Corporate,Fort Worth,TX,South
+CU-102874,Robert Gonzalez,Corporate,San Antonio,TX,East
+CU-102875,Lisa Rodriguez,Home Office,Chicago,IL,East
+CU-102876,Robert Johnson,Corporate,Philadelphia,PA,Central
+CU-102877,Linda Brown,Consumer,Austin,TX,East
+CU-102878,Patricia Davis,Corporate,Indianapolis,IN,East
+CU-102879,John Smith,Corporate,Charlotte,NC,South
+CU-102880,Emma Garcia,Corporate,Fort Worth,TX,Central
+CU-102881,Linda Wilson,Home Office,Chicago,IL,Central
+CU-102882,Michael Hernandez,Home Office,San Diego,CA,South
+CU-102883,John Jones,Home Office,San Francisco,CA,Central
+CU-102884,David Wilson,Consumer,Los Angeles,CA,West
+CU-102885,David Rodriguez,Consumer,New York,NY,West
+CU-102886,Sarah Smith,Home Office,San Francisco,CA,West
+CU-102887,Patricia Martinez,Corporate,San Jose,CA,West
+CU-102888,Lisa Williams,Home Office,Columbus,OH,West
+CU-102889,Patricia Anderson,Consumer,Philadelphia,PA,West
+CU-102890,Elizabeth Brown,Corporate,New York,NY,South
+CU-102891,William Martinez,Corporate,Jacksonville,FL,East
+CU-102892,James Smith,Corporate,New York,NY,East
+CU-102893,Linda Smith,Home Office,Phoenix,AZ,South
+CU-102894,Lisa Williams,Consumer,Indianapolis,IN,East
+CU-102895,Jennifer Johnson,Corporate,Jacksonville,FL,East
+CU-102896,Elizabeth Davis,Corporate,Houston,TX,South
+CU-102897,John Jones,Corporate,Phoenix,AZ,South
+CU-102898,David Garcia,Home Office,Dallas,TX,Central
+CU-102899,Elizabeth Davis,Home Office,Houston,TX,West
+CU-102900,Jennifer Rodriguez,Consumer,Phoenix,AZ,West
+CU-102901,Michael Lopez,Consumer,San Diego,CA,South
+CU-102902,Emma Brown,Consumer,San Jose,CA,Central
+CU-102903,Mary Garcia,Home Office,Philadelphia,PA,South
+CU-102904,William Gonzalez,Consumer,Indianapolis,IN,Central
+CU-102905,Patricia Hernandez,Consumer,Columbus,OH,East
+CU-102906,Sarah Gonzalez,Consumer,Fort Worth,TX,West
+CU-102907,David Hernandez,Consumer,New York,NY,West
+CU-102908,Richard Garcia,Consumer,Philadelphia,PA,South
+CU-102909,Patricia Brown,Home Office,San Francisco,CA,South
+CU-102910,Robert Davis,Home Office,Charlotte,NC,Central
+CU-102911,Joseph Johnson,Home Office,Seattle,WA,Central
+CU-102912,James Garcia,Consumer,Indianapolis,IN,Central
+CU-102913,Elizabeth Gonzalez,Home Office,Austin,TX,South
+CU-102914,James Gonzalez,Home Office,Houston,TX,Central
+CU-102915,Patricia Miller,Home Office,Chicago,IL,East
+CU-102916,David Johnson,Consumer,Seattle,WA,South
+CU-102917,Emma Rodriguez,Home Office,Houston,TX,Central
+CU-102918,Patricia Jones,Corporate,Phoenix,AZ,South
+CU-102919,Michael Wilson,Home Office,Seattle,WA,West
+CU-102920,Robert Williams,Home Office,Fort Worth,TX,West
+CU-102921,Robert Lopez,Home Office,New York,NY,Central
+CU-102922,David Martinez,Home Office,Indianapolis,IN,East
+CU-102923,Patricia Rodriguez,Consumer,Seattle,WA,West
+CU-102924,Lisa Johnson,Home Office,Jacksonville,FL,West
+CU-102925,David Rodriguez,Home Office,San Diego,CA,South
+CU-102926,William Smith,Corporate,San Antonio,TX,Central
+CU-102927,Linda Anderson,Corporate,Fort Worth,TX,South
+CU-102928,David Lopez,Corporate,Austin,TX,East
+CU-102929,William Lopez,Home Office,Chicago,IL,Central
+CU-102930,Michael Smith,Corporate,San Antonio,TX,West
+CU-102931,Elizabeth Wilson,Consumer,Phoenix,AZ,West
+CU-102932,Lisa Hernandez,Corporate,Fort Worth,TX,South
+CU-102933,Jennifer Wilson,Corporate,San Antonio,TX,East
+CU-102934,William Williams,Corporate,San Diego,CA,East
+CU-102935,Robert Davis,Consumer,Phoenix,AZ,Central
+CU-102936,John Hernandez,Consumer,Austin,TX,Central
+CU-102937,Emma Gonzalez,Home Office,Indianapolis,IN,South
+CU-102938,Joseph Jones,Consumer,San Diego,CA,South
+CU-102939,Michael Anderson,Home Office,Phoenix,AZ,Central
+CU-102940,Sarah Miller,Corporate,Dallas,TX,East
+CU-102941,Linda Martinez,Consumer,Charlotte,NC,South
+CU-102942,Jennifer Rodriguez,Consumer,San Jose,CA,East
+CU-102943,Jennifer Wilson,Home Office,Jacksonville,FL,South
+CU-102944,Linda Smith,Home Office,Columbus,OH,East
+CU-102945,William Anderson,Corporate,Dallas,TX,Central
+CU-102946,William Garcia,Consumer,Columbus,OH,East
+CU-102947,Elizabeth Brown,Home Office,Houston,TX,South
+CU-102948,Linda Hernandez,Corporate,San Diego,CA,East
+CU-102949,Richard Martinez,Home Office,San Francisco,CA,South
+CU-102950,Emma Martinez,Home Office,Los Angeles,CA,East
+CU-102951,Emma Gonzalez,Consumer,Houston,TX,Central
+CU-102952,Richard Lopez,Home Office,Columbus,OH,East
+CU-102953,Joseph Wilson,Corporate,Jacksonville,FL,East
+CU-102954,Linda Hernandez,Consumer,Fort Worth,TX,West
+CU-102955,John Hernandez,Corporate,Philadelphia,PA,East
+CU-102956,Linda Gonzalez,Consumer,San Jose,CA,South
+CU-102957,Patricia Wilson,Home Office,Dallas,TX,Central
+CU-102958,Jennifer Jones,Corporate,Jacksonville,FL,East
+CU-102959,Joseph Lopez,Home Office,Austin,TX,Central
+CU-102960,Robert Rodriguez,Home Office,Philadelphia,PA,Central
+CU-102961,Patricia Gonzalez,Consumer,Fort Worth,TX,South
+CU-102962,James Garcia,Home Office,Chicago,IL,West
+CU-102963,Mary Johnson,Home Office,Austin,TX,East
+CU-102964,James Martinez,Corporate,Fort Worth,TX,West
+CU-102965,Robert Jones,Home Office,Fort Worth,TX,South
+CU-102966,James Gonzalez,Corporate,Jacksonville,FL,Central
+CU-102967,Lisa Garcia,Consumer,Philadelphia,PA,East
+CU-102968,Mary Anderson,Home Office,San Antonio,TX,Central
+CU-102969,Lisa Miller,Home Office,Seattle,WA,East
+CU-102970,Michael Johnson,Home Office,San Antonio,TX,South
+CU-102971,David Lopez,Corporate,Dallas,TX,Central
+CU-102972,David Anderson,Corporate,Fort Worth,TX,East
+CU-102973,Michael Garcia,Consumer,San Jose,CA,South
+CU-102974,Jennifer Rodriguez,Consumer,Los Angeles,CA,Central
+CU-102975,Elizabeth Brown,Home Office,New York,NY,West
+CU-102976,Jennifer Davis,Home Office,San Diego,CA,West
+CU-102977,John Jones,Consumer,Phoenix,AZ,East
+CU-102978,Joseph Miller,Home Office,San Francisco,CA,West
+CU-102979,Lisa Wilson,Home Office,Columbus,OH,South
+CU-102980,William Lopez,Corporate,Fort Worth,TX,Central
+CU-102981,Patricia Garcia,Consumer,Columbus,OH,Central
+CU-102982,Patricia Johnson,Home Office,Seattle,WA,West
+CU-102983,Jennifer Gonzalez,Home Office,Austin,TX,West
+CU-102984,Elizabeth Rodriguez,Corporate,Houston,TX,East
+CU-102985,Patricia Lopez,Home Office,San Diego,CA,West
+CU-102986,William Martinez,Consumer,Charlotte,NC,South
+CU-102987,Elizabeth Martinez,Corporate,Charlotte,NC,East
+CU-102988,John Rodriguez,Corporate,Philadelphia,PA,East
+CU-102989,Elizabeth Wilson,Home Office,Jacksonville,FL,West
+CU-102990,Patricia Johnson,Home Office,Chicago,IL,Central
+CU-102991,John Lopez,Home Office,Dallas,TX,South
+CU-102992,David Miller,Consumer,Columbus,OH,South
+CU-102993,Mary Garcia,Consumer,San Jose,CA,South
+CU-102994,James Wilson,Consumer,Phoenix,AZ,East
+CU-102995,Emma Gonzalez,Consumer,Jacksonville,FL,East
+CU-102996,Linda Lopez,Consumer,Indianapolis,IN,West
+CU-102997,Lisa Wilson,Consumer,San Diego,CA,East
+CU-102998,Emma Garcia,Consumer,San Francisco,CA,East
+CU-102999,Richard Gonzalez,Corporate,Fort Worth,TX,South

@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>国内外大模型与AI Agent多维度对比分析报告 (2026) — 20模型·6基准·Agent评测</title>
+<meta name="description" content="20款国内外主流大模型多维度对比分析报告：覆盖MMLU-Pro、HumanEval、AIME等6大基准，7款模型Agent能力评测，开源vs闭源对比，API性价比分析。数据来源：Kaggle LLM Benchmark Wars + LMSYS + SWE-Bench + AgentBench。">
+<meta property="og:title" content="国内外大模型与AI Agent多维度对比分析报告 (2026)">
+<meta property="og:description" content="20款模型全面对比：DeepSeek R1综合分最高(84.8)，Claude Opus 4最全面(82.2)。含Agent能力、性价比、开闭源多维度分析。">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="zh_CN">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "国内外大模型与AI Agent多维度对比分析报告",
+  "datePublished": "2026-06-09",
+  "description": "20款国内外主流大模型多维度对比分析",
+  "author": { "@type": "Organization", "name": "数据可视化课程小组" }
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../shared-report.css">
+<style>
+:root {
+  --accent: #6c5ce7;
+  --accent-light: #f0edff;
+  --accent-secondary: #e17055;
+  --accent-secondary-light: #fef5f3;
+  --hero-start: #07051a;
+  --hero-mid: #12103a;
+  --hero-end: #1a1555;
+  --nav-bg: rgba(15,12,36,0.97);
+  --nav-link: #a0a8d0;
+  --eyebrow: #a29bfe;
+  --highlight: #a29bfe;
+  --insight-border: var(--accent);
+  --insight-bg: var(--accent-light);
+}
+</style>
+</head>
+<body>
+
+<!-- ==================== NAVBAR ==================== -->
+<nav class="navbar">
+  <div class="container">
+    <div class="logo">LLM & <span>Agent</span> Comparison 2026</div>
+    <nav>
+      <a href="#bg">研究背景</a>
+      <a href="#s1">基础能力</a>
+      <a href="#s2">雷达对比</a>
+      <a href="#s3">性价比</a>
+      <a href="#s4">国内外</a>
+      <a href="#s5">热力图</a>
+      <a href="#s6">开闭源</a>
+      <a href="#s7">Agent</a>
+      <a href="#s8">选型建议</a>
+      <a href="#conclusion">结论</a>
+    </nav>
+  </div>
+</nav>
+
+<!-- ==================== HERO ==================== -->
+<header class="hero" id="top">
+  <div class="container">
+    <div class="eyebrow">Research Report &middot; 2026年6月</div>
+    <h1>国内外大模型与AI Agent<br>多维度对比分析报告</h1>
+    <p class="deck">
+      基于<strong>Kaggle LLM Benchmark Wars 2025-2026</strong> 真实评测数据，
+      结合 LMSYS Chatbot Arena、SWE-Bench、AgentBench 和国际权威第三方评测平台，从
+      基础能力、Agent化水平、API定价、开源生态和场景适配度五大维度，
+      系统对比<strong>20款国内外主流大模型</strong>（国际10款 + 国内10款）的综合实力与差异化优势。
+    </p>
+    <div class="meta">
+      <span>数据来源：Kaggle + LMSYS + AgentBench + Artificial Analysis + SWE-Bench</span>
+      <span>报告日期：2026年6月9日</span>
+    </div>
+    <div class="read-time">预计阅读/演讲时间：20-25 分钟</div>
+  </div>
+</header>
+
+<!-- ==================== STAT STRIP ==================== -->
+<div class="stat-strip">
+  <div class="container">
+    <div class="stat-item"><div class="val">20</div><div class="lbl">主流模型 (国际10 + 国内10)</div></div>
+    <div class="stat-item"><div class="val">6</div><div class="lbl">核心基准测试维度</div></div>
+    <div class="stat-item"><div class="val accent2">84.8</div><div class="lbl">DeepSeek R1 综合最高分</div></div>
+    <div class="stat-item"><div class="val">1/100</div><div class="lbl">国内模型价格优势 (vs 国际闭源)</div></div>
+    <div class="stat-item"><div class="val accent2">78</div><div class="lbl">DeepSeek R1 AIME 最高分</div></div>
+  </div>
+</div>
+
+<!-- ==================== 研究背景 ==================== -->
+<section class="section" id="bg">
+  <div class="container-narrow">
+    <div class="section-header">
+      <div class="section-label">研究背景</div>
+      <h2>为什么要做大模型对比研究？</h2>
+      <p class="lead">面对20+款主流大模型和每月更新的排行榜，企业和开发者不仅需要知道"哪个最强"，更需要理解"哪个适合我的场景"。</p>
+    </div>
+    <div class="prose">
+      <p>
+        2025至2026年，大语言模型从"玩具"走向"基础设施"。
+        Claude Opus 4、GPT-4.5、Gemini 2.5 Pro 等国际闭源旗舰持续迭代；
+        DeepSeek V3/R1、Qwen 2.5 Max 等国产模型快速追赶，在数学推理等维度上实现反超。
+        与此同时，<strong>AI Agent</strong>——让大模型学会使用工具、操作代码、执行任务——成为新的竞争焦点。
+      </p>
+      <p>
+        本报告基于 Kaggle 上最具影响力的 LLM 评测数据集（24模型 × 31维度），
+        结合 SWE-Bench、AgentBench、LMSYS Chatbot Arena 和 Artificial Analysis API 定价数据，
+        构建了一套<strong>多维度对比分析框架</strong>。
+      </p>
+      <div class="insight-box" style="margin: 24px 0;">
+        <strong>数据说明：</strong>模型版本取主版本号（如 Kaggle "Claude Opus 4.6" 简化为 "Claude Opus 4"）。
+        Agent 各维度得分为基于公开 benchmark 的综合估算值（详见 notebook 标注），非精确标准化测量。
+        DeepSeek R1 综合分 84.8 为全表最高，主要受益于 AIME 2025 的 78 分异常高分拉高均值。
+      </div>
+    </div>
+
+    <div class="pullquote">
+      <div class="big">5&times;</div>
+      <div class="text">
+        2025至2026年间，大模型推理成本下降了约5倍（GPT-4级能力），但Agent能力的差异反而在扩大——单纯比"分数"已不够，理解模型的<strong>工具使用、规划能力与安全边界</strong>才是关键。
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== SECTION 1: Top 10 基础能力 ==================== -->
+<section class="section alt" id="s1">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">第一部分</div>
+      <h2>Top 10 大模型基础能力对比</h2>
+      <p class="lead">综合 MMLU-Pro、HumanEval 和 AIME 2025 三大核心基准。DeepSeek R1 综合分最高(84.8)，Claude Opus 4 在 MMLU-Pro 和 HellaSwag 上多项领先。</p>
+    </div>
+
+    <div class="chart-card">
+      <img src="outputs/figures/01_top10_bar_comparison.png" alt="Top 10大模型基础能力对比 — MMLU-Pro/HumanEval/AIME 2025分组柱状图" width="1400" height="800" loading="lazy">
+      <div class="body">
+        <h3>图 1: Top 10 大模型基础能力对比</h3>
+        <p class="desc">
+          三色分组柱状图展示知识推理（蓝）、代码能力（橙）和数学竞赛（绿）三项得分。
+          DeepSeek R1 在 AIME 2025 上以78分遥遥领先，HumanEval 92.5分同样最高。
+          Claude Opus 4 在 MMLU-Pro(88.7)上领先。
+        </p>
+        <div class="insight-box">
+          <strong>关键洞察：</strong>排名不再是"一边倒"——DeepSeek R1 综合分 #1，Claude Opus 4 综合分 #2。
+          但 R1 的高分主要来自 AIME 的断崖式领先(78 vs Claude的55)，在知识推理和常识维度上 Claude 仍占优。
+        </div>
+        <div class="source">
+          数据溯源：Kaggle LLM Benchmark Wars 2025-2026 (24 Models, 31 Dimensions)
+          <div class="source-trace">一级来源: <a href="https://www.kaggle.com/datasets/alitaqishah/llm-benchmark-wars-2025-2026-24-models-compared" target="_blank">kaggle.com/alitaqishah</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== SECTION 2: 雷达图 ==================== -->
+<section class="section" id="s2">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">第二部分</div>
+      <h2>六模型多维度能力雷达对比</h2>
+      <p class="lead">从国内外各选3款代表性模型，在5个核心维度上进行雷达图对比。轮廓越饱满，能力越均衡。</p>
+    </div>
+
+    <div class="chart-card">
+      <img src="outputs/figures/02_radar_comparison.png" alt="6款代表性模型多维度雷达对比 — 5个单模型+1个叠加图" width="2200" height="1800" loading="lazy">
+      <div class="body">
+        <h3>图 2: 国内外6款代表性模型多维雷达对比</h3>
+        <p class="desc">
+          前5张为各模型独立雷达图，第6张为叠加对比。Claude Opus 4 在 MMLU-Pro 和 HellaSwag 维度领先，
+          DeepSeek V3 在 MATH 500 方面接近满分。
+        </p>
+        <div class="insight-box">
+          <strong>关键洞察：</strong>国际模型的"雷达面积"普遍更大（更均衡），
+          但国内模型在特定维度上形成了"尖刺"优势——DeepSeek的数学、Doubao的速度——
+          说明国内厂商采取的是"单点突破"策略。
+        </div>
+        <div class="source">数据溯源：Kaggle LLM Benchmark Wars → LMSYS Chatbot Arena</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== SECTION 3: 性价比 ==================== -->
+<section class="section alt" id="s3">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">第三部分</div>
+      <h2>大模型性价比全景分析</h2>
+      <p class="lead">综合能力分 vs API 输出价格，气泡大小代表推理速度。国内模型明显聚集在"低价高能"区域。</p>
+    </div>
+
+    <div class="pullquote">
+      <div class="big">109&times;</div>
+      <div class="text">DeepSeek V3 输出价格($1.1/M)仅为 GPT-4.5($120/M)的 <strong>1/109</strong>，综合能力仅低6分。对于日均百万token级别的商业应用，年度成本差异可达数十万美元。</div>
+    </div>
+
+    <div class="chart-card">
+      <img src="outputs/figures/03_price_performance_scatter.png" alt="大模型性价比散点图 — 综合能力 vs API价格，气泡=速度" width="1400" height="800" loading="lazy">
+      <div class="body">
+        <h3>图 3: 大模型性价比分析 — 综合能力 vs API价格</h3>
+        <p class="desc">
+          红色菱形=国内模型，蓝色圆点=国际模型。国内模型集中分布在右下角（高能力+低价格）。
+          DeepSeek V3 是"最靠右且最靠下"的模型——能力高、价格低。
+        </p>
+        <div class="insight-box secondary">
+          <strong>性价比冠军：</strong>DeepSeek V3 输出价格仅为 GPT-4.5 的约 1/109。
+          对于预算敏感的创业公司和学术团队，国产模型是目前最理性的选择。
+        </div>
+        <div class="source">数据溯源：Kaggle LLM Benchmark Wars → Artificial Analysis API Pricing</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== SECTION 4: 国内外对比 + 排名 ==================== -->
+<section class="section" id="s4">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">第四部分</div>
+      <h2>国际 vs 国内模型全方位对比</h2>
+      <p class="lead">从得分分布和综合排名两个维度剖析国内外差距。国际模型在GPQA Diamond领先，国内模型在数学维度反超。</p>
+    </div>
+
+    <div class="col2">
+      <div class="chart-card">
+        <img src="outputs/figures/04_china_vs_intl_boxplot.png" alt="国际vs国内模型各维度得分分布 — 箱线图+小提琴图" width="1600" height="700" loading="lazy">
+        <div class="body">
+          <h3>图 4: 国际 vs 国内模型得分分布</h3>
+          <p class="desc">小提琴图展示分布密度，箱线图展示中位数和四分位数。国内模型在GPQA Diamond分布更集中且偏低，在AIME上与国差距最小。</p>
+          <div class="source">数据溯源：Kaggle LLM Benchmark Wars 2025-2026</div>
+        </div>
+      </div>
+      <div class="chart-card">
+        <img src="outputs/figures/05_overall_ranking.png" alt="20款主流大模型综合能力排名水平柱状图" width="1200" height="900" loading="lazy">
+        <div class="body">
+          <h3>图 5: 20款大模型综合能力排名</h3>
+          <p class="desc">红色=国内模型，蓝色=国际模型。DeepSeek R1(#1, 84.8)、Claude Opus 4(#2, 82.2)、Gemini 2.5 Pro(#3, 78.3)组成前三甲。</p>
+          <div class="insight-box">
+            <strong>解读：</strong>GPQA Diamond（研究生级推理）是国际模型最明显的优势维度，平均领先国内约5-8分。
+            但国内模型在AIME数学推理上具备集体优势——这是训练数据和强化学习策略带来的差异化竞争力。
+          </div>
+          <div class="source">数据溯源：Kaggle LLM Benchmark Wars 2025-2026</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== SECTION 5: 全维度热力图 ==================== -->
+<section class="section alt" id="s5">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">第五部分</div>
+      <h2>全维度基准测试热力图</h2>
+      <p class="lead">一张图纵览20款模型在6大基准上的全部得分。红色越深代表得分越高，快速识别各模型的强项与短板。</p>
+    </div>
+
+    <div class="chart-card">
+      <img src="outputs/figures/06_full_heatmap.png" alt="20款模型×6大基准全维度热力图" width="1800" height="1400" loading="lazy">
+      <div class="body">
+        <h3>图 6: 20款模型 × 6大基准全维度热力图</h3>
+        <p class="desc">
+          横轴为6大基准，纵轴为20款模型。颜色从深红(高)到绿色(低)。
+          Claude Opus 4 和 GPT-4.5 在 HellaSwag 上均为95分，DeepSeek R1 在 AIME 上以78分一骑绝尘。
+        </p>
+        <div class="insight-box">
+          <strong>横向对比发现：</strong>AIME 2025 列整体颜色最浅——数学竞赛是目前所有模型的共性挑战。
+          除 DeepSeek R1(78)外，大部分模型集中在15-48分。数学推理能力仍然是区分"好用"和"极强"的关键维度。
+        </div>
+        <div class="source">数据溯源：Kaggle LLM Benchmark Wars 2025-2026</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== SECTION 6: 开源 vs 闭源 ==================== -->
+<section class="section" id="s6">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">第六部分</div>
+      <h2>开源 vs 闭源大模型对比</h2>
+      <p class="lead">闭源模型在基准得分上平均领先，但开源模型的API价格仅为闭源的1/10至1/30。两者正在形成"能力 vs 成本"的互补生态。</p>
+    </div>
+
+    <div class="chart-card">
+      <img src="outputs/figures/07_open_vs_closed.png" alt="开源vs闭源大模型 — 小提琴图+蜂群散点+价格对比" width="1800" height="700" loading="lazy">
+      <div class="body">
+        <h3>图 7: 开源 vs 闭源模型 — 得分分布与价格对比</h3>
+        <p class="desc">
+          小提琴图+蜂群散点展示每个模型在各维度的具体得分分布（非仅均值）。
+          右侧为API价格对比。开源模型价格优势在10-30倍，MATH 500差距最小(仅3分)。
+        </p>
+        <div class="insight-box secondary">
+          <strong>战略意义：</strong>DeepSeek 和 Qwen 的开源策略正在重塑行业格局。
+          当开源模型能力接近闭源、价格低两个数量级时，"闭源商业模型"的定价逻辑面临根本性挑战。
+          对于需要私有化部署的企业，开源是唯一可行选择。
+        </div>
+        <div class="source">数据溯源：Kaggle LLM Benchmark Wars → Artificial Analysis API Pricing</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== SECTION 7: AI Agent 能力 ==================== -->
+<section class="section alt" id="s7">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">第七部分</div>
+      <h2>AI Agent 多维度能力分析（估算值）</h2>
+      <p class="lead">基于 SWE-Bench、AgentBench 和 WebArena 三大基准，评估7款模型在工具使用、代码生成、规划推理等6个维度的Agent能力。</p>
+    </div>
+
+    <div class="prose" style="max-width:760px; margin-bottom:28px;">
+      <p>
+        <strong>注：</strong>Agent 各维度得分为基于公开 benchmark 的综合估算值，非精确标准化测量，仅供参考各模型相对能力位置。
+        Claude Opus 4 在"工具使用"(88)和"代码生成"(90)上领先，DeepSeek V3 代码生成(88)已接近国际顶尖。
+      </p>
+    </div>
+
+    <div class="col2">
+      <div class="chart-card">
+        <img src="outputs/figures/08_agent_radar.png" alt="7款模型AI Agent多维度能力雷达图" width="1100" height="900" loading="lazy">
+        <div class="body">
+          <h3>图 8: 7款模型 Agent 多维度能力雷达图</h3>
+          <p class="desc">6维度雷达图：工具使用、代码生成、推理规划、多步执行、网页操作、安全性。Claude Opus 4 综合最强(86.2)。</p>
+          <div class="source">数据溯源：SWE-Bench Verified → AgentBench (THU) → WebArena (估算值)</div>
+        </div>
+      </div>
+      <div class="chart-card">
+        <img src="outputs/figures/09_agent_stacked_bar.png" alt="AI Agent各维度能力水平热力图" width="1200" height="600" loading="lazy">
+        <div class="body">
+          <h3>图 9: Agent 各维度能力水平热力图</h3>
+          <p class="desc">水平热力图清晰展示各模型在6个Agent维度的得分模式。Claude Opus 4 全面领先，DeepSeek V3 代码生成突出。</p>
+          <div class="insight-box">
+            <strong>Agent赛道预判：</strong>Agent 能力将成为下一阶段的核心差异化维度。
+            当前得分分布表明，<strong>模型不是越"大"越好，而是越"会用工具"越好。</strong>
+          </div>
+          <div class="source">数据溯源：SWE-Bench Verified → AgentBench → WebArena (综合估算值)</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== SECTION 8: 速度/上下文 + 时间线 + 平行坐标 ==================== -->
+<section class="section" id="s8">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">第八部分</div>
+      <h2>速度·时间·维度：多视角综合分析</h2>
+      <p class="lead">从推理速度、上下文窗口、模型发布时间线和多维度平行坐标四个补充视角，丰富对模型生态的理解。</p>
+    </div>
+
+    <div class="chart-card">
+      <img src="outputs/figures/10_speed_context_bubble.png" alt="大模型推理速度vs上下文窗口气泡图" width="1400" height="800" loading="lazy">
+      <div class="body">
+        <h3>图 10: 输出速度 vs 上下文窗口</h3>
+        <p class="desc">Gemini 2.5 Pro 以2000K上下文窗口遥遥领先，Doubao Pro 以180 tok/s速度排名第一。气泡大小=综合能力分。</p>
+        <div class="source">数据溯源：Kaggle LLM Benchmark Wars → Artificial Analysis</div>
+      </div>
+    </div>
+
+    <div class="col2">
+      <div class="chart-card">
+        <img src="outputs/figures/11_pairplot_matrix.png" alt="大模型核心维度平行坐标图" width="1400" height="800" loading="lazy">
+        <div class="body">
+          <h3>图 11: 核心维度平行坐标图</h3>
+          <p class="desc">每个模型一条折线，红线=国内，蓝线=国际。粗线为Top 5高亮。可看出国际模型在GPQA Diamond普遍偏高，国内模型在AIME有集中优势。</p>
+          <div class="insight-box">
+            <strong>解读：</strong>平行坐标图比散点矩阵更高效——一眼可看出各模型在不同维度间的"模式"。
+            例如，DeepSeek R1 在 AIME→MATH 段落急剧上升，而 Claude Opus 4 的线条在所有维度上保持高位平稳。
+          </div>
+          <div class="source">数据溯源：Kaggle LLM Benchmark Wars 2025-2026</div>
+        </div>
+      </div>
+      <div class="chart-card">
+        <img src="outputs/figures/14_model_timeline.png" alt="主流大模型发布时间线 2024-2025" width="1600" height="700" loading="lazy">
+        <div class="body">
+          <h3>图 12: 主流大模型发布时间线</h3>
+          <p class="desc">气泡大小=综合能力分，红色方块=国内模型，蓝色圆点=国际模型。2025年Q1是模型发布最密集的时期，DeepSeek R1在2025年1月发布后引发行业震动。</p>
+          <div class="insight-box secondary">
+            <strong>时间维度洞察：</strong>2025年上半年（尤其1-4月）是模型发布的"寒武纪大爆发"——
+            DeepSeek R1、GPT-4.5、Gemini 2.5系列、Llama 4系列、Qwen 2.5 Max 相继问世。
+            模型的迭代周期从"年"缩短到"月"，竞争烈度前所未有。
+          </div>
+          <div class="source">数据溯源：各模型官方发布公告汇总</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== SECTION 9: 选型建议 ==================== -->
+<section class="section alt" id="s9">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">第九部分</div>
+      <h2>场景化选型建议矩阵</h2>
+      <p class="lead">根据不同应用场景对各项能力加权评分。不存在"全能冠军"——最佳选择取决于你的优先级是什么。</p>
+    </div>
+
+    <div class="chart-card">
+      <img src="outputs/figures/12_model_recommendation_heatmap.png" alt="大模型场景适配度选型矩阵热力图" width="1600" height="500" loading="lazy">
+      <div class="body">
+        <h3>图 13: 大模型场景适配度选型矩阵 (加权得分)</h3>
+        <p class="desc">
+          5个场景 × 20款模型的加权评分矩阵。每个场景的权重设置不同：
+          代码开发重HumanEval+AIME，学术研究重GPQA+MMLU+MATH，商业应用重MMLU+HumanEval+稳定性。
+        </p>
+        <div class="insight-box secondary">
+          <strong>选型方法论：</strong>加权评分不是"黑箱"——每个场景的权重可根据实际需求调整。
+          建议先明确自身场景的"核心KPI"，再据此微调权重，找到真正适合的模型。
+        </div>
+        <div class="source">数据溯源：基于 Kaggle LLM Benchmark 数据 + API 定价加权综合分析</div>
+      </div>
+    </div>
+
+    <!-- 选型推荐卡片 -->
+    <div class="reco-grid">
+      <div class="reco-card">
+        <h4>代码开发</h4>
+        <div class="model-name">DeepSeek R1 / Claude Opus 4</div>
+        <div class="reason">HumanEval和AIME双高 + 代码Agent能力突出。R1数学推理断崖领先，适合算法密集型开发。</div>
+      </div>
+      <div class="reco-card">
+        <h4>学术研究</h4>
+        <div class="model-name">Claude Opus 4 / Gemini 2.5 Pro</div>
+        <div class="reason">GPQA Diamond领先 + 2000K超长上下文，适合论文分析、文献综述等深度任务。</div>
+      </div>
+      <div class="reco-card">
+        <h4>商业应用</h4>
+        <div class="model-name">GPT-4.5 / Qwen 2.5 Max</div>
+        <div class="reason">综合稳定 + 安全性好 + 商业化生态完善。Qwen性价比突出，适合大规模部署。</div>
+      </div>
+      <div class="reco-card">
+        <h4>预算受限</h4>
+        <div class="model-name">DeepSeek V3 / Qwen 2.5 72B</div>
+        <div class="reason">价格仅为GPT-4.5的1/100，能力不弱。开源可私有化部署，零API费用。</div>
+      </div>
+    </div>
+
+    <!-- 全景面板 -->
+    <div class="chart-card" style="margin-top: 32px;">
+      <img src="outputs/figures/13_final_dashboard.png" alt="大模型与AI Agent综合分析面板 9合1 GridSpec布局" width="3000" height="2200" loading="lazy">
+      <div class="body">
+        <h3>图 14: 大模型 & AI Agent 综合分析面板 (9合1)</h3>
+        <p class="desc">
+          GridSpec 布局整合9张子图：Top 10排名、Top 3雷达对比、性价比全景、
+          Agent能力排名、开闭源对比、选型热力图等，一站式全景视图。
+        </p>
+        <div class="source">数据溯源：综合以上所有来源 (Kaggle + LMSYS + AgentBench + Artificial Analysis + SWE-Bench)</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== 结论 ==================== -->
+<section class="conclusion" id="conclusion">
+  <div class="container-narrow">
+    <h2>核心结论与展望</h2>
+    <ol class="num-list" style="color:#fff;">
+      <li>
+        <h4>DeepSeek R1 综合分最高，但需理解其构成</h4>
+        <p>R1 综合分 84.8(#1)主要来自 AIME 2025 的78分断崖式领先。Claude Opus 4(82.2, #2)在 MMLU-Pro、HellaSwag 等维度上更均衡。<strong>选型建议：数学密集型任务选R1，综合任务选Claude Opus 4。</strong></p>
+      </li>
+      <li>
+        <h4>国内模型在数学推理上实现集体反超</h4>
+        <p>DeepSeek R1 AIME 78分、DeepSeek V3 MATH 88.5分——数学符号推理已成国产模型的"标杆战场"。这一优势源于强化学习(RL)训练策略的创新，而非简单的数据堆砌。</p>
+      </li>
+      <li>
+        <h4>价格鸿沟：国内模型性价比碾压国际闭源</h4>
+        <p>DeepSeek V3 输出价格($1.1/M)仅为 GPT-4.5($120/M)的约1/109。在"每美元能力"度量下，国内模型实现了数量级领先。<strong>商业建议：大规模生产环境优先考虑国产模型，特殊场景补充国际模型。</strong></p>
+      </li>
+      <li>
+        <h4>开源生态正在改变竞争规则</h4>
+        <p>DeepSeek和Qwen的开源策略使开源vs闭源能力差距缩小到平均5-8分，MATH仅差3分。对于需要私有化部署和数据安全的企业，开源模型是唯一可行的选择。<strong>2026年下半年值得关注：Llama 5和DeepSeek V4的开源发布。</strong></p>
+      </li>
+      <li>
+        <h4>Agent 能力是下一个主战场，但仍在早期</h4>
+        <p>Claude Opus 4 在工具使用(88)和代码生成(90)上领先。但所有模型的Agent得分(估算值)显示：当前Agent仍处于初级阶段——"真能独立完成复杂任务"的通用Agent尚未出现。<strong>2026-2027年值得关注：Claude、GPT和Gemini在Agent能力上的军备竞赛。</strong></p>
+      </li>
+      <li>
+        <h4>模型迭代从"年"加速到"月"，选择策略需动态调整</h4>
+        <p>2025年上半年见证了模型发布的"寒武纪大爆发"。建议企业和开发者建立<strong>季度性模型评估机制</strong>，而非一次性选型。同时关注2026年下半年 Llama 5、DeepSeek V4 和 Claude Opus 5 的发布节奏。</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ==================== 数据来源 ==================== -->
+<section class="ref-footer">
+  <div class="container">
+    <h3>数据来源与溯源链</h3>
+    <div class="ref-grid">
+      <div>
+        <p><strong>一级数据源</strong></p>
+        <p>Kaggle LLM Benchmark Wars 2025-2026 — <a href="https://www.kaggle.com/datasets/alitaqishah/llm-benchmark-wars-2025-2026-24-models-compared" target="_blank">kaggle.com/alitaqishah</a></p>
+        <p style="font-size:12px;color:#999;">24 Models × 31 Dimensions (原始CSV见 data/kaggle_raw/)</p>
+        <p>LMSYS Chatbot Arena — <a href="https://chat.lmsys.org" target="_blank">chat.lmsys.org</a></p>
+        <p>Artificial Analysis — <a href="https://artificialanalysis.ai" target="_blank">artificialanalysis.ai</a></p>
+      </div>
+      <div>
+        <p><strong>Agent评测 & 补充数据</strong></p>
+        <p>SWE-Bench Verified — <a href="https://www.swebench.com" target="_blank">swebench.com</a></p>
+        <p>AgentBench (清华大学) — <a href="https://github.com/THUDM/AgentBench" target="_blank">github.com/THUDM/AgentBench</a></p>
+        <p>WebArena — <a href="https://webarena.dev" target="_blank">webarena.dev</a></p>
+        <p style="font-size:12px;color:#999; margin-top:6px;">注：Agent维度得分为综合估算值，详见notebook数据说明</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  LLM & AI Agent Multi-Dimensional Comparison &copy; 2026 &middot; 小组研究报告 &middot; 数据可视化课程作业
+</footer>
+
+<script src="../shared-report.js" defer></script>
+</body>
+</html>
